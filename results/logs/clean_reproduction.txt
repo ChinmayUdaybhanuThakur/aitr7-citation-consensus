@@ -1,0 +1,92 @@
+$ python scripts/environment_check.py
+{
+  "python": "3.13.3 (main, Apr  8 2025, 13:54:08) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "platform": "macOS-26.1-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "packages": {
+    "numpy": "2.5.3",
+    "matplotlib": "3.11.2"
+  },
+  "raw": {
+    "rows": 104,
+    "problematic": 33,
+    "documents": [
+      "P1",
+      "P2",
+      "P3"
+    ]
+  },
+  "corrected": {
+    "rows": 104,
+    "problematic": 35,
+    "documents": [
+      "P1",
+      "P2",
+      "P3"
+    ]
+  }
+}
+$ python -m unittest discover -s tests -v
+test_alignment_rejected (test_consensus.ValidationTests.test_alignment_rejected) ... ok
+test_cp850_reference_preserves_accents (test_consensus.ValidationTests.test_cp850_reference_preserves_accents) ... ok
+test_duplicate_excluded_from_training (test_consensus.ValidationTests.test_duplicate_excluded_from_training) ... ok
+test_exact_majority_boundary (test_consensus.ValidationTests.test_exact_majority_boundary) ... ok
+test_flag_whitespace (test_consensus.ValidationTests.test_flag_whitespace) ... ok
+test_hand_calculated_confusion (test_consensus.ValidationTests.test_hand_calculated_confusion) ... ok
+test_illegal_vote (test_consensus.ValidationTests.test_illegal_vote) ... ok
+test_missing_columns_rejected (test_consensus.ValidationTests.test_missing_columns_rejected) ... ok
+test_missing_flag_is_not_acceptance (test_consensus.ValidationTests.test_missing_flag_is_not_acceptance) ... ok
+test_no_flags_zero_division (test_consensus.ValidationTests.test_no_flags_zero_division) ... ok
+test_reference_normalization (test_consensus.ValidationTests.test_reference_normalization) ... ok
+test_single_class_ba_is_undefined (test_consensus.ValidationTests.test_single_class_ba_is_undefined) ... ok
+test_test_labels_cannot_select_own_threshold (test_consensus.ValidationTests.test_test_labels_cannot_select_own_threshold) ... ok
+test_threshold_monotonicity (test_consensus.ValidationTests.test_threshold_monotonicity) ... ok
+test_triage_boundaries (test_consensus.ValidationTests.test_triage_boundaries) ... ok
+test_utf8_bom_release (test_consensus.ValidationTests.test_utf8_bom_release) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.004s
+
+OK
+$ python scripts/audit_versions.py
+104 IDs and 520 flags unchanged; two label corrections; 8 text encoding differences.
+$ python scripts/run_study.py --out results/reproduction
+DATA VALIDATED: 104 references; 33 problematic; 71 verified
+PUBLISHED BASELINE REPRODUCED: {'tp': 32, 'fp': 36, 'tn': 35, 'fn': 1}
+method                 TP FP TN FN   recall   FPR     balanced_accuracy
+checkifexist           31 34 37  2   0.939    0.479   0.730
+hallucitechecker       18 20 51 15   0.545    0.282   0.632
+hallucinator           29 28 43  4   0.879    0.394   0.742
+halref                 24 53 18  9   0.727    0.746   0.490
+refchecker             32 36 35  1   0.970    0.507   0.731
+vote_k1                33 70  1  0   1.000    0.986   0.507
+vote_k2                33 54 17  0   1.000    0.761   0.620
+vote_k3                30 37 34  3   0.909    0.521   0.694
+vote_k4                25  9 62  8   0.758    0.127   0.815
+vote_k5                13  1 70 20   0.394    0.014   0.690
+lodo_selected          28 33 38  5   0.848    0.465   0.692
+PRIMARY SUCCESS RULE: {'fpr_reduction': -0.014084507042253502, 'majority_recall': 0.9090909090909091, 'meets_prespecified_rule': False}
+LODO THRESHOLDS: [('P1', 4), ('P2', 4), ('P3', 2)]
+SAVED: /Users/chinmay/Documents/Codex/2026-10-18/do-x20/outputs/AITR7_Citation_Consensus/results/reproduction
+$ python scripts/run_study.py --corrected --out results/reproduction_corrected
+DATA VALIDATED: 104 references; 35 problematic; 69 verified
+CORRECTED-LABEL BASELINE: {'tp': 34, 'fp': 34, 'tn': 35, 'fn': 1}
+method                 TP FP TN FN   recall   FPR     balanced_accuracy
+checkifexist           31 34 35  4   0.886    0.493   0.696
+hallucitechecker       18 20 49 17   0.514    0.290   0.612
+hallucinator           30 27 42  5   0.857    0.391   0.733
+halref                 26 51 18  9   0.743    0.739   0.502
+refchecker             34 34 35  1   0.971    0.493   0.739
+vote_k1                35 68  1  0   1.000    0.986   0.507
+vote_k2                35 52 17  0   1.000    0.754   0.623
+vote_k3                31 36 33  4   0.886    0.522   0.682
+vote_k4                25  9 60 10   0.714    0.130   0.792
+vote_k5                13  1 68 22   0.371    0.014   0.678
+lodo_selected          30 31 38  5   0.857    0.449   0.704
+PRIMARY SUCCESS RULE: {'fpr_reduction': -0.02898550724637683, 'majority_recall': 0.8857142857142857, 'meets_prespecified_rule': False}
+LODO THRESHOLDS: [('P1', 4), ('P2', 4), ('P3', 2)]
+SAVED: /Users/chinmay/Documents/Codex/2026-10-18/do-x20/outputs/AITR7_Citation_Consensus/results/reproduction_corrected
+$ python scripts/check_reference.py --flags 1 1 1 0 0 --threshold 3
+{'votes': 3, 'flag_for_review': True, 'triage': 'review', 'scope': 'Aggregates supplied checker outputs; does not establish bibliographic truth.'}
+$ python scripts/check_reference.py --flags 1 1 1 0 0 --threshold 4
+{'votes': 3, 'flag_for_review': False, 'triage': 'review', 'scope': 'Aggregates supplied checker outputs; does not establish bibliographic truth.'}

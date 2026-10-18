@@ -1,0 +1,20 @@
+test_alignment_rejected (test_consensus.ValidationTests.test_alignment_rejected) ... ok
+test_cp850_reference_preserves_accents (test_consensus.ValidationTests.test_cp850_reference_preserves_accents) ... ok
+test_duplicate_excluded_from_training (test_consensus.ValidationTests.test_duplicate_excluded_from_training) ... ok
+test_exact_majority_boundary (test_consensus.ValidationTests.test_exact_majority_boundary) ... ok
+test_flag_whitespace (test_consensus.ValidationTests.test_flag_whitespace) ... ok
+test_hand_calculated_confusion (test_consensus.ValidationTests.test_hand_calculated_confusion) ... ok
+test_illegal_vote (test_consensus.ValidationTests.test_illegal_vote) ... ok
+test_missing_columns_rejected (test_consensus.ValidationTests.test_missing_columns_rejected) ... ok
+test_missing_flag_is_not_acceptance (test_consensus.ValidationTests.test_missing_flag_is_not_acceptance) ... ok
+test_no_flags_zero_division (test_consensus.ValidationTests.test_no_flags_zero_division) ... ok
+test_reference_normalization (test_consensus.ValidationTests.test_reference_normalization) ... ok
+test_single_class_ba_is_undefined (test_consensus.ValidationTests.test_single_class_ba_is_undefined) ... ok
+test_test_labels_cannot_select_own_threshold (test_consensus.ValidationTests.test_test_labels_cannot_select_own_threshold) ... ok
+test_threshold_monotonicity (test_consensus.ValidationTests.test_threshold_monotonicity) ... ok
+test_triage_boundaries (test_consensus.ValidationTests.test_triage_boundaries) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.003s
+
+OK

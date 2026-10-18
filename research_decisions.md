@@ -25,3 +25,12 @@
 - ALCE (support checking, a different target): https://aclanthology.org/2023.emnlp-main.398/
 
 Later decisions and actual run identifiers will be appended after execution.
+
+## Actual outcomes and later decisions
+
+- VERIFIED: original majority target failed (37 false positives, 3 misses), so the negative result remains primary.
+- VERIFIED: v1.1.0 was found after the first experiment. A2 records the timing; methods were rerun unchanged with35 problematic/69verified labels. Corrected majority has36 false positives/4misses; RefChecker34/1.
+- VERIFIED: no full-panel fixed threshold meets both numerical conditions. Two four-tool ablations do on this corpus, but panel selection has not been independently validated. Both are reported.
+- VERIFIED: corrected triage defers53 references including10problems, and makes9errors among51automatic decisions.
+- INFERRED: observed agreement patterns motivate future evidence-aware checking; underlying causes were not independently diagnosed.
+- UNKNOWN: student scientific review, independent rerun, and viva performance. The assistant prepared materials without inventing these human actions.

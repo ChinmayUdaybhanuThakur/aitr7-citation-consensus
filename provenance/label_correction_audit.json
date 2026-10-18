@@ -1,0 +1,73 @@
+{
+  "ids_and_flags_unchanged": true,
+  "label_changes": [
+    {
+      "id": "P3:R12",
+      "old_label": 0,
+      "new_label": 1,
+      "votes": 2,
+      "flags": {
+        "checkifexist": 0,
+        "hallucitechecker": 0,
+        "hallucinator": 0,
+        "halref": 1,
+        "refchecker": 1
+      }
+    },
+    {
+      "id": "P3:R18",
+      "old_label": 0,
+      "new_label": 1,
+      "votes": 3,
+      "flags": {
+        "checkifexist": 0,
+        "hallucitechecker": 0,
+        "hallucinator": 1,
+        "halref": 1,
+        "refchecker": 1
+      }
+    }
+  ],
+  "reference_text_encoding_differences": [
+    {
+      "id": "P1:R10",
+      "old": "Gemma, Kamath, A., Ferret, J., Pathak, S., Vieillard, N., Merhej, R., Perrin, S., Matejovicova, T., Ram\u00e9, A., Rivi\u00e8re, M., Rouillard, L., Mesnard, T., Cideron, G., Grill, J., Ramos, S., Yvinec, E., Casbon, M., Pot, E., Penchev, I., ? Hussenot, L. (2025). Gemma 3 Technical Report. https://arxiv.org/abs/2503.19786",
+      "new": "Gemma, Kamath, A., Ferret, J., Pathak, S., Vieillard, N., Merhej, R., Perrin, S., Matejovicova, T., Ram\u201a, A., Rivi\u0160re, M., Rouillard, L., Mesnard, T., Cideron, G., Grill, J., Ramos, S., Yvinec, E., Casbon, M., Pot, E., Penchev, I., ? Hussenot, L. (2025). Gemma 3 Technical Report. https://arxiv.org/abs/2503.19786"
+    },
+    {
+      "id": "P2:R6",
+      "old": "Daniel Schindler, Benjamin Zapilko, and Frank Kr\u00fcger. ?SoMeSci?A 5 Star Open Data Gold Standard Knowledge Graph of Software Mentions in Scientific Articles?. In: Scientific Data 9.1 (2022), p. 212. doi: 10.1038/s41597-022-01328-8",
+      "new": "Daniel Schindler, Benjamin Zapilko, and Frank Kr\u0081ger. ?SoMeSci?A 5 Star Open Data Gold Standard Knowledge Graph of Software Mentions in Scientific Articles?. In: Scientific Data 9.1 (2022), p. 212. doi: 10.1038/s41597-022-01328-8"
+    },
+    {
+      "id": "P2:R9",
+      "old": "Daniel Schindler, Benjamin Zapilko, and Frank Kr\u00fcger. ?SoftwareKG?a knowledge graph of software mentions from biomedical literature?. In: Semantic Web 14.1 (2022), pp. 73?95. doi: 10.3233/SW-223172",
+      "new": "Daniel Schindler, Benjamin Zapilko, and Frank Kr\u0081ger. ?SoftwareKG?a knowledge graph of software mentions from biomedical literature?. In: Semantic Web 14.1 (2022), pp. 73?95. doi: 10.3233/SW-223172"
+    },
+    {
+      "id": "P3:R2",
+      "old": "Yasin Abbasi Yadkori, Ilja Kuzborskij, Andr\u00e1s Gy\u00f6rgy, and Csaba Szepesv\u00e1ri. To believe or not to believe your llm. arXiv preprint arXiv:2406.02543, 2024",
+      "new": "Yasin Abbasi Yadkori, Ilja Kuzborskij, Andr\u00a0s Gy\u201drgy, and Csaba Szepesv\u00a0ri. To believe or not to believe your llm. arXiv preprint arXiv:2406.02543, 2024"
+    },
+    {
+      "id": "P3:R26",
+      "old": "Sam Mielke, Elif Aky\u00fcrek, and Ond?rej Dusek. Evaluating the reliability of self-assessment in language models. In Findings of the Association for Computational Linguistics: EMNLP 2020, pp. 4320?4330, 2020",
+      "new": "Sam Mielke, Elif Aky\u0081rek, and Ond?rej Dusek. Evaluating the reliability of self-assessment in language models. In Findings of the Association for Computational Linguistics: EMNLP 2020, pp. 4320?4330, 2020"
+    },
+    {
+      "id": "P3:R30",
+      "old": "Jie Ren, Yao Zhao, Tu Vu, Peter J. Liu, and Balaji Lakshminarayanan. Self-evaluation improves selective generation in large language models. In Javier Antor\u00e1n, Arno Blaas, Kelly Buchanan,Fan Feng, Vincent Fortuin, Sahra Ghalebikesabi, Andreas Kriegler, Ian Mason, David Rohde, Francisco J. R. Ruiz, Tobias Uelwer, Yubin Xie, and Rui Yang (eds.), Proceedings on \"I Can?t Believe It?s Not Better: Failure Modes in the Age of Foundation Models\" at NeurIPS 2023 Workshops, volume 239 of Proceedings of Machine Learning Research, pp. 49?64. PMLR, 16 Dec 2023. URL https://proceedings.mlr.press/v239/ren23a.html",
+      "new": "Jie Ren, Yao Zhao, Tu Vu, Peter J. Liu, and Balaji Lakshminarayanan. Self-evaluation improves selective generation in large language models. In Javier Antor\u00a0n, Arno Blaas, Kelly Buchanan,Fan Feng, Vincent Fortuin, Sahra Ghalebikesabi, Andreas Kriegler, Ian Mason, David Rohde, Francisco J. R. Ruiz, Tobias Uelwer, Yubin Xie, and Rui Yang (eds.), Proceedings on \"I Can?t Believe It?s Not Better: Failure Modes in the Age of Foundation Models\" at NeurIPS 2023 Workshops, volume 239 of Proceedings of Machine Learning Research, pp. 49?64. PMLR, 16 Dec 2023. URL https://proceedings.mlr.press/v239/ren23a.html"
+    },
+    {
+      "id": "P3:R44",
+      "old": "Daphne Ippolito, Reno Kriz, Jo\u00e3o Sedoc, Maria Kustikova, and Chris Callison-Burch. Comparison of diverse decoding methods from conditional language models. In Anna Korhonen, David Traum, and Llu\u00eds M\u00e0rquez (eds.), Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, pp. 3752?3762, Florence, Italy, July 2019. Association for Computational Linguistics",
+      "new": "Daphne Ippolito, Reno Kriz, Jo\u00c6o Sedoc, Maria Kustikova, and Chris Callison-Burch. Comparison of diverse decoding methods from conditional language models. In Anna Korhonen, David Traum, and Llu\u00a1s M\u2026rquez (eds.), Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, pp. 3752?3762, Florence, Italy, July 2019. Association for Computational Linguistics"
+    },
+    {
+      "id": "P3:R59",
+      "old": "Hugo Touvron, Thibaut Martin, Kevin Stone, Marie-Anne Lachaux, Timoth\u00e9e Albert, et al. Llama: Open and efficient foundation language models. arXiv preprint arXiv:2302.13971, 2023",
+      "new": "Hugo Touvron, Thibaut Martin, Kevin Stone, Marie-Anne Lachaux, Timoth\u201ae Albert, et al. Llama: Open and efficient foundation language models. arXiv preprint arXiv:2302.13971, 2023"
+    }
+  ]
+}

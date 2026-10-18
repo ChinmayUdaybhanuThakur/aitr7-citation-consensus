@@ -1,0 +1,44 @@
+{
+  "total": 104,
+  "automatic_count": 51,
+  "deferred_count": 53,
+  "automatic_coverage": 0.49038461538461536,
+  "automatic_metrics": {
+    "n": 51,
+    "positives": 25,
+    "negatives": 26,
+    "tp": 25,
+    "fp": 9,
+    "tn": 17,
+    "fn": 0,
+    "flags": 34,
+    "precision": 0.7352941176470589,
+    "recall": 1.0,
+    "specificity": 0.6538461538461539,
+    "false_positive_rate": 0.34615384615384615,
+    "f1": 0.847457627118644,
+    "mcc": 0.6933752452815364,
+    "accuracy": 0.8235294117647058,
+    "balanced_accuracy": 0.8269230769230769
+  },
+  "groups": [
+    {
+      "decision": "auto_accept",
+      "count": 17,
+      "verified": 17,
+      "problematic": 0
+    },
+    {
+      "decision": "review",
+      "count": 53,
+      "verified": 45,
+      "problematic": 8
+    },
+    {
+      "decision": "auto_flag",
+      "count": 34,
+      "verified": 9,
+      "problematic": 25
+    }
+  ]
+}
