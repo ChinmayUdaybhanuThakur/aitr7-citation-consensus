@@ -6,8 +6,10 @@ Verification: 16 tests passed; a fresh virtual environment reproduced 24 numeric
 
 The primary majority-voting hypothesis failed. The paper reports that finding and favorable secondary trade-offs without inventing performance gains. It also reports the authors' two-label dataset correction and the timing of its discovery.
 
-**Outstanding:** GitHub publication, your personal review/understanding, and Classroom submission. The local Git repository is ready, but no remote repository URL or completed upload is claimed.
+**GitHub repository:** https://github.com/ChinmayUdaybhanuThakur/aitr7-citation-consensus
 
-To publish later, create an empty GitHub repository named `aitr7-citation-consensus` and push the included Git history, or upload the tracked project files. These publication steps are **not yet executed**. The delivery ZIP includes `repository.bundle` to preserve the original protocol-freeze commit and subsequent commits. `git clone repository.bundle aitr7-citation-consensus` restores that history locally.
+The implementation, paper, data, results, notebook, demonstration and original protocol-freeze history are published here.
+
+**Remaining student steps:** personal review/understanding and Classroom submission. No Classroom submission or student presentation is claimed.
 
 Use README.md for executed reproduction commands. The captioned demonstration is AI-prepared and silent; the presenter script and viva guide support your own explanation. No student demonstration or instructor approval is asserted.

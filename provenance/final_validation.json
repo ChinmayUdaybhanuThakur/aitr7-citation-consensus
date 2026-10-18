@@ -11,6 +11,8 @@
   "core_confusion_counts_match": true,
   "no_unresolved_paper_placeholders": true,
   "recognized_secret_patterns_found": 0,
-  "github_publication": "pending",
-  "classroom_submission": "not_performed"
+  "github_publication": "published",
+  "classroom_submission": "not_performed",
+  "github_repository": "https://github.com/ChinmayUdaybhanuThakur/aitr7-citation-consensus",
+  "publication_recorded_at_utc": "2026-10-18T15:01:58.057341+00:00"
 }
