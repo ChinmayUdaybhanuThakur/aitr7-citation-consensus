@@ -1,0 +1,69 @@
+name: Import validated assignment package
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/import-package.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: import-assignment-package
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+      - name: Verify archive and recover the original protocol-freeze history
+        env:
+          EXPECTED_ARCHIVE_SHA256: 4b5d1f454debc869d98e0f0d69850619615383ab51e3fcc3e6935b6100a9ed78
+          EXPECTED_SOURCE_COMMIT: 65b89daba670ebd3d67b3461a511b73a09ca6632
+        run: |
+          set -euo pipefail
+          archive=AITR7_MDE2026011_Complete_Package.zip
+          printf '%s  %s\n' "$EXPECTED_ARCHIVE_SHA256" "$archive" | sha256sum --check
+          python3 - <<'PY'
+          import os, pathlib, zipfile
+          with zipfile.ZipFile('AITR7_MDE2026011_Complete_Package.zip') as archive:
+              bundle = archive.read('AITR7_Citation_Consensus/repository.bundle')
+          pathlib.Path(os.environ['RUNNER_TEMP'], 'repository.bundle').write_bytes(bundle)
+          PY
+          git bundle verify "$RUNNER_TEMP/repository.bundle"
+          git fetch "$RUNNER_TEMP/repository.bundle" main:refs/remotes/prepared/main
+          test "$(git rev-parse refs/remotes/prepared/main)" = "$EXPECTED_SOURCE_COMMIT"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git merge --no-ff --allow-unrelated-histories -m 'Import validated study with original protocol-freeze history' refs/remotes/prepared/main
+      - name: Validate the imported implementation
+        run: python3 -m unittest discover -s tests -v
+      - name: Record publication and keep ordinary project files at the repository root
+        run: |
+          python3 - <<'PY'
+          import datetime, json, pathlib
+          url = 'https://github.com/ChinmayUdaybhanuThakur/aitr7-citation-consensus'
+          p = pathlib.Path('START_HERE.md')
+          text = p.read_text()
+          start = text.index('**Outstanding:**')
+          end = text.index('Use README.md', start)
+          text = text[:start] + f'**GitHub repository:** {url}\n\nThe implementation, paper, data, results, notebook, demonstration and original protocol-freeze history are published here.\n\n**Remaining student steps:** personal review/understanding and Classroom submission. No Classroom submission or student presentation is claimed.\n\n' + text[end:]
+          p.write_text(text)
+          now = datetime.datetime.now(datetime.timezone.utc).isoformat()
+          for filename in ['provenance/delivery_status.json', 'provenance/final_validation.json']:
+              p = pathlib.Path(filename)
+              data = json.loads(p.read_text())
+              data['github_publication'] = 'published'
+              data['github_repository'] = url
+              data['publication_recorded_at_utc'] = now
+              p.write_text(json.dumps(data, indent=2) + '\n')
+          PY
+          git rm AITR7_MDE2026011_Complete_Package.zip
+          git add START_HERE.md provenance/delivery_status.json provenance/final_validation.json
+          git commit -m 'Record GitHub publication after import validation'
+          git push origin HEAD:main
