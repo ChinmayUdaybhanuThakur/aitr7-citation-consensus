@@ -37,7 +37,7 @@ python scripts/build_paper_assets.py
 python scripts/check_reference.py --flags 1 1 1 0 0 --threshold 3
 ```
 
-All study, plot, table, CLI, and test commands have been executed. The complete clean-environment reproduction record is `provenance/reproduction_check.json`. A full dependency snapshot is `requirements-lock.txt`; the two directly required libraries are pinned in `requirements.txt`.
+All study, plot, table, CLI, and test commands have been executed. A fresh virtual environment was installed from these requirements, and 24 numerical output files matched byte for byte. The complete reproduction record is `provenance/reproduction_check.json`. A full dependency snapshot is `requirements-lock.txt`; the two directly required libraries are pinned in `requirements.txt`.
 
 The openly licensed raw data are included. To reacquire the exact releases from their official source (requires internet):
 
@@ -47,6 +47,8 @@ python scripts/fetch_data.py --corrected
 ```
 
 Both acquisition commands were executed. Fetching updates retrieval timestamps but checks provider MD5 and saves SHA-256 manifests. Study execution verifies the hashes and class counts. Do not edit the frozen `configs/protocol.json`; record justified changes in `protocol_amendments.md`.
+
+To run the executed notebook, install `requirements-notebook.txt` into a Jupyter environment and open `notebooks/study_walkthrough.ipynb`; run it from the project root or notebooks directory. The included notebook has seven executed code cells and no error outputs. Optional notebook dependency versions were recorded from that execution environment.
 
 To reproduce without replacing the included outputs:
 
@@ -68,7 +70,7 @@ Exact numerical results are deterministic; timestamps, platform strings, timing 
 - `results/`: historical experiment; `results/corrected/`: author-corrected labels.
 - `provenance/`: protocol freeze, download hashes, label audit, environment and reproduction evidence.
 - `ai_assistance_log.md`: authentic AI work, actual failures, and unverified human actions.
-- `demo/`: five-minute walkthrough materials and technical viva preparation.
+- `demo/five_minute_walkthrough.mp4`: exactly five minutes of captioned code-and-results panels, with no audio or claim of a student recording. `demo/walkthrough.html` is an interactive version; the script and viva guide are alongside it.
 - `docs/technical_review.md`: assistant technical audit and revision responses.
 - `docs/assignment_checklist.md`: mapping to the assignment's 18 prompt stages and submission items.
 
