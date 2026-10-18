@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "/Users/chinmay/Documents/Codex/2026-10-18/do-x20/outputs/AITR7_Citation_Consensus/scripts/run_study.py", line 179, in <module>
+    if __name__=="__main__":main()
+                            ~~~~^^
+  File "/Users/chinmay/Documents/Codex/2026-10-18/do-x20/outputs/AITR7_Citation_Consensus/scripts/run_study.py", line 81, in main
+    records = load_records(ROOT/"data/raw/manual_reference_verification_dataset.csv")
+  File "/Users/chinmay/Documents/Codex/2026-10-18/do-x20/outputs/AITR7_Citation_Consensus/src/consensus.py", line 44, in load_records
+    if not required.issubset(reader.fieldnames or []):
+                             ^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.3_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/csv.py", line 164, in fieldnames
+    self._fieldnames = next(self.reader)
+                       ~~~~^^^^^^^^^^^^^
+  File "<frozen codecs>", line 325, in decode
+  File "/opt/homebrew/Cellar/python@3.13/3.13.3_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/utf_8_sig.py", line 69, in _buffer_decode
+    return codecs.utf_8_decode(input, errors, final)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x82 in position 3775: invalid start byte

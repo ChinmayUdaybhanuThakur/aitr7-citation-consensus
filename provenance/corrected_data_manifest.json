@@ -1,0 +1,25 @@
+{
+  "retrieved_at_utc": "2026-10-18T13:50:15.859132+00:00",
+  "record_url": "https://zenodo.org/api/records/23236264",
+  "doi": "10.5281/zenodo.23236264",
+  "version": "1.1.0",
+  "license": "CC BY 4.0",
+  "files": [
+    {
+      "name": "DATASET_README.md",
+      "source_name": "README.md",
+      "url": "https://zenodo.org/api/records/23236264/files/README.md/content",
+      "bytes": 4939,
+      "provider_checksum": "md5:4ed2f33e09943366ee30ee13897485c2",
+      "sha256": "e9ba8a6678ce8f3f4b443697deb66ba35aeb4ae8183248b5f35149846812fec8"
+    },
+    {
+      "name": "manual_reference_verification_dataset.csv",
+      "source_name": "manual_reference_verification_dataset.csv",
+      "url": "https://zenodo.org/api/records/23236264/files/manual_reference_verification_dataset.csv/content",
+      "bytes": 46786,
+      "provider_checksum": "md5:29002c2e9add3803a4082272964f01ba",
+      "sha256": "7e01dfd66ec52c89a3a35d165660d8144a13a48f22e2f294683a771bd38fa48c"
+    }
+  ]
+}

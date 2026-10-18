@@ -1,0 +1,72 @@
+[
+  {
+    "title": "From literature review to a working experiment",
+    "tag": "01 / QUESTION",
+    "body": "Can five imperfect citation checkers reduce false alarms through majority voting?",
+    "detail": "T23 continuity: presentation, bibliographic identity, access and claim support are separate. This study measures bibliographic alerts only.",
+    "code": "INPUT: five recorded checker flags per reference\nOUTPUT: flag / accept, or defer for review\nDATA: 104 references from three documents\nSCOPE: recorded-decision replay + new post-processing"
+  },
+  {
+    "title": "Check the data version before interpreting results",
+    "tag": "02 / DATA",
+    "body": "Original: 33 problematic + 71 verified\nCorrected: 35 problematic + 69 verified",
+    "detail": "The authors corrected P3:R12 and P3:R18. All 520 tool flags match. Both raw versions, checksums and the post-freeze amendment are preserved.",
+    "code": "P3:R12: label 0 -> 1; flags (0, 0, 0, 1, 1)\nP3:R18: label 0 -> 1; flags (0, 0, 1, 1, 1)\n\nCurrent-label results: results/corrected/\nHistorical reproduction: results/"
+  },
+  {
+    "title": "Trace the predictor",
+    "tag": "03 / CODE",
+    "body": "The voting function never sees the manual label.",
+    "detail": "With three flags, k=3 flags the reference, k=4 accepts it, and the triage rule defers it. Missing or unknown flags cause an error.",
+    "code": "def vote(flags, threshold=3):\n    # Validate binary inputs and threshold first.\n    return int(sum(flags) >= threshold)\n\nflags = (1, 1, 1, 0, 0)\n# k=3 -> 1; k=4 -> 0; triage -> review\n# Excerpt: see src/consensus.py for validation."
+  },
+  {
+    "title": "Validate before comparing",
+    "tag": "04 / EXECUTION",
+    "body": "16 tests passed.\n24 numerical output files reproduced exactly.",
+    "detail": "The historical RefChecker confusion matrix matches the source paper. This validates evaluation replay; it does not rerun the original service.",
+    "code": "Historical RefChecker: TP32 FP36 TN35 FN1\n\npython -m unittest discover -s tests -v\npython scripts/run_study.py\npython scripts/run_study.py --corrected\n\nEvidence: results/logs/clean_reproduction.txt"
+  },
+  {
+    "title": "The primary majority hypothesis failed",
+    "tag": "05 / MEASURED RESULT",
+    "body": "Majority: 36 false alarms, 4 misses\nRefChecker: 34 false alarms, 1 miss",
+    "detail": "Corrected labels. Majority BA = .682; RefChecker BA = .739. The frozen target required an FPR reduction of at least .10 and recall at least .80.",
+    "figure": "01_method_comparison.png"
+  },
+  {
+    "title": "A favorable score can conceal a trade-off",
+    "tag": "06 / THRESHOLDS",
+    "body": "Four votes: BA .792, but recall only .714.",
+    "detail": "The complete threshold sweep is retained. No full-panel threshold meets both parts of the frozen target. The best pooled BA is not independent validation.",
+    "figure": "02_thresholds_and_votes.png"
+  },
+  {
+    "title": "Hold an entire source document out",
+    "tag": "07 / TRANSFER",
+    "body": "Selected thresholds: P1 -> 4, P2 -> 4, P3 -> 2.",
+    "detail": "Selection uses only the other documents. Corrected pooled BA is .704. Three documents cannot establish performance on a wider document population.",
+    "figure": "03_document_heterogeneity.png"
+  },
+  {
+    "title": "Report favorable ablations with their limits",
+    "tag": "08 / PANEL SENSITIVITY",
+    "body": "Two four-tool panels meet the numerical criterion on this corpus.",
+    "detail": "Removing a checker also raises the required vote fraction to 3/4. Selecting a favorable panel after seeing these data requires new validation; it is not the primary result.",
+    "figure": "04_tool_ablation.png"
+  },
+  {
+    "title": "Deferral is not a correct prediction",
+    "tag": "09 / TRIAGE",
+    "body": "53 references deferred; 9 errors in 51 automatic decisions.",
+    "detail": "Ten problematic references are deferred. Automatic flags identify 25 of 35 problems overall. A conditional recall of 1.0 on the automatic subset is not overall recall.",
+    "figure": "06_triage.png"
+  },
+  {
+    "title": "Reproduce, explain, and keep the claims narrow",
+    "tag": "10 / HANDOFF",
+    "body": "Real code. Saved outputs. Explicit limits and AI disclosure.",
+    "detail": "Open the executed notebook and viva guide. This captioned walkthrough was prepared with AI; it is not a recording of the student presenting or proof of personal understanding.",
+    "code": "python scripts/environment_check.py\npython scripts/run_study.py --corrected\npython scripts/plot_results.py --results results/corrected\npython scripts/build_paper_assets.py\n\nRead: paper/main.pdf, ai_assistance_log.md\nNext: student review, live walkthrough, submission."
+  }
+]

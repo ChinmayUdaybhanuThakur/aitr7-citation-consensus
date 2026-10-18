@@ -1,0 +1,6 @@
+{
+  "frozen_at_utc": "2026-10-18T13:39:30.461939+00:00",
+  "sha256": "4c9b3d58221784d10f8ac24eb99456cd20927c65b21c82107ee335cd06f16eda",
+  "outcomes_observed_before_freeze": false,
+  "note": "Source-paper aggregate results and dataset metadata were known; reference-level CSV and ensemble results had not been loaded."
+}

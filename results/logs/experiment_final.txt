@@ -1,0 +1,17 @@
+DATA VALIDATED: 104 references; 33 problematic; 71 verified
+PUBLISHED BASELINE REPRODUCED: {'tp': 32, 'fp': 36, 'tn': 35, 'fn': 1}
+method                 TP FP TN FN   recall   FPR     balanced_accuracy
+checkifexist           31 34 37  2   0.939    0.479   0.730
+hallucitechecker       18 20 51 15   0.545    0.282   0.632
+hallucinator           29 28 43  4   0.879    0.394   0.742
+halref                 24 53 18  9   0.727    0.746   0.490
+refchecker             32 36 35  1   0.970    0.507   0.731
+vote_k1                33 70  1  0   1.000    0.986   0.507
+vote_k2                33 54 17  0   1.000    0.761   0.620
+vote_k3                30 37 34  3   0.909    0.521   0.694
+vote_k4                25  9 62  8   0.758    0.127   0.815
+vote_k5                13  1 70 20   0.394    0.014   0.690
+lodo_selected          28 33 38  5   0.848    0.465   0.692
+PRIMARY SUCCESS RULE: {'fpr_reduction': -0.014084507042253502, 'majority_recall': 0.9090909090909091, 'meets_prespecified_rule': False}
+LODO THRESHOLDS: [('P1', 4), ('P2', 4), ('P3', 2)]
+SAVED: /Users/chinmay/Documents/Codex/2026-10-18/do-x20/outputs/AITR7_Citation_Consensus/results

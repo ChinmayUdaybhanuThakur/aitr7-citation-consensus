@@ -1,0 +1,25 @@
+{
+  "started_at_utc": "2026-10-18T14:12:07.896774+00:00",
+  "finished_at_utc": "2026-10-18T14:12:07.939848+00:00",
+  "wall_seconds": 0.0428845839924179,
+  "python": "3.13.3 (main, Apr  8 2025, 13:54:08) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "platform": "macOS-26.1-arm64-arm-64bit-Mach-O",
+  "numpy": "2.5.3",
+  "command": "python scripts/run_study.py --corrected --out results/reproduction_corrected",
+  "dataset_version": "1.1.0",
+  "majority_104_rows_ms": [
+    0.07858299068175256,
+    0.07437498425133526,
+    0.07437501335516572,
+    0.07429198012687266,
+    0.07512501906603575,
+    0.07529198774136603,
+    0.0753339845687151
+  ],
+  "median_majority_ms": 0.07512501906603575,
+  "timing_scope": "Only post-processing saved flags; original tool runtime and network costs are not measured.",
+  "source_hashes": {
+    "src/consensus.py": "4758a3161a31b9b0ba743d8fb2536950a02f6aa242a1dbf29fc12598865cae68"
+  },
+  "runner_sha256": "50ee347fedfef827eaa98a7f5e62bd7d6e1fa329bbfb9353186c8c487af3ebd2"
+}

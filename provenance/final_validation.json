@@ -1,0 +1,16 @@
+{
+  "checked_at_utc": "2026-10-18T14:25:26.093898+00:00",
+  "protocol_hash_matches": true,
+  "clean_rerun_files_identical": 24,
+  "test_log_passed": 16,
+  "executed_notebook_cells": 7,
+  "notebook_errors": 0,
+  "paper_pages": 10,
+  "brief_pages": 1,
+  "captioned_demo_seconds": 300.0,
+  "core_confusion_counts_match": true,
+  "no_unresolved_paper_placeholders": true,
+  "recognized_secret_patterns_found": 0,
+  "github_publication": "pending",
+  "classroom_submission": "not_performed"
+}

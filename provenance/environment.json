@@ -1,0 +1,27 @@
+{
+  "python": "3.13.3 (main, Apr  8 2025, 13:54:08) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "platform": "macOS-26.1-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "packages": {
+    "numpy": "2.5.3",
+    "matplotlib": "3.11.2"
+  },
+  "raw": {
+    "rows": 104,
+    "problematic": 33,
+    "documents": [
+      "P1",
+      "P2",
+      "P3"
+    ]
+  },
+  "corrected": {
+    "rows": 104,
+    "problematic": 35,
+    "documents": [
+      "P1",
+      "P2",
+      "P3"
+    ]
+  }
+}

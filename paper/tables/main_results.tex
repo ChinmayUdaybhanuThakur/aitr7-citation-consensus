@@ -1,0 +1,12 @@
+\begin{tabular}{@{}lrrrrrrr@{}}\toprule
+Method & TP & FP & TN & FN & Recall & FPR & BA \\
+\midrule
+CheckIfExist & 31 & 34 & 35 & 4 & 0.886 & 0.493 & 0.696 \\
+HalluCiteChecker & 18 & 20 & 49 & 17 & 0.514 & 0.290 & 0.612 \\
+Hallucinator & 30 & 27 & 42 & 5 & 0.857 & 0.391 & 0.733 \\
+HalRef & 26 & 51 & 18 & 9 & 0.743 & 0.739 & 0.502 \\
+RefChecker & 34 & 34 & 35 & 1 & 0.971 & 0.493 & 0.739 \\
+Majority (3/5) & 31 & 36 & 33 & 4 & 0.886 & 0.522 & 0.682 \\
+Strict (4/5) & 25 & 9 & 60 & 10 & 0.714 & 0.130 & 0.792 \\
+Held-out selection & 30 & 31 & 38 & 5 & 0.857 & 0.449 & 0.704 \\
+\bottomrule\end{tabular}

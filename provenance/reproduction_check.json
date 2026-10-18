@@ -1,0 +1,128 @@
+{
+  "checked_at_utc": "2026-10-18T14:12:08.057847+00:00",
+  "clean_venv": true,
+  "tests": 16,
+  "comparisons": [
+    {
+      "original": "results/by_document.csv",
+      "rerun": "results/reproduction/by_document.csv",
+      "byte_identical": true
+    },
+    {
+      "original": "results/error_overlap.csv",
+      "rerun": "results/reproduction/error_overlap.csv",
+      "byte_identical": true
+    },
+    {
+      "original": "results/lodo_folds.json",
+      "rerun": "results/reproduction/lodo_folds.json",
+      "byte_identical": true
+    },
+    {
+      "original": "results/majority_errors.csv",
+      "rerun": "results/reproduction/majority_errors.csv",
+      "byte_identical": true
+    },
+    {
+      "original": "results/metrics.csv",
+      "rerun": "results/reproduction/metrics.csv",
+      "byte_identical": true
+    },
+    {
+      "original": "results/metrics.json",
+      "rerun": "results/reproduction/metrics.json",
+      "byte_identical": true
+    },
+    {
+      "original": "results/paired_bootstrap.csv",
+      "rerun": "results/reproduction/paired_bootstrap.csv",
+      "byte_identical": true
+    },
+    {
+      "original": "results/predictions.csv",
+      "rerun": "results/reproduction/predictions.csv",
+      "byte_identical": true
+    },
+    {
+      "original": "results/primary_decision.json",
+      "rerun": "results/reproduction/primary_decision.json",
+      "byte_identical": true
+    },
+    {
+      "original": "results/triage.json",
+      "rerun": "results/reproduction/triage.json",
+      "byte_identical": true
+    },
+    {
+      "original": "results/validation.json",
+      "rerun": "results/reproduction/validation.json",
+      "byte_identical": true
+    },
+    {
+      "original": "results/vote_distribution.csv",
+      "rerun": "results/reproduction/vote_distribution.csv",
+      "byte_identical": true
+    },
+    {
+      "original": "results/corrected/by_document.csv",
+      "rerun": "results/reproduction_corrected/by_document.csv",
+      "byte_identical": true
+    },
+    {
+      "original": "results/corrected/error_overlap.csv",
+      "rerun": "results/reproduction_corrected/error_overlap.csv",
+      "byte_identical": true
+    },
+    {
+      "original": "results/corrected/lodo_folds.json",
+      "rerun": "results/reproduction_corrected/lodo_folds.json",
+      "byte_identical": true
+    },
+    {
+      "original": "results/corrected/majority_errors.csv",
+      "rerun": "results/reproduction_corrected/majority_errors.csv",
+      "byte_identical": true
+    },
+    {
+      "original": "results/corrected/metrics.csv",
+      "rerun": "results/reproduction_corrected/metrics.csv",
+      "byte_identical": true
+    },
+    {
+      "original": "results/corrected/metrics.json",
+      "rerun": "results/reproduction_corrected/metrics.json",
+      "byte_identical": true
+    },
+    {
+      "original": "results/corrected/paired_bootstrap.csv",
+      "rerun": "results/reproduction_corrected/paired_bootstrap.csv",
+      "byte_identical": true
+    },
+    {
+      "original": "results/corrected/predictions.csv",
+      "rerun": "results/reproduction_corrected/predictions.csv",
+      "byte_identical": true
+    },
+    {
+      "original": "results/corrected/primary_decision.json",
+      "rerun": "results/reproduction_corrected/primary_decision.json",
+      "byte_identical": true
+    },
+    {
+      "original": "results/corrected/triage.json",
+      "rerun": "results/reproduction_corrected/triage.json",
+      "byte_identical": true
+    },
+    {
+      "original": "results/corrected/validation.json",
+      "rerun": "results/reproduction_corrected/validation.json",
+      "byte_identical": true
+    },
+    {
+      "original": "results/corrected/vote_distribution.csv",
+      "rerun": "results/reproduction_corrected/vote_distribution.csv",
+      "byte_identical": true
+    }
+  ],
+  "all_numerical_outputs_identical": true
+}

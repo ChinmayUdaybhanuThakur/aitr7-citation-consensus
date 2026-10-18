@@ -1,0 +1,41 @@
+{
+  "rows": 104,
+  "positive_problematic": 35,
+  "negative_verified": 69,
+  "documents": {
+    "P1": {
+      "n": 24,
+      "positive": 3
+    },
+    "P2": {
+      "n": 15,
+      "positive": 4
+    },
+    "P3": {
+      "n": 65,
+      "positive": 28
+    }
+  },
+  "duplicate_groups": [],
+  "unique_normalized_references": 104,
+  "missing_flags": 0,
+  "protocol_sha256": "4c9b3d58221784d10f8ac24eb99456cd20927c65b21c82107ee335cd06f16eda",
+  "dataset_sha256": "7e01dfd66ec52c89a3a35d165660d8144a13a48f22e2f294683a771bd38fa48c",
+  "dataset_version": "1.1.0",
+  "published_refchecker_confusion": {
+    "expected_v1": {
+      "tp": 32,
+      "fp": 36,
+      "tn": 35,
+      "fn": 1
+    },
+    "observed": {
+      "tp": 34,
+      "fp": 34,
+      "tn": 35,
+      "fn": 1
+    },
+    "matches": false,
+    "applies_to_this_version": false
+  }
+}
