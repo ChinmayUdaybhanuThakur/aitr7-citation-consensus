@@ -1,7 +1,7 @@
 # Technical viva: quick preparation
 
 1. **What did you build?** A strict loader and reusable voting/triage functions, plus evaluation, grouped threshold selection, ablations, uncertainty, plots, and reproducibility scripts. Inputs are five recorded flags per reference.
-2. **What did you not build?** A new internet citation checker, new LLM, or semantic entailment system. Original checkers were not rerun.
+2. **What did you not build?** A new internet citation checker, new LLM, or semantic entailment system. The primary voting study uses recorded outputs. A separate 21 October supplement now executes pinned original CheckIfExist code: all 104 CrossRef-component cases have complete retrieval, while only 23 full-cascade cases do.
 3. **What is positive?** A problematic reference; a positive prediction is a flag for review. Problematic includes metadata errors, not only fabricated work.
 4. **Explain one prediction.** `[1,1,1,0,0]` has three flags. k=3 returns 1; k=4 returns 0; triage defers it because the count is 2–3.
 5. **What was the target?** Majority must reduce RefChecker's FPR by at least .10 while recall remains ≥.80. It failed on both versions.

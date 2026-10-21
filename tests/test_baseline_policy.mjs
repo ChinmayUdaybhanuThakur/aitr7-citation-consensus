@@ -1,0 +1,11 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {flagged,incomplete} from '../scripts/baseline_policy.mjs';
+test('Verified starts strictly above 80, matching upstream UI',()=>{assert.equal(flagged({exists:true,matchConfidence:80}),1);assert.equal(flagged({exists:true,matchConfidence:81}),0);});
+test('High score without an existing match remains flagged',()=>assert.equal(flagged({exists:false,matchConfidence:100}),1));
+test('Missing confidence is rejected rather than silently classified',()=>assert.throws(()=>flagged({exists:true})));
+test('A request returning a syntactically invalid payload invalidates coverage',()=>assert.equal(incomplete([{status:200,parse_error:'HTML instead of JSON'}]),true));
+test('A failed fallback cannot masquerade as full evidence',()=>assert.equal(incomplete([{status:200},{status:429}]),true));
+test('A transport timeout invalidates coverage',()=>assert.equal(incomplete([{status:0}]),true));
+test('An explicit 404 miss is a completed lookup',()=>assert.equal(incomplete([{status:404},{status:200}]),false));
+test('No retrieval evidence is incomplete',()=>assert.equal(incomplete([]),true));

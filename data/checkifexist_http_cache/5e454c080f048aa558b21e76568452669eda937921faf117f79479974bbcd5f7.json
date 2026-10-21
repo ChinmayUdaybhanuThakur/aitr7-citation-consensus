@@ -1,0 +1,10 @@
+{
+  "url": "https://dblp.org/search/publ/api?q=Open%20Research%20Europe%3A%20Full%20article%20corpus.%20https%3A%2F%2Fopen-research-europe.ec.europa.eu&format=json&h=5",
+  "status": 429,
+  "body_base64": "",
+  "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "content_type": "",
+  "error": "HTTP Error 429: Too Many Requests",
+  "retrieved_unix": 1792583346.518123,
+  "elapsed_seconds": 0.6125829219818115
+}

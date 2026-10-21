@@ -1,0 +1,10 @@
+{
+  "url": "https://dblp.org/search/publ/api?q=GROBID%3A%20Combining%20Automatic%20Bibliographic%20Data%20Recognition%20and%20Term%20Extraction%20for%20Scholarship%20Publications&format=json&h=5",
+  "status": 429,
+  "body_base64": "",
+  "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "content_type": "",
+  "error": "HTTP Error 429: Too Many Requests",
+  "retrieved_unix": 1792583360.848402,
+  "elapsed_seconds": 0.6061520576477051
+}

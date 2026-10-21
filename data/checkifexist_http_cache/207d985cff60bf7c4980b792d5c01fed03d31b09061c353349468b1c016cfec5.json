@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?filter=title.search:Ana-Maria%20Istrate%20et%20al.%20%3FA%20large%20dataset%20of%20software%20mentions%20in%20the%20biomedical%20literature%3F&per_page=5&mailto=contact@example.com",
+  "status": 400,
+  "body_base64": "eyJlcnJvciI6IkludmFsaWQgcXVlcnkgcGFyYW1ldGVycyBlcnJvci4iLCJtZXNzYWdlIjoiTGVhZGluZyB3aWxkY2FyZHMgYXJlIG5vdCBzdXBwb3J0ZWQgKHRvbyBleHBlbnNpdmUpOiBcIj9BXCIuIEFuY2hvciB0aGUgd2lsZGNhcmQgd2l0aCBhdCBsZWFzdCAzIGxlYWRpbmcgY2hhcmFjdGVycywgZS5nLiBjeWNsZSouIn0K",
+  "body_sha256": "3a8dd1c1cd71f07eeb85cbcbc27870d828b706b03fa293ca107cb31527e32741",
+  "content_type": "application/json",
+  "error": "HTTP Error 400: Bad Request",
+  "retrieved_unix": 1792583391.313813,
+  "elapsed_seconds": 0.7330560684204102
+}

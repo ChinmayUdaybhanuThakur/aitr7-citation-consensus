@@ -1,0 +1,10 @@
+{
+  "url": "https://api.crossref.org/works/10.3233%2FSW-223172",
+  "status": 404,
+  "body_base64": "UmVzb3VyY2Ugbm90IGZvdW5kLg==",
+  "body_sha256": "ae8462e3af85ca7577aaa97ff22a194f9dfd7fada58cf4944b53d2fdfa7b1f92",
+  "content_type": "text/plain",
+  "error": "HTTP Error 404: Not Found",
+  "retrieved_unix": 1792583392.6640158,
+  "elapsed_seconds": 0.9758594036102295
+}

@@ -1,0 +1,541 @@
+DBLP search failed: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:4394:19)
+    at successSteps (node:internal/deps/undici/undici:7048:27)
+    at readAllBytes (node:internal/deps/undici/undici:5965:13)
+[upstream] [Retry] All sources failed, retrying with extracted title: "ANSI/NISO Z39.: JATS: Journal Article Tag Suite . https://www.niso.org/publications/z3996--jats"
+DBLP search failed: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:4394:19)
+    at successSteps (node:internal/deps/undici/undici:7048:27)
+    at readAllBytes (node:internal/deps/undici/undici:5965:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+DBLP search failed: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:4394:19)
+    at successSteps (node:internal/deps/undici/undici:7048:27)
+    at readAllBytes (node:internal/deps/undici/undici:5965:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+Semantic Scholar rate limit reached
+DBLP search failed: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:4394:19)
+    at successSteps (node:internal/deps/undici/undici:7048:27)
+    at readAllBytes (node:internal/deps/undici/undici:5965:13)
+Semantic Scholar rate limit reached
+[upstream] [Retry] All sources failed, retrying with extracted title: "Synthetic versus Real Reference Strings for Citation Parsing"
+Semantic Scholar rate limit reached
+DBLP search failed: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:4394:19)
+    at successSteps (node:internal/deps/undici/undici:7048:27)
+    at readAllBytes (node:internal/deps/undici/undici:5965:13)
+Semantic Scholar rate limit reached
+DBLP API returned 429
+[upstream] [Retry] All sources failed, retrying with extracted title: "CiteX: Workshop on Citation Extraction and Parsing. https://sites.google.com/view/workshop-on-citation-extractio/startseite"
+DBLP API returned 429
+Semantic Scholar rate limit reached
+DBLP API returned 429
+Semantic Scholar rate limit reached
+Semantic Scholar rate limit reached
+DBLP API returned 429
+[upstream] [Retry] All sources failed, retrying with extracted title: "OpenCitations: an open infrastructure enabling Open Research Information"
+Semantic Scholar rate limit reached
+DBLP API returned 429
+DBLP API returned 429
+Semantic Scholar rate limit reached
+[upstream] [Retry] All sources failed, retrying with extracted title: "Open Research Europe: Full article corpus. https://open-research-europe.ec.europa.eu"
+DBLP API returned 429
+Semantic Scholar rate limit reached
+Semantic Scholar rate limit reached
+DBLP API returned 429
+[upstream] [Retry] All sources failed, retrying with extracted title: "In Public Knowledge Project. https://pkp.sfu.ca//04/18/the-xml-markup-evaluation-corpus/"
+Semantic Scholar rate limit reached
+DBLP API returned 429
+Semantic Scholar rate limit reached
+DBLP API returned 429
+DBLP API returned 429
+[upstream] [Retry] All sources failed, retrying with extracted title: "Mistral 7B. arXiv preprint arXiv:2310.06825. https://arxiv.org/abs/2310.06825"
+DBLP API returned 429
+Semantic Scholar rate limit reached
+DBLP API returned 429
+[upstream] [Retry] All sources failed, retrying with extracted title: "Marlowe: Stanford?s GPU-based Computational Instrument (Version 0.1)"
+Semantic Scholar rate limit reached
+DBLP API returned 429
+DBLP API returned 429
+Semantic Scholar rate limit reached
+Semantic Scholar rate limit reached
+DBLP API returned 429
+Semantic Scholar rate limit reached
+DBLP API returned 429
+[upstream] [Retry] All sources failed, retrying with extracted title: "MarkItDown: Python Tool for Converting Files to Markdown. https://github.com/microsoft/markitdown"
+DBLP API returned 429
+Semantic Scholar rate limit reached
+Semantic Scholar rate limit reached
+DBLP API returned 429
+Semantic Scholar rate limit reached
+DBLP API returned 429
+DBLP search failed: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:4394:19)
+    at successSteps (node:internal/deps/undici/undici:7048:27)
+    at readAllBytes (node:internal/deps/undici/undici:5965:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+[upstream] [Retry] All sources failed, retrying with extracted title: "Open Citation Data for Educational Research"
+DBLP search failed: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:4394:19)
+    at successSteps (node:internal/deps/undici/undici:7048:27)
+    at readAllBytes (node:internal/deps/undici/undici:5965:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+DBLP search failed: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:4394:19)
+    at successSteps (node:internal/deps/undici/undici:7048:27)
+    at readAllBytes (node:internal/deps/undici/undici:5965:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+Semantic Scholar rate limit reached
+arXiv API returned 429
+[upstream] [Retry] All sources failed, retrying with extracted title: "and Patrice Lopez. ?Softcite: Automatic Extraction of Software Mentions in Research Literature?"
+arXiv API returned 429
+Semantic Scholar rate limit reached
+DBLP search failed: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:4394:19)
+    at successSteps (node:internal/deps/undici/undici:7048:27)
+    at readAllBytes (node:internal/deps/undici/undici:5965:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+Semantic Scholar rate limit reached
+arXiv API returned 429
+DBLP search failed: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:4394:19)
+    at successSteps (node:internal/deps/undici/undici:7048:27)
+    at readAllBytes (node:internal/deps/undici/undici:5965:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+Semantic Scholar rate limit reached
+arXiv API returned 429
+DBLP search failed: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:4394:19)
+    at successSteps (node:internal/deps/undici/undici:7048:27)
+    at readAllBytes (node:internal/deps/undici/undici:5965:13)
+DBLP search failed: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:4394:19)
+    at successSteps (node:internal/deps/undici/undici:7048:27)
+    at readAllBytes (node:internal/deps/undici/undici:5965:13)
+arXiv API returned 429
+Semantic Scholar rate limit reached
+[upstream] [Retry] All sources failed, retrying with extracted title: "Ana-Maria Istrate et al. ?A large dataset of software mentions in the biomedical literature?"
+arXiv API returned 429
+DBLP search failed: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:4394:19)
+    at successSteps (node:internal/deps/undici/undici:7048:27)
+    at readAllBytes (node:internal/deps/undici/undici:5965:13)
+Semantic Scholar rate limit reached
+DBLP search failed: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:4394:19)
+    at successSteps (node:internal/deps/undici/undici:7048:27)
+    at readAllBytes (node:internal/deps/undici/undici:5965:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+arXiv API returned 429
+Semantic Scholar rate limit reached
+[upstream] [Retry] All sources failed, retrying with extracted title: "and Frank Krger. ?SoftwareKG?a knowledge graph of software mentions from biomedical literature?"
+Semantic Scholar rate limit reached
+arXiv API returned 429
+DBLP search failed: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:4394:19)
+    at successSteps (node:internal/deps/undici/undici:7048:27)
+    at readAllBytes (node:internal/deps/undici/undici:5965:13)
+arXiv API returned 429
+DBLP API returned 429
+Semantic Scholar rate limit reached
+[upstream] [Retry] All sources failed, retrying with extracted title: "and Petr Knoth. ?Identifying and extracting Data Access Statements from full-text academic articles?"
+DBLP API returned 429
+arXiv API returned 429
+Semantic Scholar rate limit reached
+arXiv API returned 429
+Semantic Scholar rate limit reached
+DBLP search failed: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:4394:19)
+    at successSteps (node:internal/deps/undici/undici:7048:27)
+    at readAllBytes (node:internal/deps/undici/undici:5965:13)
+[upstream] [Retry] All sources failed, retrying with extracted title: "David Pride et al. ?SoFAIR Project Dataset - An annotated dataset of software mentions in full text scientific articles.? In: Nature Scientific Data (Nov. . url: https://ordo.open.ac.uk/articles/dataset/SoFAIR_Project_Dataset_-_An_annotated_dataset_of_software_mentions_in_full_text_scientific_articles_/30374830"
+DBLP search failed: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:4394:19)
+    at successSteps (node:internal/deps/undici/undici:7048:27)
+    at readAllBytes (node:internal/deps/undici/undici:5965:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+Semantic Scholar rate limit reached
+arXiv API returned 429
+DBLP search failed: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:4394:19)
+    at successSteps (node:internal/deps/undici/undici:7048:27)
+    at readAllBytes (node:internal/deps/undici/undici:5965:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+Semantic Scholar rate limit reached
+arXiv API returned 429
+DBLP search failed: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:4394:19)
+    at successSteps (node:internal/deps/undici/undici:7048:27)
+    at readAllBytes (node:internal/deps/undici/undici:5965:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+Semantic Scholar rate limit reached
+arXiv API returned 429
+[upstream] [Retry] All sources failed, retrying with extracted title: "To believe or not to believe your llm. arXiv preprint arXiv:2406.02543"
+Semantic Scholar rate limit reached
+DBLP search failed: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:4394:19)
+    at successSteps (node:internal/deps/undici/undici:7048:27)
+    at readAllBytes (node:internal/deps/undici/undici:5965:13)
+arXiv API returned 429
+DBLP search failed: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:4394:19)
+    at successSteps (node:internal/deps/undici/undici:7048:27)
+    at readAllBytes (node:internal/deps/undici/undici:5965:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+Semantic Scholar rate limit reached
+arXiv API returned 429
+[upstream] [Retry] All sources failed, retrying with extracted title: "The curious case of neural text degeneration. arXiv preprint arXiv:.09751"
+arXiv API returned 429
+DBLP search failed: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:4394:19)
+    at successSteps (node:internal/deps/undici/undici:7048:27)
+    at readAllBytes (node:internal/deps/undici/undici:5965:13)
+Semantic Scholar rate limit reached
+DBLP API returned 429
+Semantic Scholar rate limit reached
+arXiv API returned 429
+[upstream] [Retry] All sources failed, retrying with extracted title: "Semantically diverse language generation"
+Semantic Scholar rate limit reached
+DBLP API returned 429
+arXiv API returned 429
+Semantic Scholar rate limit reached
+DBLP API returned 429
+arXiv API returned 429
+DBLP search failed: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:4394:19)
+    at successSteps (node:internal/deps/undici/undici:7048:27)
+    at readAllBytes (node:internal/deps/undici/undici:5965:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+arXiv API returned 429
+Semantic Scholar rate limit reached
+[upstream] [Retry] All sources failed, retrying with extracted title: "Dsp: Diffusion-based span prediction for masked text modeling. arXiv preprint arXiv:2305.XXXX"
+Semantic Scholar rate limit reached
+arXiv API returned 429
+DBLP search failed: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:4394:19)
+    at successSteps (node:internal/deps/undici/undici:7048:27)
+    at readAllBytes (node:internal/deps/undici/undici:5965:13)
+arXiv API returned 429
+DBLP search failed: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:4394:19)
+    at successSteps (node:internal/deps/undici/undici:7048:27)
+    at readAllBytes (node:internal/deps/undici/undici:5965:13)
+Semantic Scholar rate limit reached
+[upstream] [Retry] All sources failed, retrying with extracted title: "Maskgpt: Uniform denoising diffusion for language. arXiv preprint arXiv:2401.XXXX"
+DBLP search failed: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:4394:19)
+    at successSteps (node:internal/deps/undici/undici:7048:27)
+    at readAllBytes (node:internal/deps/undici/undici:5965:13)
+arXiv API returned 429
+Semantic Scholar rate limit reached
+DBLP search failed: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:4394:19)
+    at successSteps (node:internal/deps/undici/undici:7048:27)
+    at readAllBytes (node:internal/deps/undici/undici:5965:13)
+arXiv API returned 429
+[upstream] [Retry] All sources failed, retrying with extracted title: "A. Sahoo and et al. inatk: Iterative noise aware text denoising. arXiv preprint arXiv:2402.XXXX"
+DBLP search failed: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:4394:19)
+    at successSteps (node:internal/deps/undici/undici:7048:27)
+    at readAllBytes (node:internal/deps/undici/undici:5965:13)
+arXiv API returned 429
+arXiv API returned 429
+DBLP search failed: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:4394:19)
+    at successSteps (node:internal/deps/undici/undici:7048:27)
+    at readAllBytes (node:internal/deps/undici/undici:5965:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+Semantic Scholar rate limit reached
+[upstream] [Retry] All sources failed, retrying with extracted title: "Tuqdm: Token unmasking with quantized diffusion models"
+Semantic Scholar rate limit reached
+arXiv API returned 429
+DBLP search failed: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:4394:19)
+    at successSteps (node:internal/deps/undici/undici:7048:27)
+    at readAllBytes (node:internal/deps/undici/undici:5965:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+Semantic Scholar rate limit reached
+arXiv API returned 429
+DBLP search failed: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:4394:19)
+    at successSteps (node:internal/deps/undici/undici:7048:27)
+    at readAllBytes (node:internal/deps/undici/undici:5965:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+[upstream] [Retry] All sources failed, retrying with extracted title: "Llada: Large language auto-diffusion for accelerated denoising. arXiv preprint arXiv:2403.XXXX"
+arXiv API returned 429
+Semantic Scholar rate limit reached
+DBLP search failed: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:4394:19)
+    at successSteps (node:internal/deps/undici/undici:7048:27)
+    at readAllBytes (node:internal/deps/undici/undici:5965:13)
+Semantic Scholar rate limit reached
+arXiv API returned 429
+DBLP search failed: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:4394:19)
+    at successSteps (node:internal/deps/undici/undici:7048:27)
+    at readAllBytes (node:internal/deps/undici/undici:5965:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+DBLP API returned 429
+Semantic Scholar rate limit reached
+arXiv API returned 429
+arXiv API returned 429
+DBLP API returned 429
+Semantic Scholar rate limit reached
+Semantic Scholar rate limit reached
+DBLP API returned 429
+arXiv API returned 429
+Semantic Scholar rate limit reached
+DBLP API returned 429
+arXiv API returned 429
+Semantic Scholar rate limit reached
+DBLP API returned 429
+arXiv API returned 429
+Semantic Scholar rate limit reached
+DBLP API returned 429
+arXiv API returned 429
+Semantic Scholar rate limit reached
+DBLP API returned 429
+arXiv API returned 429
+Semantic Scholar rate limit reached
+arXiv API returned 429
+DBLP API returned 429
+Semantic Scholar rate limit reached
+arXiv API returned 429
+DBLP API returned 429
+[upstream] [Retry] All sources failed, retrying with extracted title: "Calibration of text generation models"
+DBLP API returned 429
+arXiv API returned 429
+Semantic Scholar rate limit reached
+Semantic Scholar rate limit reached
+DBLP API returned 429
+arXiv API returned 429
+[upstream] [Retry] All sources failed, retrying with extracted title: "Uncertainty estimation in neural text regression"
+arXiv API returned 429
+Semantic Scholar rate limit reached
+DBLP API returned 429
+DBLP API returned 429
+Semantic Scholar rate limit reached
+arXiv API returned 429
+[upstream] [Retry] All sources failed, retrying with extracted title: "Uncertainty quantification in abstractive summarization"
+Semantic Scholar rate limit reached
+arXiv API returned 429
+DBLP API returned 429
+arXiv API returned 429
+DBLP API returned 429
+[upstream] [Retry] All sources failed, retrying with extracted title: "Teaching language models to script their confidence"
+DBLP API returned 429
+arXiv API returned 429
+Semantic Scholar rate limit reached
+DBLP API returned 429
+arXiv API returned 429
+[upstream] [Retry] All sources failed, retrying with extracted title: "Answer me this: Self-verifying large language models"
+Semantic Scholar rate limit reached
+arXiv API returned 429
+DBLP API returned 429
+arXiv API returned 429
+DBLP API returned 429
+[upstream] [Retry] All sources failed, retrying with extracted title: "Evaluating the reliability of self-assessment in language models"
+DBLP API returned 429
+arXiv API returned 429
+arXiv API returned 429
+DBLP API returned 429
+Semantic Scholar rate limit reached
+[upstream] [Retry] All sources failed, retrying with extracted title: "Learning to predict confidence for language models"
+Semantic Scholar rate limit reached
+arXiv API returned 429
+DBLP API returned 429
+Semantic Scholar rate limit reached
+arXiv API returned 429
+DBLP API returned 429
+arXiv API returned 429
+DBLP API returned 429
+Semantic Scholar rate limit reached
+[upstream] [Retry] All sources failed, retrying with extracted title: "The capacity for moral self-correction in large language models. arXiv"
+Semantic Scholar rate limit reached
+arXiv API returned 429
+DBLP API returned 429
+DBLP API returned 429
+arXiv API returned 429
+arXiv API returned 429
+DBLP API returned 429
+Semantic Scholar rate limit reached
+Semantic Scholar rate limit reached
+DBLP API returned 429
+arXiv API returned 429
+Semantic Scholar rate limit reached
+DBLP API returned 429
+Semantic Scholar rate limit reached
+arXiv API returned 429
+DBLP API returned 429
+[upstream] [Retry] All sources failed, retrying with extracted title: "Conformal prediction in neural forecasting"
+DBLP API returned 429
+arXiv API returned 429
+Semantic Scholar rate limit reached
+arXiv API returned 429
+Semantic Scholar rate limit reached
+arXiv API returned 429
+DBLP API returned 429
+[upstream] [Retry] All sources failed, retrying with extracted title: "Well-calibrated language models can be produced with small calibration sets"
+DBLP API returned 429
+arXiv API returned 429
+Semantic Scholar rate limit reached
+Semantic Scholar rate limit reached
+arXiv API returned 429
+DBLP API returned 429
+[upstream] [Retry] All sources failed, retrying with extracted title: "Distinguishing the knowable from the unknowable with language models. arXiv preprint arXiv:2402.03563"
+DBLP API returned 429
+arXiv API returned 429
+Semantic Scholar rate limit reached
+Semantic Scholar rate limit reached
+arXiv API returned 429
+DBLP API returned 429
+[upstream] [Retry] All sources failed, retrying with extracted title: "Experts don?t cheat: learning what you don?t know by predicting pairs"
+DBLP API returned 429
+Semantic Scholar rate limit reached
+arXiv API returned 429
+arXiv API returned 429
+Semantic Scholar rate limit reached
+DBLP API returned 429
+[upstream] [Retry] All sources failed, retrying with extracted title: "Diverse beam search: Decoding diverse solutions from neural sequence models. arXiv"
+arXiv API returned 429
+DBLP API returned 429
+Semantic Scholar rate limit reached
+Semantic Scholar rate limit reached
+arXiv API returned 429
+DBLP API returned 429
+Semantic Scholar rate limit reached
+DBLP API returned 429
+arXiv API returned 429
+arXiv API returned 429
+DBLP API returned 429
+Semantic Scholar rate limit reached
+Semantic Scholar rate limit reached
+arXiv API returned 429
+DBLP API returned 429
+DBLP API returned 429
+Semantic Scholar rate limit reached
+arXiv API returned 429
+Semantic Scholar rate limit reached
+arXiv API returned 429
+DBLP API returned 429
+Semantic Scholar rate limit reached
+arXiv API returned 429
+DBLP API returned 429
+Semantic Scholar rate limit reached
+arXiv API returned 429
+DBLP API returned 429
+[upstream] [Retry] All sources failed, retrying with extracted title: "Semantic similarity based on lexical substitution"
+DBLP API returned 429
+arXiv API returned 429
+Semantic Scholar rate limit reached
+Semantic Scholar rate limit reached
+arXiv API returned 429
+DBLP API returned 429
+[upstream] [Retry] All sources failed, retrying with extracted title: "Paraphrase identification using deep contextualized representations"
+arXiv API returned 429
+DBLP API returned 429
+Semantic Scholar rate limit reached
+Semantic Scholar rate limit reached
+DBLP API returned 429
+arXiv API returned 429
+Semantic Scholar rate limit reached
+DBLP API returned 429
+arXiv API returned 429
+[upstream] [Retry] All sources failed, retrying with extracted title: "Ng.Dynamic pooling and unfolding recursive autoencoders for paraphrase detection"
+Semantic Scholar rate limit reached
+DBLP API returned 429
+arXiv API returned 429
+arXiv API returned 429
+DBLP API returned 429
+Semantic Scholar rate limit reached
+Semantic Scholar rate limit reached
+DBLP API returned 429
+arXiv API returned 429
+[upstream] [Retry] All sources failed, retrying with extracted title: "Efficient few-shot learning with efl: A single transformer for all tasks"
+arXiv API returned 429
+Semantic Scholar rate limit reached
+DBLP API returned 429
+Semantic Scholar rate limit reached
+arXiv API returned 429
+DBLP API returned 429
+[upstream] [Retry] All sources failed, retrying with extracted title: "Generating with confidence: Uncertainty quantification for black-box large language models. arXiv preprint arXiv:2305.19187"
+Semantic Scholar rate limit reached
+arXiv API returned 429
+DBLP API returned 429
+arXiv API returned 429
+DBLP API returned 429
+Semantic Scholar rate limit reached
+Semantic Scholar rate limit reached
+DBLP API returned 429
+arXiv API returned 429
+Semantic Scholar rate limit reached
+arXiv API returned 429
+DBLP API returned 429
+[upstream] [Retry] All sources failed, retrying with extracted title: "Opt: Open pre-trained transformer language models. arXiv preprint arXiv:2205.01068"
+Semantic Scholar rate limit reached
+arXiv API returned 429
+DBLP API returned 429
+arXiv API returned 429
+Semantic Scholar rate limit reached
+DBLP API returned 429
+[upstream] [Retry] All sources failed, retrying with extracted title: "URL https://github.com/meta-llama/llama3/blob/main/MODEL_CARD.md"
+Semantic Scholar rate limit reached
+arXiv API returned 429
+DBLP API returned 429
+Semantic Scholar rate limit reached
+arXiv API returned 429
+DBLP API returned 429
+[upstream] [Retry] All sources failed, retrying with extracted title: "A note on importance sampling using standardized weights"
+arXiv API returned 429
+DBLP API returned 429
+Semantic Scholar rate limit reached
+Semantic Scholar rate limit reached
+DBLP search failed: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:4394:19)
+    at successSteps (node:internal/deps/undici/undici:7048:27)
+    at readAllBytes (node:internal/deps/undici/undici:5965:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+arXiv API returned 429
+[upstream] [Retry] All sources failed, retrying with extracted title: "Decoupled weight decay regularization. arXiv preprint arXiv:1711.05101"
+Semantic Scholar rate limit reached
+arXiv API returned 429
+DBLP search failed: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:4394:19)
+    at successSteps (node:internal/deps/undici/undici:7048:27)
+    at readAllBytes (node:internal/deps/undici/undici:5965:13)

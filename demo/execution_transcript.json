@@ -1,0 +1,1394 @@
+{
+  "format": "Actual subprocess events rendered as a terminal; not a desktop screen recording",
+  "narration": "Synthetic macOS Samantha; no student voice or presentation claimed",
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "The question and the actual data",
+      "display_command": "python scripts/demo_evidence.py data",
+      "argv": [
+        "/Users/chinmay/Documents/Codex/2026-10-18/do-x20/work/assignment7/clean-env/bin/python",
+        "scripts/demo_evidence.py",
+        "data"
+      ],
+      "exit_code": 0,
+      "actual_elapsed_seconds": 0.053783707990078256,
+      "events": [
+        {
+          "seconds": 0.04734900000039488,
+          "stream": "stdout",
+          "text": "original: 104 references, 33 problematic"
+        },
+        {
+          "seconds": 0.04852562499581836,
+          "stream": "stdout",
+          "text": "corrected: 104 references, 35 problematic"
+        },
+        {
+          "seconds": 0.04853087497758679,
+          "stream": "stdout",
+          "text": ""
+        },
+        {
+          "seconds": 0.048533207998843864,
+          "stream": "stdout",
+          "text": "One actual row: P1:R1"
+        },
+        {
+          "seconds": 0.048537082999246195,
+          "stream": "stdout",
+          "text": "Reference: Agrawal, L. A., Tan, S., Soylu, D., Ziems, N., Khare, R., Opsahl-Ong, K., Singhvi, A., Shandilya, H., Ryan, M. J., Jiang, M., Potts, C., Sen, K., Dimakis, A. G., Stoica, I., Klein, D., Zaharia, M., & Khattab, O. (2025). GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning https://arxiv.org/abs/2507.19457"
+        },
+        {
+          "seconds": 0.04853899998124689,
+          "stream": "stdout",
+          "text": "Recorded flags: (0, 1, 0, 1, 1) Ground truth: 0"
+        },
+        {
+          "seconds": 0.04854516699560918,
+          "stream": "stdout",
+          "text": "k=3: 1 k=4: 0 triage: review"
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "title": "Trace the prediction code",
+      "display_command": "python scripts/demo_evidence.py code",
+      "argv": [
+        "/Users/chinmay/Documents/Codex/2026-10-18/do-x20/work/assignment7/clean-env/bin/python",
+        "scripts/demo_evidence.py",
+        "code"
+      ],
+      "exit_code": 0,
+      "actual_elapsed_seconds": 0.04828629200346768,
+      "events": [
+        {
+          "seconds": 0.04365700000198558,
+          "stream": "stdout",
+          "text": "def vote(flags, threshold=3):"
+        },
+        {
+          "seconds": 0.048236000002361834,
+          "stream": "stdout",
+          "text": "    flags = tuple(flags)"
+        },
+        {
+          "seconds": 0.04824116700910963,
+          "stream": "stdout",
+          "text": "    if not flags or any(type(x) is not int or x not in (0, 1) for x in flags):"
+        },
+        {
+          "seconds": 0.04824350000126287,
+          "stream": "stdout",
+          "text": "        raise ValueError(\"Flags must be non-empty binary integers\")"
+        },
+        {
+          "seconds": 0.048245249985484406,
+          "stream": "stdout",
+          "text": "    if type(threshold) is not int or not 1 <= threshold <= len(flags):"
+        },
+        {
+          "seconds": 0.04824712499976158,
+          "stream": "stdout",
+          "text": "        raise ValueError(\"Threshold must be within the panel size\")"
+        },
+        {
+          "seconds": 0.04824883400578983,
+          "stream": "stdout",
+          "text": "    return int(sum(flags) >= threshold)"
+        },
+        {
+          "seconds": 0.04825062499730848,
+          "stream": "stdout",
+          "text": ""
+        },
+        {
+          "seconds": 0.048252624983433634,
+          "stream": "stdout",
+          "text": "def triage(flags):"
+        },
+        {
+          "seconds": 0.048254458990413696,
+          "stream": "stdout",
+          "text": "    # Validation is shared with the ordinary classifier."
+        },
+        {
+          "seconds": 0.04825608400278725,
+          "stream": "stdout",
+          "text": "    vote(flags, 3)"
+        },
+        {
+          "seconds": 0.04825766698922962,
+          "stream": "stdout",
+          "text": "    if len(flags) != 5:"
+        },
+        {
+          "seconds": 0.04825933399843052,
+          "stream": "stdout",
+          "text": "        raise ValueError(\"The prespecified triage rule requires five flags\")"
+        },
+        {
+          "seconds": 0.04826108398265205,
+          "stream": "stdout",
+          "text": "    count = sum(flags)"
+        },
+        {
+          "seconds": 0.04826275000232272,
+          "stream": "stdout",
+          "text": "    return \"auto_accept\" if count <= 1 else \"auto_flag\" if count >= 4 else \"review\""
+        },
+        {
+          "seconds": 0.04826445900835097,
+          "stream": "stdout",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "title": "Execute the core correctness tests",
+      "display_command": "python -m unittest discover -s tests -v",
+      "argv": [
+        "/Users/chinmay/Documents/Codex/2026-10-18/do-x20/work/assignment7/clean-env/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "actual_elapsed_seconds": 0.061708708002697676,
+      "events": [
+        {
+          "seconds": 0.05150241599767469,
+          "stream": "stderr",
+          "text": "test_alignment_rejected (test_consensus.ValidationTests.test_alignment_rejected) ... ok"
+        },
+        {
+          "seconds": 0.053067625005496666,
+          "stream": "stderr",
+          "text": "test_cp850_reference_preserves_accents (test_consensus.ValidationTests.test_cp850_reference_preserves_accents) ... ok"
+        },
+        {
+          "seconds": 0.05344791599782184,
+          "stream": "stderr",
+          "text": "test_duplicate_excluded_from_training (test_consensus.ValidationTests.test_duplicate_excluded_from_training) ... ok"
+        },
+        {
+          "seconds": 0.05346454100799747,
+          "stream": "stderr",
+          "text": "test_exact_majority_boundary (test_consensus.ValidationTests.test_exact_majority_boundary) ... ok"
+        },
+        {
+          "seconds": 0.0534804159833584,
+          "stream": "stderr",
+          "text": "test_flag_whitespace (test_consensus.ValidationTests.test_flag_whitespace) ... ok"
+        },
+        {
+          "seconds": 0.053517332999035716,
+          "stream": "stderr",
+          "text": "test_hand_calculated_confusion (test_consensus.ValidationTests.test_hand_calculated_confusion) ... ok"
+        },
+        {
+          "seconds": 0.05355991600663401,
+          "stream": "stderr",
+          "text": "test_illegal_vote (test_consensus.ValidationTests.test_illegal_vote) ... ok"
+        },
+        {
+          "seconds": 0.054129208001540974,
+          "stream": "stderr",
+          "text": "test_missing_columns_rejected (test_consensus.ValidationTests.test_missing_columns_rejected) ... ok"
+        },
+        {
+          "seconds": 0.0541578329866752,
+          "stream": "stderr",
+          "text": "test_missing_flag_is_not_acceptance (test_consensus.ValidationTests.test_missing_flag_is_not_acceptance) ... ok"
+        },
+        {
+          "seconds": 0.05418391598504968,
+          "stream": "stderr",
+          "text": "test_no_flags_zero_division (test_consensus.ValidationTests.test_no_flags_zero_division) ... ok"
+        },
+        {
+          "seconds": 0.0542075409903191,
+          "stream": "stderr",
+          "text": "test_reference_normalization (test_consensus.ValidationTests.test_reference_normalization) ... ok"
+        },
+        {
+          "seconds": 0.05423058298765682,
+          "stream": "stderr",
+          "text": "test_single_class_ba_is_undefined (test_consensus.ValidationTests.test_single_class_ba_is_undefined) ... ok"
+        },
+        {
+          "seconds": 0.05476508298306726,
+          "stream": "stderr",
+          "text": "test_test_labels_cannot_select_own_threshold (test_consensus.ValidationTests.test_test_labels_cannot_select_own_threshold) ... ok"
+        },
+        {
+          "seconds": 0.05478424998000264,
+          "stream": "stderr",
+          "text": "test_threshold_monotonicity (test_consensus.ValidationTests.test_threshold_monotonicity) ... ok"
+        },
+        {
+          "seconds": 0.054805457999464124,
+          "stream": "stderr",
+          "text": "test_triage_boundaries (test_consensus.ValidationTests.test_triage_boundaries) ... ok"
+        },
+        {
+          "seconds": 0.05555979098426178,
+          "stream": "stderr",
+          "text": "test_utf8_bom_release (test_consensus.ValidationTests.test_utf8_bom_release) ... ok"
+        },
+        {
+          "seconds": 0.05558070799452253,
+          "stream": "stderr",
+          "text": ""
+        },
+        {
+          "seconds": 0.055588874995009974,
+          "stream": "stderr",
+          "text": "----------------------------------------------------------------------"
+        },
+        {
+          "seconds": 0.05559341600746848,
+          "stream": "stderr",
+          "text": "Ran 16 tests in 0.004s"
+        },
+        {
+          "seconds": 0.05559545799042098,
+          "stream": "stderr",
+          "text": ""
+        },
+        {
+          "seconds": 0.05559899998479523,
+          "stream": "stderr",
+          "text": "OK"
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "title": "Execute the new baseline-harness tests",
+      "display_command": "node --test tests/test_baseline_policy.mjs",
+      "argv": [
+        "/Users/chinmay/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "--test",
+        "tests/test_baseline_policy.mjs"
+      ],
+      "exit_code": 0,
+      "actual_elapsed_seconds": 0.09815820801304653,
+      "events": [
+        {
+          "seconds": 0.08957241699681617,
+          "stream": "stdout",
+          "text": "\u2714 Verified starts strictly above 80, matching upstream UI (0.577334ms)"
+        },
+        {
+          "seconds": 0.0895900420146063,
+          "stream": "stdout",
+          "text": "\u2714 High score without an existing match remains flagged (0.0855ms)"
+        },
+        {
+          "seconds": 0.08966774999862537,
+          "stream": "stdout",
+          "text": "\u2714 Missing confidence is rejected rather than silently classified (0.150208ms)"
+        },
+        {
+          "seconds": 0.08973999999579974,
+          "stream": "stdout",
+          "text": "\u2714 A request returning a syntactically invalid payload invalidates coverage (0.477958ms)"
+        },
+        {
+          "seconds": 0.08989679199294187,
+          "stream": "stdout",
+          "text": "\u2714 A failed fallback cannot masquerade as full evidence (0.078708ms)"
+        },
+        {
+          "seconds": 0.0899976670043543,
+          "stream": "stdout",
+          "text": "\u2714 A transport timeout invalidates coverage (0.062416ms)"
+        },
+        {
+          "seconds": 0.09009599999990314,
+          "stream": "stdout",
+          "text": "\u2714 An explicit 404 miss is a completed lookup (0.063333ms)"
+        },
+        {
+          "seconds": 0.09071591700194404,
+          "stream": "stdout",
+          "text": "\u2714 No retrieval evidence is incomplete (0.057458ms)"
+        },
+        {
+          "seconds": 0.09581929200794548,
+          "stream": "stdout",
+          "text": "\u2139 tests 8"
+        },
+        {
+          "seconds": 0.09582929199677892,
+          "stream": "stdout",
+          "text": "\u2139 suites 0"
+        },
+        {
+          "seconds": 0.09583812500932254,
+          "stream": "stdout",
+          "text": "\u2139 pass 8"
+        },
+        {
+          "seconds": 0.09584029199322686,
+          "stream": "stdout",
+          "text": "\u2139 fail 0"
+        },
+        {
+          "seconds": 0.09584216700750403,
+          "stream": "stdout",
+          "text": "\u2139 cancelled 0"
+        },
+        {
+          "seconds": 0.09585179199348204,
+          "stream": "stdout",
+          "text": "\u2139 skipped 0"
+        },
+        {
+          "seconds": 0.09588662500027567,
+          "stream": "stdout",
+          "text": "\u2139 todo 0"
+        },
+        {
+          "seconds": 0.09589333299663849,
+          "stream": "stdout",
+          "text": "\u2139 duration_ms 56.42775"
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "title": "Run the original source algorithm offline",
+      "display_command": "node scripts/run_live_baseline.mjs --crossref-only --out results/demo_baseline_replay",
+      "argv": [
+        "/Users/chinmay/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "scripts/run_live_baseline.mjs",
+        "--crossref-only",
+        "--out",
+        "results/demo_baseline_replay"
+      ],
+      "exit_code": 0,
+      "actual_elapsed_seconds": 6.941984708013479,
+      "events": [
+        {
+          "seconds": 0.15796599999885075,
+          "stream": "stdout",
+          "text": "1/104 P1:R1: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 0.2236341249954421,
+          "stream": "stdout",
+          "text": "2/104 P1:R2: verified; source=CrossRef; confidence=98; requests=1"
+        },
+        {
+          "seconds": 0.29452270799083635,
+          "stream": "stdout",
+          "text": "3/104 P1:R3: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 0.36084012500941753,
+          "stream": "stdout",
+          "text": "4/104 P1:R4: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 0.42323954100720584,
+          "stream": "stdout",
+          "text": "5/104 P1:R5: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 0.48504962501465343,
+          "stream": "stdout",
+          "text": "6/104 P1:R6: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 0.5471491249918472,
+          "stream": "stdout",
+          "text": "7/104 P1:R7: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 0.6106995409936644,
+          "stream": "stdout",
+          "text": "8/104 P1:R8: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 0.6726856250024866,
+          "stream": "stdout",
+          "text": "9/104 P1:R9: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 0.8041794160089921,
+          "stream": "stdout",
+          "text": "10/104 P1:R10: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 0.870639625005424,
+          "stream": "stdout",
+          "text": "11/104 P1:R11: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 0.9397809160000179,
+          "stream": "stdout",
+          "text": "12/104 P1:R12: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 1.0026083330158144,
+          "stream": "stdout",
+          "text": "13/104 P1:R13: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 1.0703240410075523,
+          "stream": "stdout",
+          "text": "14/104 P1:R14: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 1.138481916015735,
+          "stream": "stdout",
+          "text": "15/104 P1:R15: verified; source=CrossRef; confidence=100; requests=1"
+        },
+        {
+          "seconds": 1.2038964999956079,
+          "stream": "stdout",
+          "text": "16/104 P1:R16: flagged; source=CrossRef; confidence=75; requests=1"
+        },
+        {
+          "seconds": 1.2677517080155667,
+          "stream": "stdout",
+          "text": "17/104 P1:R17: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 1.3968870000098832,
+          "stream": "stdout",
+          "text": "18/104 P1:R18: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 1.4599631250021048,
+          "stream": "stdout",
+          "text": "19/104 P1:R19: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 1.5225768329983111,
+          "stream": "stdout",
+          "text": "20/104 P1:R20: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 1.5846632909961045,
+          "stream": "stdout",
+          "text": "21/104 P1:R21: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 1.6491405830020085,
+          "stream": "stdout",
+          "text": "22/104 P1:R22: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 1.7129627910035197,
+          "stream": "stdout",
+          "text": "23/104 P1:R23: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 1.7751673750171904,
+          "stream": "stdout",
+          "text": "24/104 P1:R24: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 1.8374166660069022,
+          "stream": "stdout",
+          "text": "25/104 P2:R1: verified; source=CrossRef; confidence=85; requests=1"
+        },
+        {
+          "seconds": 1.9006589160126168,
+          "stream": "stdout",
+          "text": "26/104 P2:R2: verified; source=CrossRef; confidence=100; requests=1"
+        },
+        {
+          "seconds": 1.9636636660143267,
+          "stream": "stdout",
+          "text": "27/104 P2:R3: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 2.0252849160169717,
+          "stream": "stdout",
+          "text": "28/104 P2:R4: verified; source=CrossRef; confidence=100; requests=1"
+        },
+        {
+          "seconds": 2.0896454580069985,
+          "stream": "stdout",
+          "text": "29/104 P2:R5: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 2.154897416010499,
+          "stream": "stdout",
+          "text": "30/104 P2:R6: flagged; source=CrossRef; confidence=47.5; requests=1"
+        },
+        {
+          "seconds": 2.2175772080081515,
+          "stream": "stdout",
+          "text": "31/104 P2:R7: verified; source=CrossRef; confidence=100; requests=1"
+        },
+        {
+          "seconds": 2.2795580830133986,
+          "stream": "stdout",
+          "text": "32/104 P2:R8: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 2.3428646660177037,
+          "stream": "stdout",
+          "text": "33/104 P2:R9: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 2.405573333002394,
+          "stream": "stdout",
+          "text": "34/104 P2:R10: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 2.468067833018722,
+          "stream": "stdout",
+          "text": "35/104 P2:R11: verified; source=CrossRef; confidence=90; requests=1"
+        },
+        {
+          "seconds": 2.5539787500165403,
+          "stream": "stdout",
+          "text": "36/104 P2:R12: verified; source=CrossRef; confidence=100; requests=1"
+        },
+        {
+          "seconds": 2.617108166014077,
+          "stream": "stdout",
+          "text": "37/104 P2:R13: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 2.6806313330016565,
+          "stream": "stdout",
+          "text": "38/104 P2:R14: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 2.743197625008179,
+          "stream": "stdout",
+          "text": "39/104 P2:R15: verified; source=CrossRef; confidence=100; requests=1"
+        },
+        {
+          "seconds": 2.806282875011675,
+          "stream": "stdout",
+          "text": "40/104 P3:R1: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 2.8687407500110567,
+          "stream": "stdout",
+          "text": "41/104 P3:R2: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 2.931230999995023,
+          "stream": "stdout",
+          "text": "42/104 P3:R3: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 2.9931165000016335,
+          "stream": "stdout",
+          "text": "43/104 P3:R4: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 3.0550083330017515,
+          "stream": "stdout",
+          "text": "44/104 P3:R5: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 3.119972290995065,
+          "stream": "stdout",
+          "text": "45/104 P3:R6: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 3.1843357080069836,
+          "stream": "stdout",
+          "text": "46/104 P3:R7: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 3.2469568329979666,
+          "stream": "stdout",
+          "text": "47/104 P3:R8: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 3.3092145830160007,
+          "stream": "stdout",
+          "text": "48/104 P3:R9: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 3.371964207995916,
+          "stream": "stdout",
+          "text": "49/104 P3:R10: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 3.434062125015771,
+          "stream": "stdout",
+          "text": "50/104 P3:R11: verified; source=CrossRef; confidence=100; requests=1"
+        },
+        {
+          "seconds": 3.4962870409945026,
+          "stream": "stdout",
+          "text": "51/104 P3:R12: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 3.5583147080033086,
+          "stream": "stdout",
+          "text": "52/104 P3:R13: verified; source=CrossRef; confidence=100; requests=1"
+        },
+        {
+          "seconds": 3.6207670000148937,
+          "stream": "stdout",
+          "text": "53/104 P3:R14: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 3.6825749580166303,
+          "stream": "stdout",
+          "text": "54/104 P3:R15: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 3.744522291002795,
+          "stream": "stdout",
+          "text": "55/104 P3:R16: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 3.806533708004281,
+          "stream": "stdout",
+          "text": "56/104 P3:R17: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 3.8683278750104364,
+          "stream": "stdout",
+          "text": "57/104 P3:R18: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 3.9302272080094554,
+          "stream": "stdout",
+          "text": "58/104 P3:R19: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 3.9918369160150178,
+          "stream": "stdout",
+          "text": "59/104 P3:R20: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 4.053431041014846,
+          "stream": "stdout",
+          "text": "60/104 P3:R21: verified; source=CrossRef; confidence=100; requests=1"
+        },
+        {
+          "seconds": 4.117896625015419,
+          "stream": "stdout",
+          "text": "61/104 P3:R22: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 4.18186362501001,
+          "stream": "stdout",
+          "text": "62/104 P3:R23: verified; source=CrossRef; confidence=100; requests=1"
+        },
+        {
+          "seconds": 4.2442329580080695,
+          "stream": "stdout",
+          "text": "63/104 P3:R24: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 4.307521915994585,
+          "stream": "stdout",
+          "text": "64/104 P3:R25: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 4.369837250007549,
+          "stream": "stdout",
+          "text": "65/104 P3:R26: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 4.4322181250026915,
+          "stream": "stdout",
+          "text": "66/104 P3:R27: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 4.49455304100411,
+          "stream": "stdout",
+          "text": "67/104 P3:R28: flagged; source=CrossRef; confidence=80; requests=1"
+        },
+        {
+          "seconds": 4.564697082998464,
+          "stream": "stdout",
+          "text": "68/104 P3:R29: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 4.6407775830011815,
+          "stream": "stdout",
+          "text": "69/104 P3:R30: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 4.704657374997623,
+          "stream": "stdout",
+          "text": "70/104 P3:R31: verified; source=CrossRef; confidence=100; requests=1"
+        },
+        {
+          "seconds": 4.767725125013385,
+          "stream": "stdout",
+          "text": "71/104 P3:R32: verified; source=CrossRef; confidence=100; requests=1"
+        },
+        {
+          "seconds": 4.831913458008785,
+          "stream": "stdout",
+          "text": "72/104 P3:R33: flagged; source=CrossRef; confidence=80; requests=1"
+        },
+        {
+          "seconds": 4.894702374993358,
+          "stream": "stdout",
+          "text": "73/104 P3:R34: verified; source=CrossRef; confidence=100; requests=1"
+        },
+        {
+          "seconds": 4.957601666013943,
+          "stream": "stdout",
+          "text": "74/104 P3:R35: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 5.019839874992613,
+          "stream": "stdout",
+          "text": "75/104 P3:R36: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 5.0824262910173275,
+          "stream": "stdout",
+          "text": "76/104 P3:R37: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 5.146424875012599,
+          "stream": "stdout",
+          "text": "77/104 P3:R38: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 5.210378374991706,
+          "stream": "stdout",
+          "text": "78/104 P3:R39: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 5.273713208007393,
+          "stream": "stdout",
+          "text": "79/104 P3:R40: flagged; source=CrossRef; confidence=75; requests=1"
+        },
+        {
+          "seconds": 5.336731165996753,
+          "stream": "stdout",
+          "text": "80/104 P3:R41: verified; source=CrossRef; confidence=100; requests=1"
+        },
+        {
+          "seconds": 5.399390250007855,
+          "stream": "stdout",
+          "text": "81/104 P3:R42: verified; source=CrossRef; confidence=100; requests=1"
+        },
+        {
+          "seconds": 5.462998166010948,
+          "stream": "stdout",
+          "text": "82/104 P3:R43: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 5.5275443750142585,
+          "stream": "stdout",
+          "text": "83/104 P3:R44: verified; source=CrossRef; confidence=100; requests=1"
+        },
+        {
+          "seconds": 5.590570416010451,
+          "stream": "stdout",
+          "text": "84/104 P3:R45: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 5.653403583011823,
+          "stream": "stdout",
+          "text": "85/104 P3:R46: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 5.715925791009795,
+          "stream": "stdout",
+          "text": "86/104 P3:R47: verified; source=CrossRef; confidence=100; requests=1"
+        },
+        {
+          "seconds": 5.778637625015108,
+          "stream": "stdout",
+          "text": "87/104 P3:R48: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 5.841552875004709,
+          "stream": "stdout",
+          "text": "88/104 P3:R49: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 5.903900791017804,
+          "stream": "stdout",
+          "text": "89/104 P3:R50: flagged; source=CrossRef; confidence=75; requests=1"
+        },
+        {
+          "seconds": 5.966595250007231,
+          "stream": "stdout",
+          "text": "90/104 P3:R51: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 6.029924791015219,
+          "stream": "stdout",
+          "text": "91/104 P3:R52: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 6.093514541018521,
+          "stream": "stdout",
+          "text": "92/104 P3:R53: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 6.1597505410027225,
+          "stream": "stdout",
+          "text": "93/104 P3:R54: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 6.22268854099093,
+          "stream": "stdout",
+          "text": "94/104 P3:R55: flagged; source=CrossRef; confidence=75; requests=1"
+        },
+        {
+          "seconds": 6.28595645801397,
+          "stream": "stdout",
+          "text": "95/104 P3:R56: flagged; source=CrossRef; confidence=75; requests=1"
+        },
+        {
+          "seconds": 6.348610415996518,
+          "stream": "stdout",
+          "text": "96/104 P3:R57: flagged; source=CrossRef; confidence=52.5; requests=1"
+        },
+        {
+          "seconds": 6.411840000015218,
+          "stream": "stdout",
+          "text": "97/104 P3:R58: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 6.474981041013962,
+          "stream": "stdout",
+          "text": "98/104 P3:R59: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 6.537022958014859,
+          "stream": "stdout",
+          "text": "99/104 P3:R60: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 6.599830291001126,
+          "stream": "stdout",
+          "text": "100/104 P3:R61: verified; source=CrossRef; confidence=90; requests=1"
+        },
+        {
+          "seconds": 6.662428957992233,
+          "stream": "stdout",
+          "text": "101/104 P3:R62: verified; source=CrossRef; confidence=85; requests=1"
+        },
+        {
+          "seconds": 6.800585958000738,
+          "stream": "stdout",
+          "text": "102/104 P3:R63: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 6.868643166002585,
+          "stream": "stdout",
+          "text": "103/104 P3:R64: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 6.932286499999464,
+          "stream": "stdout",
+          "text": "104/104 P3:R65: flagged; source=NotFound; confidence=0; requests=1"
+        },
+        {
+          "seconds": 6.933682958013378,
+          "stream": "stdout",
+          "text": "{"
+        },
+        {
+          "seconds": 6.941878625017125,
+          "stream": "stdout",
+          "text": "  \"total_rows\": 104,"
+        },
+        {
+          "seconds": 6.941885083011584,
+          "stream": "stdout",
+          "text": "  \"complete_rows\": 104,"
+        },
+        {
+          "seconds": 6.941887124994537,
+          "stream": "stdout",
+          "text": "  \"incomplete_rows\": 0,"
+        },
+        {
+          "seconds": 6.941888875007862,
+          "stream": "stdout",
+          "text": "  \"complete_row_metrics\": {"
+        },
+        {
+          "seconds": 6.9418942499905825,
+          "stream": "stdout",
+          "text": "    \"n\": 104,"
+        },
+        {
+          "seconds": 6.941895875002956,
+          "stream": "stdout",
+          "text": "    \"tp\": 33,"
+        },
+        {
+          "seconds": 6.941897375014378,
+          "stream": "stdout",
+          "text": "    \"fp\": 49,"
+        },
+        {
+          "seconds": 6.9418989999976475,
+          "stream": "stdout",
+          "text": "    \"tn\": 20,"
+        },
+        {
+          "seconds": 6.941900583013194,
+          "stream": "stdout",
+          "text": "    \"fn\": 2,"
+        },
+        {
+          "seconds": 6.941902332997415,
+          "stream": "stdout",
+          "text": "    \"recall\": 0.9428571428571428,"
+        },
+        {
+          "seconds": 6.941904041013913,
+          "stream": "stdout",
+          "text": "    \"false_positive_rate\": 0.7101449275362319,"
+        },
+        {
+          "seconds": 6.941905832994962,
+          "stream": "stdout",
+          "text": "    \"balanced_accuracy\": 0.6163561076604555"
+        },
+        {
+          "seconds": 6.941907500004163,
+          "stream": "stdout",
+          "text": "  },"
+        },
+        {
+          "seconds": 6.941909125016537,
+          "stream": "stdout",
+          "text": "  \"historical_on_same_complete_rows\": {"
+        },
+        {
+          "seconds": 6.941916750016389,
+          "stream": "stdout",
+          "text": "    \"n\": 104,"
+        },
+        {
+          "seconds": 6.941918374999659,
+          "stream": "stdout",
+          "text": "    \"tp\": 31,"
+        },
+        {
+          "seconds": 6.941919916018378,
+          "stream": "stdout",
+          "text": "    \"fp\": 34,"
+        },
+        {
+          "seconds": 6.941921416000696,
+          "stream": "stdout",
+          "text": "    \"tn\": 35,"
+        },
+        {
+          "seconds": 6.941922916012118,
+          "stream": "stdout",
+          "text": "    \"fn\": 4,"
+        },
+        {
+          "seconds": 6.941924582992215,
+          "stream": "stdout",
+          "text": "    \"recall\": 0.8857142857142857,"
+        },
+        {
+          "seconds": 6.941926208004588,
+          "stream": "stdout",
+          "text": "    \"false_positive_rate\": 0.4927536231884058,"
+        },
+        {
+          "seconds": 6.941927790991031,
+          "stream": "stdout",
+          "text": "    \"balanced_accuracy\": 0.69648033126294"
+        },
+        {
+          "seconds": 6.941929416003404,
+          "stream": "stdout",
+          "text": "  },"
+        },
+        {
+          "seconds": 6.941931125009432,
+          "stream": "stdout",
+          "text": "  \"agreement_on_complete_rows\": 0.6057692307692307,"
+        },
+        {
+          "seconds": 6.941933374997461,
+          "stream": "stdout",
+          "text": "  \"all_raw_output_metrics_including_network_failures_not_validated\": {"
+        },
+        {
+          "seconds": 6.941935041017132,
+          "stream": "stdout",
+          "text": "    \"n\": 104,"
+        },
+        {
+          "seconds": 6.94193654099945,
+          "stream": "stdout",
+          "text": "    \"tp\": 33,"
+        },
+        {
+          "seconds": 6.941938125004526,
+          "stream": "stdout",
+          "text": "    \"fp\": 49,"
+        },
+        {
+          "seconds": 6.941939707990969,
+          "stream": "stdout",
+          "text": "    \"tn\": 20,"
+        },
+        {
+          "seconds": 6.941941291006515,
+          "stream": "stdout",
+          "text": "    \"fn\": 2,"
+        },
+        {
+          "seconds": 6.941942833014764,
+          "stream": "stdout",
+          "text": "    \"recall\": 0.9428571428571428,"
+        },
+        {
+          "seconds": 6.941944541002158,
+          "stream": "stdout",
+          "text": "    \"false_positive_rate\": 0.7101449275362319,"
+        },
+        {
+          "seconds": 6.941946083010407,
+          "stream": "stdout",
+          "text": "    \"balanced_accuracy\": 0.6163561076604555"
+        },
+        {
+          "seconds": 6.941947707993677,
+          "stream": "stdout",
+          "text": "  },"
+        },
+        {
+          "seconds": 6.941949291009223,
+          "stream": "stdout",
+          "text": "  \"method\": \"Pinned CheckIfExist CrossRef stage\","
+        },
+        {
+          "seconds": 6.941952458000742,
+          "stream": "stdout",
+          "text": "  \"protocol_sha256\": \"76941b1a632bd70142d53c50f289fb66460d41e6e6838ceb6e6a207c8a637c03\","
+        },
+        {
+          "seconds": 6.941954125009943,
+          "stream": "stdout",
+          "text": "  \"upstream_commit\": \"e4605651751f53579e57a0e14159c2f93b3f5e31\""
+        },
+        {
+          "seconds": 6.941955832997337,
+          "stream": "stdout",
+          "text": "}"
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "title": "Rerun the central voting experiment",
+      "display_command": "python scripts/run_study.py --corrected --out results/demo_consensus_rerun",
+      "argv": [
+        "/Users/chinmay/Documents/Codex/2026-10-18/do-x20/work/assignment7/clean-env/bin/python",
+        "scripts/run_study.py",
+        "--corrected",
+        "--out",
+        "results/demo_consensus_rerun"
+      ],
+      "exit_code": 0,
+      "actual_elapsed_seconds": 0.16464320800150745,
+      "events": [
+        {
+          "seconds": 0.15246308300993405,
+          "stream": "stdout",
+          "text": "DATA VALIDATED: 104 references; 35 problematic; 69 verified"
+        },
+        {
+          "seconds": 0.16458737500943244,
+          "stream": "stdout",
+          "text": "CORRECTED-LABEL BASELINE: {'tp': 34, 'fp': 34, 'tn': 35, 'fn': 1}"
+        },
+        {
+          "seconds": 0.16459429101087153,
+          "stream": "stdout",
+          "text": "method                 TP FP TN FN   recall   FPR     balanced_accuracy"
+        },
+        {
+          "seconds": 0.16459645799477585,
+          "stream": "stdout",
+          "text": "checkifexist           31 34 35  4   0.886    0.493   0.696"
+        },
+        {
+          "seconds": 0.16459837500588037,
+          "stream": "stdout",
+          "text": "hallucitechecker       18 20 49 17   0.514    0.290   0.612"
+        },
+        {
+          "seconds": 0.16460029099835083,
+          "stream": "stdout",
+          "text": "hallucinator           30 27 42  5   0.857    0.391   0.733"
+        },
+        {
+          "seconds": 0.16460204098257236,
+          "stream": "stdout",
+          "text": "halref                 26 51 18  9   0.743    0.739   0.502"
+        },
+        {
+          "seconds": 0.16460358299082145,
+          "stream": "stdout",
+          "text": "refchecker             34 34 35  1   0.971    0.493   0.739"
+        },
+        {
+          "seconds": 0.1646050830022432,
+          "stream": "stdout",
+          "text": "vote_k1                35 68  1  0   1.000    0.986   0.507"
+        },
+        {
+          "seconds": 0.16460679098963737,
+          "stream": "stdout",
+          "text": "vote_k2                35 52 17  0   1.000    0.754   0.623"
+        },
+        {
+          "seconds": 0.16460833299788646,
+          "stream": "stdout",
+          "text": "vote_k3                31 36 33  4   0.886    0.522   0.682"
+        },
+        {
+          "seconds": 0.16461000000708736,
+          "stream": "stdout",
+          "text": "vote_k4                25  9 60 10   0.714    0.130   0.792"
+        },
+        {
+          "seconds": 0.16461158299352974,
+          "stream": "stdout",
+          "text": "vote_k5                13  1 68 22   0.371    0.014   0.678"
+        },
+        {
+          "seconds": 0.16461308300495148,
+          "stream": "stdout",
+          "text": "lodo_selected          30 31 38  5   0.857    0.449   0.704"
+        },
+        {
+          "seconds": 0.16461474998504855,
+          "stream": "stdout",
+          "text": "PRIMARY SUCCESS RULE: {'fpr_reduction': -0.02898550724637683, 'majority_recall': 0.8857142857142857, 'meets_prespecified_rule': False}"
+        },
+        {
+          "seconds": 0.1646164999983739,
+          "stream": "stdout",
+          "text": "LODO THRESHOLDS: [('P1', 4), ('P2', 4), ('P3', 2)]"
+        },
+        {
+          "seconds": 0.16461816598894075,
+          "stream": "stdout",
+          "text": "SAVED: /Users/chinmay/Documents/Codex/2026-10-18/do-x20/outputs/AITR7_Citation_Consensus/results/demo_consensus_rerun"
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "title": "Read the measured result",
+      "display_command": "python scripts/demo_evidence.py results",
+      "argv": [
+        "/Users/chinmay/Documents/Codex/2026-10-18/do-x20/work/assignment7/clean-env/bin/python",
+        "scripts/demo_evidence.py",
+        "results"
+      ],
+      "exit_code": 0,
+      "actual_elapsed_seconds": 0.04861062500276603,
+      "events": [
+        {
+          "seconds": 0.043882166006369516,
+          "stream": "stdout",
+          "text": "METHOD             TP FP TN FN  RECALL    FPR     BA"
+        },
+        {
+          "seconds": 0.04391516599571332,
+          "stream": "stdout",
+          "text": "refchecker         34 34 35  1  0.971   0.493   0.739"
+        },
+        {
+          "seconds": 0.04391895799199119,
+          "stream": "stdout",
+          "text": "vote_k3            31 36 33  4  0.886   0.522   0.682"
+        },
+        {
+          "seconds": 0.043920750002143905,
+          "stream": "stdout",
+          "text": "vote_k4            25  9 60 10  0.714   0.130   0.792"
+        },
+        {
+          "seconds": 0.04392241599271074,
+          "stream": "stdout",
+          "text": "lodo_selected      30 31 38  5  0.857   0.449   0.704"
+        },
+        {
+          "seconds": 0.04392850000294857,
+          "stream": "stdout",
+          "text": ""
+        },
+        {
+          "seconds": 0.04398995800875127,
+          "stream": "stdout",
+          "text": "Primary decision: {'fpr_reduction': -0.02898550724637683, 'majority_recall': 0.8857142857142857, 'meets_prespecified_rule': False}"
+        },
+        {
+          "seconds": 0.04399804098648019,
+          "stream": "stdout",
+          "text": "Triage: 51 automatic; 53 deferred"
+        }
+      ]
+    },
+    {
+      "chapter": 8,
+      "title": "Check baseline coverage and reproduction",
+      "display_command": "python scripts/demo_evidence.py baseline",
+      "argv": [
+        "/Users/chinmay/Documents/Codex/2026-10-18/do-x20/work/assignment7/clean-env/bin/python",
+        "scripts/demo_evidence.py",
+        "baseline"
+      ],
+      "exit_code": 0,
+      "actual_elapsed_seconds": 0.049826083006337285,
+      "events": [
+        {
+          "seconds": 0.04456541599938646,
+          "stream": "stdout",
+          "text": "crossref_baseline : 104 complete of 104"
+        },
+        {
+          "seconds": 0.044578083005035296,
+          "stream": "stdout",
+          "text": "Measured complete-row counts: {'tp': 33, 'fp': 49, 'tn': 20, 'fn': 2}"
+        },
+        {
+          "seconds": 0.044586333009647205,
+          "stream": "stdout",
+          "text": "live_baseline : 23 complete of 104"
+        },
+        {
+          "seconds": 0.044592291000299156,
+          "stream": "stdout",
+          "text": "Measured complete-row counts: {'tp': 1, 'fp': 2, 'tn': 19, 'fn': 1}"
+        },
+        {
+          "seconds": 0.04480479098856449,
+          "stream": "stdout",
+          "text": "crossref_baseline cached algorithm replay identical: True"
+        },
+        {
+          "seconds": 0.045042207988444716,
+          "stream": "stdout",
+          "text": "live_baseline cached algorithm replay identical: True"
+        },
+        {
+          "seconds": 0.045122999988961965,
+          "stream": "stdout",
+          "text": "Original source: e4605651751f53579e57a0e14159c2f93b3f5e31"
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "title": "Explain the deeper analysis and limits",
+      "display_command": "python scripts/demo_evidence.py limits",
+      "argv": [
+        "/Users/chinmay/Documents/Codex/2026-10-18/do-x20/work/assignment7/clean-env/bin/python",
+        "scripts/demo_evidence.py",
+        "limits"
+      ],
+      "exit_code": 0,
+      "actual_elapsed_seconds": 0.04860024998197332,
+      "events": [
+        {
+          "seconds": 0.04400154098402709,
+          "stream": "stdout",
+          "text": "Held-out thresholds: [('P1', 4), ('P2', 4), ('P3', 2)]"
+        },
+        {
+          "seconds": 0.04857191600603983,
+          "stream": "stdout",
+          "text": "Three source documents; inherited manual labels; no human-trust experiment."
+        },
+        {
+          "seconds": 0.04857658300898038,
+          "stream": "stdout",
+          "text": "The 81 incomplete cascade cases are not treated as validated predictions."
+        },
+        {
+          "seconds": 0.048578624991932884,
+          "stream": "stdout",
+          "text": "The additional baseline run does not change the frozen consensus study."
+        }
+      ]
+    },
+    {
+      "chapter": 10,
+      "title": "Find the evidence and reproduce it",
+      "display_command": "python scripts/demo_evidence.py files",
+      "argv": [
+        "/Users/chinmay/Documents/Codex/2026-10-18/do-x20/work/assignment7/clean-env/bin/python",
+        "scripts/demo_evidence.py",
+        "files"
+      ],
+      "exit_code": 0,
+      "actual_elapsed_seconds": 0.051185499993152916,
+      "events": [
+        {
+          "seconds": 0.04618645799928345,
+          "stream": "stdout",
+          "text": "OK paper/main.pdf"
+        },
+        {
+          "seconds": 0.04619737499160692,
+          "stream": "stdout",
+          "text": "OK baseline_validation.md"
+        },
+        {
+          "seconds": 0.04619962500873953,
+          "stream": "stdout",
+          "text": "OK ai_assistance_log.md"
+        },
+        {
+          "seconds": 0.046201374992961064,
+          "stream": "stdout",
+          "text": "OK docs/authentic_prompt_record.md"
+        },
+        {
+          "seconds": 0.046203042002161965,
+          "stream": "stdout",
+          "text": "OK provenance/ai_traceability.json"
+        },
+        {
+          "seconds": 0.04620995800360106,
+          "stream": "stdout",
+          "text": "OK configs/protocol.json"
+        },
+        {
+          "seconds": 0.05115554199437611,
+          "stream": "stdout",
+          "text": "OK configs/live_baseline_protocol.json"
+        },
+        {
+          "seconds": 0.05116000000271015,
+          "stream": "stdout",
+          "text": "OK configs/crossref_baseline_protocol.json"
+        },
+        {
+          "seconds": 0.051162166986614466,
+          "stream": "stdout",
+          "text": "Student explanation, rerun and honest personal reflection remain personal."
+        }
+      ]
+    }
+  ]
+}

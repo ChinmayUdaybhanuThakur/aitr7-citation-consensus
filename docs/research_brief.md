@@ -1,6 +1,6 @@
 # Research brief | AITR 7
 
-Chinmay Thakur · MDE2026011 · 18 October 2026
+Chinmay Thakur · MDE2026011 · Updated 21 October 2026
 
 ## Review and sources
 T23: citation integrity, with presentation, identity, access and claim support separated. Verified original sources: Abbonato (2026), Badalova & Mayr (2026), Shi et al. (2026), and Gao et al. (2023).
@@ -15,7 +15,7 @@ Does a fixed three-of-five majority reduce RefChecker's false-positive rate by a
 How do thresholds, panel removals and source-held-out selection change the trade-off? What review workload and residual errors follow from fixed disagreement deferral?
 
 ## Pathway / build
-Controlled comparative reanalysis. Implement a strict data loader, pure voting/triage functions, grouped threshold selection, metrics, tests and reproducible evidence exports. Original services are not rerun.
+Controlled comparative reanalysis. Implement a strict data loader, pure voting/triage functions, grouped threshold selection, metrics, tests and reproducible evidence exports. Primary study uses recorded decisions. A 21 October supplement executes pinned CheckIfExist code on citation strings.
 
 ## Data and versions
 104 references from three source documents, five checker flags each. Zenodo v1.0.0: 33 problematic / 71 verified. Author-corrected v1.1.0: 35 / 69. Both CC BY 4.0; raw bytes, metadata and hashes retained.
@@ -30,7 +30,7 @@ Primary recall, false-positive rate and balanced accuracy, with confusion counts
 CPU-only tabular processing, no models or paid APIs. Small purposive corpus, inherited labels, heterogeneous sources, conservative duplicate screen, no human-trust or semantic-support measurements.
 
 ## Verified checkpoint
-Historical RefChecker matrix reproduced: TP32 / FP36 / TN35 / FN1. Sixteen tests pass; 24 numerical output files match a clean-environment rerun. Corrected majority has 36 false alarms and 4 misses: the primary target fails.
+Historical RefChecker matrix reproduced: TP32 / FP36 / TN35 / FN1. 16 core and 8 baseline tests pass; 24 primary numerical files reproduce. CrossRef component: 104/104 complete; full cascade: 23/104 complete. Corrected majority has 36 false alarms and 4 misses: the primary target fails.
 
 ## Provenance
-Protocol frozen before reference-level outcomes; published aggregates already known. Corrected release discovered after the first run and analyzed under amendment A2. Student review and live demonstration remain personal responsibilities.
+Protocol frozen before reference-level outcomes; published aggregates already known. A2 records the label correction; A3/A4 transparently add executable baseline checks after the primary study. Student review and live demonstration remain personal responsibilities.

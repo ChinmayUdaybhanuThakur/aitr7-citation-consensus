@@ -1,0 +1,10 @@
+{
+  "url": "https://api.semanticscholar.org/graph/v1/paper/search?query=David%20Pride%20et%20al.%20%3FSoFAIR%20Project%20Dataset%20-%20An%20annotated%20dataset%20of%20software%20mentions%20in%20full%20text%20scientific%20articles.%3F%20In%3A%20Nature%20Scientific%20Data%20(Nov.%20.%20url%3A%20https%3A%2F%2Fordo.open.ac.uk%2Farticles%2Fdataset%2FSoFAIR_Project_Dataset_-_An_annotated_dataset_of_software_mentions_in_full_text_scientific_articles_%2F30374830&limit=5&fields=paperId,title,authors,year,venue,externalIds,url,citationCount,isRetracted",
+  "status": 429,
+  "body_base64": "eyJtZXNzYWdlIjogIlRvbyBNYW55IFJlcXVlc3RzLiBQbGVhc2Ugd2FpdCBhbmQgdHJ5IGFnYWluIG9yIGFwcGx5IGZvciBhIGtleSBmb3IgaGlnaGVyIHJhdGUgbGltaXRzLiBodHRwczovL3d3dy5zZW1hbnRpY3NjaG9sYXIub3JnL3Byb2R1Y3QvYXBpI2FwaS1rZXktZm9ybSIsICJjb2RlIjogIjQyOSJ9",
+  "body_sha256": "65ab993d12c5c2cc9b68e6da2bb79b326930283e520363ffcdc145f88cd5a148",
+  "content_type": "application/json",
+  "error": "HTTP Error 429: ",
+  "retrieved_unix": 1792583402.3067021,
+  "elapsed_seconds": 0.35066699981689453
+}

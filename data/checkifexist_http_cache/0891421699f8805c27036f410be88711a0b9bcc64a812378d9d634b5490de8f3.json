@@ -1,0 +1,10 @@
+{
+  "url": "https://export.arxiv.org/api/query?search_query=ti:David%20Pride%20et%20al.%20%3FSoFAIR%20Project%20Dataset%20-%20An%20annotated%20dataset%20of%20software%20mentions%20in%20full%20text%20scientific%20articles.%3F%20In%3A%20Nature%20Scientific%20Data%20(Nov.%20.%20url%3A%20https%3A%2F%2Fordo.open.ac.uk%2Farticles%2Fdataset%2FSoFAIR_Project_Dataset_-_An_annotated_dataset_of_software_mentions_in_full_text_scientific_articles_%2F30374830&max_results=5&sortBy=relevance&sortOrder=descending",
+  "status": 429,
+  "body_base64": "",
+  "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "content_type": "",
+  "error": "HTTP Error 429: Unknown Error",
+  "retrieved_unix": 1792583402.306598,
+  "elapsed_seconds": 0.43180203437805176
+}

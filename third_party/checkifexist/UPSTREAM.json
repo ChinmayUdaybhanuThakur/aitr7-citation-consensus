@@ -1,0 +1,72 @@
+{
+  "repository": "https://github.com/zabbonat/References-Validation",
+  "commit": "e4605651751f53579e57a0e14159c2f93b3f5e31",
+  "license": "MIT",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "641ceeee7a4011150787369f4a58fd6f33f74209055daf7b0f7d53cb11f8f089",
+      "git_blob_sha": "4c2a360497eab85b133aea6471bcebad2c5454b7"
+    },
+    {
+      "path": "README.md",
+      "sha256": "3a3c3755f58e1399d1538075cdadd6465ac0236257d9d4812794f9c8b9b4c343",
+      "git_blob_sha": "4b8839c03f6abb3342990fa97c535135c2ed371c"
+    },
+    {
+      "path": "src/App.tsx",
+      "sha256": "80316530503f7915399f2aacd043650816d4506ab6d4b6513438050ad46131a5",
+      "git_blob_sha": "e4402d078717e730da494d1314696566d999c4d8"
+    },
+    {
+      "path": "src/components/CheckResultCard.tsx",
+      "sha256": "f7c77b1a5c3c7568a9b33f8d0292407ac4f23e341fa34de65698b2eb3322eb4d",
+      "git_blob_sha": "731b61d903d12abab259782e579e5d973305cbba"
+    },
+    {
+      "path": "mcp-server/src/dom-polyfill.ts",
+      "sha256": "ef0770e6d18545e920029b0321810be2c6f741765c4aebdd20f317dff653ace7",
+      "git_blob_sha": "bf965e204120a9a6a005e9594065d6bd352dbc6b"
+    },
+    {
+      "path": "mcp-server/src/fetch-patch.ts",
+      "sha256": "fef6e109db483944ffa32f40eee4f0957cb4472c2a4185dacddcb67cbcf0de9c",
+      "git_blob_sha": "29513096f7f33a2c5160fa8dc9dd13f514878c20"
+    },
+    {
+      "path": "src/services/ArxivService.ts",
+      "sha256": "e18d3875306692c440d7f0e60022089efb245a2523c114c0c862b1dcac05dfe8",
+      "git_blob_sha": "8bde3c4bd49e42d478273a5aae3241f3c2170594"
+    },
+    {
+      "path": "src/services/DblpService.ts",
+      "sha256": "8e5582a7239668edb7a2c8a2bd9d22d55c996a3236cf8ec4a97b686384280459",
+      "git_blob_sha": "1573ec093d74f09f656fdd0b323454f651a4ecf5"
+    },
+    {
+      "path": "src/services/OpenAlexService.ts",
+      "sha256": "ee6537528d6d3bd7970839b8cc8d065c78f96ec845ecd442ac56094c265fd607",
+      "git_blob_sha": "944d7d8225fb7be3a611a0c1f454277dd0d13e52"
+    },
+    {
+      "path": "src/services/PredatoryService.ts",
+      "sha256": "017ac0210e21152df31e447b8d77e8d68514a0c9ed4f4d6e52b9d7699d0272e2",
+      "git_blob_sha": "5a2939b417508f38c95821c1c3a92f4b54d94e79"
+    },
+    {
+      "path": "src/services/SearchService.ts",
+      "sha256": "e80449d09c1ab95724d92cb5702fbdfe6d0531369689759d36ebdab7666a07c6",
+      "git_blob_sha": "32cca5195f57cdc053b55ac1384505484b9e8bd3"
+    },
+    {
+      "path": "src/services/SemanticScholarService.ts",
+      "sha256": "e70ad6e1ee4be545ca227c920871a081af9a7478a8ca4072ec6abec2555480dd",
+      "git_blob_sha": "5db47f84ec5ea836d1977107c2e249d73c0170ef"
+    },
+    {
+      "path": "src/vendors/predatoryList.json",
+      "sha256": "9d260778f4336863427e2d759ba08c7c0693c00354fc0add9f5e972eba87e138",
+      "git_blob_sha": "5418b0670d90aa6de8b12e712806b6db3c96f5c6"
+    }
+  ]
+}

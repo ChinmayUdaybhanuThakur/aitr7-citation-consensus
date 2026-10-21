@@ -1,0 +1,143 @@
+1/104 P1:R1: verified; source=Arxiv; confidence=95; requests=1
+2/104 P1:R2: transport-incomplete; source=NotFound; confidence=0; requests=10
+3/104 P1:R3: transport-incomplete; source=OpenAlex; confidence=90; requests=5
+4/104 P1:R4: transport-incomplete; source=NotFound; confidence=0; requests=10
+5/104 P1:R5: transport-incomplete; source=NotFound; confidence=0; requests=10
+6/104 P1:R6: transport-incomplete; source=NotFound; confidence=0; requests=5
+7/104 P1:R7: transport-incomplete; source=NotFound; confidence=0; requests=12
+8/104 P1:R8: transport-incomplete; source=NotFound; confidence=0; requests=10
+9/104 P1:R9: transport-incomplete; source=NotFound; confidence=0; requests=10
+10/104 P1:R10: verified; source=Arxiv; confidence=95; requests=1
+11/104 P1:R11: verified; source=Arxiv; confidence=95; requests=1
+12/104 P1:R12: transport-incomplete; source=OpenAlex; confidence=90; requests=5
+13/104 P1:R13: transport-incomplete; source=NotFound; confidence=0; requests=12
+14/104 P1:R14: transport-incomplete; source=NotFound; confidence=0; requests=12
+15/104 P1:R15: transport-incomplete; source=CrossRef; confidence=99; requests=5
+16/104 P1:R16: transport-incomplete; source=OpenAlex; confidence=90; requests=5
+17/104 P1:R17: transport-incomplete; source=NotFound; confidence=0; requests=10
+18/104 P1:R18: verified; source=Arxiv; confidence=95; requests=1
+19/104 P1:R19: transport-incomplete; source=OpenAlex; confidence=48; requests=5
+20/104 P1:R20: verified; source=Arxiv; confidence=95; requests=1
+21/104 P1:R21: transport-incomplete; source=OpenAlex; confidence=60.333333333333336; requests=5
+22/104 P1:R22: transport-incomplete; source=NotFound; confidence=0; requests=12
+23/104 P1:R23: verified; source=Arxiv; confidence=95; requests=1
+24/104 P1:R24: verified; source=Arxiv; confidence=100; requests=1
+25/104 P2:R1: flagged; source=CrossRef; confidence=50; requests=1
+26/104 P2:R2: verified; source=CrossRef; confidence=100; requests=1
+27/104 P2:R3: transport-incomplete; source=NotFound; confidence=0; requests=10
+28/104 P2:R4: verified; source=CrossRef; confidence=100; requests=1
+29/104 P2:R5: transport-incomplete; source=OpenAlex; confidence=90; requests=6
+30/104 P2:R6: transport-incomplete; source=CrossRef; confidence=47.5; requests=6
+31/104 P2:R7: verified; source=CrossRef; confidence=100; requests=1
+32/104 P2:R8: transport-incomplete; source=NotFound; confidence=0; requests=14
+33/104 P2:R9: transport-incomplete; source=NotFound; confidence=0; requests=12
+34/104 P2:R10: transport-incomplete; source=NotFound; confidence=0; requests=10
+35/104 P2:R11: verified; source=CrossRef; confidence=100; requests=1
+36/104 P2:R12: verified; source=CrossRef; confidence=100; requests=1
+37/104 P2:R13: flagged; source=CrossRef; confidence=50; requests=1
+38/104 P2:R14: transport-incomplete; source=NotFound; confidence=0; requests=12
+39/104 P2:R15: verified; source=CrossRef; confidence=100; requests=1
+40/104 P3:R1: transport-incomplete; source=OpenAlex; confidence=90; requests=5
+41/104 P3:R2: transport-incomplete; source=NotFound; confidence=0; requests=12
+42/104 P3:R3: transport-incomplete; source=NotFound; confidence=0; requests=12
+43/104 P3:R4: transport-incomplete; source=NotFound; confidence=0; requests=10
+44/104 P3:R5: transport-incomplete; source=OpenAlex; confidence=66.66666666666667; requests=5
+45/104 P3:R6: transport-incomplete; source=NotFound; confidence=0; requests=12
+46/104 P3:R7: transport-incomplete; source=NotFound; confidence=0; requests=12
+47/104 P3:R8: transport-incomplete; source=NotFound; confidence=0; requests=12
+48/104 P3:R9: transport-incomplete; source=NotFound; confidence=0; requests=10
+49/104 P3:R10: transport-incomplete; source=NotFound; confidence=0; requests=12
+50/104 P3:R11: transport-incomplete; source=CrossRef; confidence=100; requests=5
+51/104 P3:R12: transport-incomplete; source=OpenAlex; confidence=90; requests=5
+52/104 P3:R13: transport-incomplete; source=CrossRef; confidence=100; requests=6
+53/104 P3:R14: transport-incomplete; source=CrossRef; confidence=99; requests=5
+54/104 P3:R15: transport-incomplete; source=OpenAlex; confidence=90; requests=5
+55/104 P3:R16: transport-incomplete; source=OpenAlex; confidence=90; requests=5
+56/104 P3:R17: transport-incomplete; source=OpenAlex; confidence=90; requests=5
+57/104 P3:R18: transport-incomplete; source=OpenAlex; confidence=89; requests=5
+58/104 P3:R19: transport-incomplete; source=OpenAlex; confidence=75; requests=5
+59/104 P3:R20: transport-incomplete; source=NotFound; confidence=0; requests=10
+60/104 P3:R21: transport-incomplete; source=NotFound; confidence=0; requests=10
+61/104 P3:R22: transport-incomplete; source=NotFound; confidence=0; requests=10
+62/104 P3:R23: verified; source=CrossRef; confidence=100; requests=1
+63/104 P3:R24: transport-incomplete; source=NotFound; confidence=0; requests=10
+64/104 P3:R25: transport-incomplete; source=NotFound; confidence=0; requests=12
+65/104 P3:R26: transport-incomplete; source=NotFound; confidence=0; requests=10
+66/104 P3:R27: transport-incomplete; source=NotFound; confidence=0; requests=10
+67/104 P3:R28: transport-incomplete; source=CrossRef; confidence=80; requests=5
+68/104 P3:R29: transport-incomplete; source=NotFound; confidence=0; requests=12
+69/104 P3:R30: transport-incomplete; source=OpenAlex; confidence=90; requests=5
+70/104 P3:R31: transport-incomplete; source=CrossRef; confidence=100; requests=5
+71/104 P3:R32: verified; source=CrossRef; confidence=100; requests=1
+72/104 P3:R33: transport-incomplete; source=OpenAlex; confidence=90; requests=5
+73/104 P3:R34: transport-incomplete; source=CrossRef; confidence=100; requests=5
+74/104 P3:R35: transport-incomplete; source=NotFound; confidence=0; requests=10
+75/104 P3:R36: transport-incomplete; source=NotFound; confidence=0; requests=10
+76/104 P3:R37: transport-incomplete; source=NotFound; confidence=0; requests=12
+77/104 P3:R38: transport-incomplete; source=NotFound; confidence=0; requests=10
+78/104 P3:R39: transport-incomplete; source=NotFound; confidence=0; requests=12
+79/104 P3:R40: transport-incomplete; source=OpenAlex; confidence=90; requests=5
+80/104 P3:R41: transport-incomplete; source=CrossRef; confidence=100; requests=5
+81/104 P3:R42: transport-incomplete; source=CrossRef; confidence=100; requests=5
+82/104 P3:R43: flagged; source=CrossRef; confidence=50; requests=1
+83/104 P3:R44: transport-incomplete; source=CrossRef; confidence=100; requests=5
+84/104 P3:R45: transport-incomplete; source=OpenAlex; confidence=90; requests=5
+85/104 P3:R46: transport-incomplete; source=OpenAlex; confidence=90; requests=5
+86/104 P3:R47: transport-incomplete; source=CrossRef; confidence=100; requests=5
+87/104 P3:R48: transport-incomplete; source=NotFound; confidence=0; requests=10
+88/104 P3:R49: transport-incomplete; source=NotFound; confidence=0; requests=10
+89/104 P3:R50: transport-incomplete; source=CrossRef; confidence=50; requests=5
+90/104 P3:R51: transport-incomplete; source=NotFound; confidence=0; requests=10
+91/104 P3:R52: transport-incomplete; source=CrossRef; confidence=45.5; requests=5
+92/104 P3:R53: transport-incomplete; source=NotFound; confidence=0; requests=12
+93/104 P3:R54: transport-incomplete; source=NotFound; confidence=0; requests=12
+94/104 P3:R55: transport-incomplete; source=OpenAlex; confidence=90; requests=5
+95/104 P3:R56: verified; source=CrossRef; confidence=100; requests=1
+96/104 P3:R57: transport-incomplete; source=OpenAlex; confidence=75; requests=5
+97/104 P3:R58: transport-incomplete; source=NotFound; confidence=0; requests=12
+98/104 P3:R59: verified; source=Arxiv; confidence=95; requests=1
+99/104 P3:R60: transport-incomplete; source=NotFound; confidence=0; requests=10
+100/104 P3:R61: transport-incomplete; source=NotFound; confidence=0; requests=10
+101/104 P3:R62: verified; source=CrossRef; confidence=100; requests=1
+102/104 P3:R63: verified; source=Arxiv; confidence=95; requests=1
+103/104 P3:R64: verified; source=Arxiv; confidence=95; requests=1
+104/104 P3:R65: transport-incomplete; source=NotFound; confidence=0; requests=12
+{
+  "total_rows": 104,
+  "complete_rows": 23,
+  "incomplete_rows": 81,
+  "complete_row_metrics": {
+    "n": 23,
+    "tp": 1,
+    "fp": 2,
+    "tn": 19,
+    "fn": 1,
+    "recall": 0.5,
+    "false_positive_rate": 0.09523809523809523,
+    "balanced_accuracy": 0.7023809523809523
+  },
+  "historical_on_same_complete_rows": {
+    "n": 23,
+    "tp": 1,
+    "fp": 6,
+    "tn": 15,
+    "fn": 1,
+    "recall": 0.5,
+    "false_positive_rate": 0.2857142857142857,
+    "balanced_accuracy": 0.6071428571428572
+  },
+  "agreement_on_complete_rows": 0.7391304347826086,
+  "all_raw_output_metrics_including_network_failures_not_validated": {
+    "n": 104,
+    "tp": 30,
+    "fp": 28,
+    "tn": 41,
+    "fn": 5,
+    "recall": 0.8571428571428571,
+    "false_positive_rate": 0.4057971014492754,
+    "balanced_accuracy": 0.7256728778467909
+  },
+  "method": "Pinned CheckIfExist full fallback cascade",
+  "protocol_sha256": "2be4af0c15cd0bcfe96532e8273cf0f768e6457c350ac9df90062d77392a0465",
+  "upstream_commit": "e4605651751f53579e57a0e14159c2f93b3f5e31"
+}

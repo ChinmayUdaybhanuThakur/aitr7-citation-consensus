@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?filter=title.search:Marlowe%3A%20Stanford%3Fs%20GPU-based%20Computational%20Instrument%20(Version%200.1)&per_page=5&mailto=contact@example.com",
+  "status": 400,
+  "body_base64": "eyJlcnJvciI6IkludmFsaWQgcXVlcnkgcGFyYW1ldGVycyBlcnJvci4iLCJtZXNzYWdlIjoiV2lsZGNhcmRzICgqIG9yID8pIHJlcXVpcmUgdGhlIGV4YWN0IChuby1zdGVtKSBmaWVsZC4gXCJ0aXRsZS5zZWFyY2hcIiBpcyBzdGVtbWVkLCBzbyB0aGUgbGl0ZXJhbCB0ZXh0IGJlZm9yZSB0aGUgd2lsZGNhcmQgaXMgcmVtb3ZlZCB3aGVuIHRoZSB3b3JrIGlzIGluZGV4ZWQgYW5kIHRoZSBzZWFyY2ggcmV0dXJucyB3cm9uZyByZXN1bHRzLiBVc2UgXCJ0aXRsZS5zZWFyY2guZXhhY3RcIiBpbnN0ZWFkLCBlLmcuIHRpdGxlLnNlYXJjaC5leGFjdDpNYXJsb3dlOiBTdGFuZm9yZD9zIEdQVS1iYXNlZCBDb21wdXRhdGlvbmFsIEluc3RydW1lbnQgKFZlcnNpb24gMC4xKS4ifQo=",
+  "body_sha256": "3fd100b465159d952da94d22121a098926573b34f6b62ef8721acaf155d9ecfa",
+  "content_type": "application/json",
+  "error": "HTTP Error 400: Bad Request",
+  "retrieved_unix": 1792583357.835722,
+  "elapsed_seconds": 0.6711339950561523
+}

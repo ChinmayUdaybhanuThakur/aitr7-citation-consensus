@@ -1,0 +1,11 @@
+{
+  "chapters": 10,
+  "successful_commands": 10,
+  "duration_seconds": 300.021333,
+  "audio": "Synthetic macOS Samantha narration",
+  "video_sha256": "4a4124a3639010ce7f574a45bec34c8e3d7ff23089c4d48c20153609b19c2a2e",
+  "commands_are_real": true,
+  "desktop_screen_recording": false,
+  "student_presentation": false,
+  "all_source_commands_exit_zero": true
+}

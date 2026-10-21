@@ -1,0 +1,10 @@
+{
+  "url": "https://dblp.org/search/publ/api?q=Evaluation%20and%20Comparison%20of%20Open%20Source%20Bibliographic%20Reference%20Parsers&format=json&h=5",
+  "status": 429,
+  "body_base64": "",
+  "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "content_type": "",
+  "error": "HTTP Error 429: Too Many Requests",
+  "retrieved_unix": 1792583368.03549,
+  "elapsed_seconds": 0.6136898994445801
+}

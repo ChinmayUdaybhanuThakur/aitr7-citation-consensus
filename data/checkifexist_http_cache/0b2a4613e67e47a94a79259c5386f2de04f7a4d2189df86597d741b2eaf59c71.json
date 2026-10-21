@@ -1,0 +1,10 @@
+{
+  "url": "https://dblp.org/search/publ/api?q=and%20Petr%20Knoth.%20%3FIdentifying%20and%20extracting%20Data%20Access%20Statements%20from%20full-text%20academic%20articles%3F&format=json&h=5",
+  "status": 429,
+  "body_base64": "",
+  "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "content_type": "",
+  "error": "HTTP Error 429: Too Many Requests",
+  "retrieved_unix": 1792583395.319965,
+  "elapsed_seconds": 0.6108942031860352
+}

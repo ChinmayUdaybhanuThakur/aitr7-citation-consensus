@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?filter=title.search:and%20Frank%20Kr%C2%81ger.%20%3FSoftwareKG%3Fa%20knowledge%20graph%20of%20software%20mentions%20from%20biomedical%20literature%3F&per_page=5&mailto=contact@example.com",
+  "status": 400,
+  "body_base64": "eyJlcnJvciI6IkludmFsaWQgcXVlcnkgcGFyYW1ldGVycyBlcnJvci4iLCJtZXNzYWdlIjoiTGVhZGluZyB3aWxkY2FyZHMgYXJlIG5vdCBzdXBwb3J0ZWQgKHRvbyBleHBlbnNpdmUpOiBcIj9Tb2Z0d2FyZUtHP2FcIi4gQW5jaG9yIHRoZSB3aWxkY2FyZCB3aXRoIGF0IGxlYXN0IDMgbGVhZGluZyBjaGFyYWN0ZXJzLCBlLmcuIGN5Y2xlKi4ifQo=",
+  "body_sha256": "2469ea4c41b3f2cab059d590964cbcdcfa23de608864265ca2502696888fffe4",
+  "content_type": "application/json",
+  "error": "HTTP Error 400: Bad Request",
+  "retrieved_unix": 1792583393.707959,
+  "elapsed_seconds": 0.7063970565795898
+}

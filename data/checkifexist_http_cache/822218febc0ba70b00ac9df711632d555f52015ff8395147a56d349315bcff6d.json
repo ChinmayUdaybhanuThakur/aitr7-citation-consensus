@@ -1,0 +1,10 @@
+{
+  "url": "https://export.arxiv.org/api/query?search_query=ti:and%20Frank%20Kr%C2%81ger.%20%3FSoMeSci%3FA%205%20Star%20Open%20Data%20Gold%20Standard%20Knowledge%20Graph%20of%20Software%20Mentions%20in%20Scientific%20Articles%3F&max_results=5&sortBy=relevance&sortOrder=descending",
+  "status": 429,
+  "body_base64": "",
+  "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "content_type": "",
+  "error": "HTTP Error 429: Unknown Error",
+  "retrieved_unix": 1792583387.211731,
+  "elapsed_seconds": 0.43319201469421387
+}

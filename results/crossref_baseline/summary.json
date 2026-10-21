@@ -1,0 +1,39 @@
+{
+  "total_rows": 104,
+  "complete_rows": 104,
+  "incomplete_rows": 0,
+  "complete_row_metrics": {
+    "n": 104,
+    "tp": 33,
+    "fp": 49,
+    "tn": 20,
+    "fn": 2,
+    "recall": 0.9428571428571428,
+    "false_positive_rate": 0.7101449275362319,
+    "balanced_accuracy": 0.6163561076604555
+  },
+  "historical_on_same_complete_rows": {
+    "n": 104,
+    "tp": 31,
+    "fp": 34,
+    "tn": 35,
+    "fn": 4,
+    "recall": 0.8857142857142857,
+    "false_positive_rate": 0.4927536231884058,
+    "balanced_accuracy": 0.69648033126294
+  },
+  "agreement_on_complete_rows": 0.6057692307692307,
+  "all_raw_output_metrics_including_network_failures_not_validated": {
+    "n": 104,
+    "tp": 33,
+    "fp": 49,
+    "tn": 20,
+    "fn": 2,
+    "recall": 0.9428571428571428,
+    "false_positive_rate": 0.7101449275362319,
+    "balanced_accuracy": 0.6163561076604555
+  },
+  "method": "Pinned CheckIfExist CrossRef stage",
+  "protocol_sha256": "76941b1a632bd70142d53c50f289fb66460d41e6e6838ceb6e6a207c8a637c03",
+  "upstream_commit": "e4605651751f53579e57a0e14159c2f93b3f5e31"
+}

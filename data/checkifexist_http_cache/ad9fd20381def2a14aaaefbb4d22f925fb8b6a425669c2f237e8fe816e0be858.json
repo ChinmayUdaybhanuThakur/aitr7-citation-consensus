@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?filter=title.search:and%20Frank%20Kr%C2%81ger.%20%3FSoMeSci%3FA%205%20Star%20Open%20Data%20Gold%20Standard%20Knowledge%20Graph%20of%20Software%20Mentions%20in%20Scientific%20Articles%3F&per_page=5&mailto=contact@example.com",
+  "status": 400,
+  "body_base64": "eyJlcnJvciI6IkludmFsaWQgcXVlcnkgcGFyYW1ldGVycyBlcnJvci4iLCJtZXNzYWdlIjoiTGVhZGluZyB3aWxkY2FyZHMgYXJlIG5vdCBzdXBwb3J0ZWQgKHRvbyBleHBlbnNpdmUpOiBcIj9Tb01lU2NpP0FcIi4gQW5jaG9yIHRoZSB3aWxkY2FyZCB3aXRoIGF0IGxlYXN0IDMgbGVhZGluZyBjaGFyYWN0ZXJzLCBlLmcuIGN5Y2xlKi4ifQo=",
+  "body_sha256": "cd05dc7e7175626c1462b815ac10dbb68bbb2a7570e5cbbc418c7f64841c1c1b",
+  "content_type": "application/json",
+  "error": "HTTP Error 400: Bad Request",
+  "retrieved_unix": 1792583387.211622,
+  "elapsed_seconds": 0.6487588882446289
+}

@@ -1,0 +1,16 @@
+✔ Verified starts strictly above 80, matching upstream UI (0.577792ms)
+✔ High score without an existing match remains flagged (0.111041ms)
+✔ Missing confidence is rejected rather than silently classified (0.163125ms)
+✔ A request returning a syntactically invalid payload invalidates coverage (0.478042ms)
+✔ A failed fallback cannot masquerade as full evidence (0.086709ms)
+✔ A transport timeout invalidates coverage (0.062417ms)
+✔ An explicit 404 miss is a completed lookup (0.061916ms)
+✔ No retrieval evidence is incomplete (0.057625ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 59.515083

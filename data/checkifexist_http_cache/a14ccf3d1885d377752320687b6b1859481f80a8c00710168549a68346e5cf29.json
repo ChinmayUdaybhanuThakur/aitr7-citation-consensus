@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?filter=title.search:and%20Petr%20Knoth.%20%3FIdentifying%20and%20extracting%20Data%20Access%20Statements%20from%20full-text%20academic%20articles%3F&per_page=5&mailto=contact@example.com",
+  "status": 400,
+  "body_base64": "eyJlcnJvciI6IkludmFsaWQgcXVlcnkgcGFyYW1ldGVycyBlcnJvci4iLCJtZXNzYWdlIjoiTGVhZGluZyB3aWxkY2FyZHMgYXJlIG5vdCBzdXBwb3J0ZWQgKHRvbyBleHBlbnNpdmUpOiBcIj9JZGVudGlmeWluZ1wiLiBBbmNob3IgdGhlIHdpbGRjYXJkIHdpdGggYXQgbGVhc3QgMyBsZWFkaW5nIGNoYXJhY3RlcnMsIGUuZy4gY3ljbGUqLiJ9Cg==",
+  "body_sha256": "b19805396eb5ad76e50db4c5682a0278e32ebfbaa70b642a1587d1193efd6777",
+  "content_type": "application/json",
+  "error": "HTTP Error 400: Bad Request",
+  "retrieved_unix": 1792583395.319772,
+  "elapsed_seconds": 0.7004780769348145
+}

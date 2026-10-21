@@ -1,0 +1,10 @@
+{
+  "url": "https://dblp.org/search/publ/api?q=Reasoning%20with%20heterogeneous%20graph%20representations%20for%20knowledge-aware%20question%20answering&format=json&h=5",
+  "status": 429,
+  "body_base64": "",
+  "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "content_type": "",
+  "error": "HTTP Error 429: Too Many Requests",
+  "retrieved_unix": 1792583591.7768588,
+  "elapsed_seconds": 0.655529260635376
+}

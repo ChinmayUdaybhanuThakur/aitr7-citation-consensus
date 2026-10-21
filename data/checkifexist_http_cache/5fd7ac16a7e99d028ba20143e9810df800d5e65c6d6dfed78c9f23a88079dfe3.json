@@ -1,0 +1,10 @@
+{
+  "url": "https://dblp.org/search/publ/api?q=CiteX%3A%20Workshop%20on%20Citation%20Extraction%20and%20Parsing.%20https%3A%2F%2Fsites.google.com%2Fview%2Fworkshop-on-citation-extractio%2Fstartseite&format=json&h=5",
+  "status": 429,
+  "body_base64": "",
+  "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "content_type": "",
+  "error": "HTTP Error 429: Too Many Requests",
+  "retrieved_unix": 1792583339.768328,
+  "elapsed_seconds": 0.6130740642547607
+}

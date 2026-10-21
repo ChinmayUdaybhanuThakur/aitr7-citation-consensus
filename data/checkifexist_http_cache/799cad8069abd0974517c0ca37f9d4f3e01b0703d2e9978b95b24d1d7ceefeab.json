@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?filter=title.search:David%20Pride%20et%20al.%20%3FSoFAIR%20Project%20Dataset%20-%20An%20annotated%20dataset%20of%20software%20mentions%20in%20full%20text%20scientific%20articles.%3F%20In%3A%20Nature%20Scientific%20Data%20(Nov.%20.%20url%3A%20https%3A%2F%2Fordo.open.ac.uk%2Farticles%2Fdataset%2FSoFAIR_Project_Dataset_-_An_annotated_dataset_of_software_mentions_in_full_text_scientific_articles_%2F30374830&per_page=5&mailto=contact@example.com",
+  "status": 400,
+  "body_base64": "eyJlcnJvciI6IkludmFsaWQgcXVlcnkgcGFyYW1ldGVycyBlcnJvci4iLCJtZXNzYWdlIjoiTGVhZGluZyB3aWxkY2FyZHMgYXJlIG5vdCBzdXBwb3J0ZWQgKHRvbyBleHBlbnNpdmUpOiBcIj9Tb0ZBSVJcIi4gQW5jaG9yIHRoZSB3aWxkY2FyZCB3aXRoIGF0IGxlYXN0IDMgbGVhZGluZyBjaGFyYWN0ZXJzLCBlLmcuIGN5Y2xlKi4ifQo=",
+  "body_sha256": "9ea1fbc431550a5bf80b66278032ff442cb4338bc14c9fefd678a7851ee2dbd3",
+  "content_type": "application/json",
+  "error": "HTTP Error 400: Bad Request",
+  "retrieved_unix": 1792583402.306806,
+  "elapsed_seconds": 0.6821749210357666
+}

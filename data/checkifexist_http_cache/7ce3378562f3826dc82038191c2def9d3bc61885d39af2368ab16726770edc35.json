@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?filter=title.search:and%20Patrice%20Lopez.%20%3FSoftcite%3A%20Automatic%20Extraction%20of%20Software%20Mentions%20in%20Research%20Literature%3F&per_page=5&mailto=contact@example.com",
+  "status": 400,
+  "body_base64": "eyJlcnJvciI6IkludmFsaWQgcXVlcnkgcGFyYW1ldGVycyBlcnJvci4iLCJtZXNzYWdlIjoiTGVhZGluZyB3aWxkY2FyZHMgYXJlIG5vdCBzdXBwb3J0ZWQgKHRvbyBleHBlbnNpdmUpOiBcIj9Tb2Z0Y2l0ZTpcIi4gQW5jaG9yIHRoZSB3aWxkY2FyZCB3aXRoIGF0IGxlYXN0IDMgbGVhZGluZyBjaGFyYWN0ZXJzLCBlLmcuIGN5Y2xlKi4ifQo=",
+  "body_sha256": "0990899991742db6ce790813569a58d21faaa010e6a51ea8e05bbdd9fe0e1635",
+  "content_type": "application/json",
+  "error": "HTTP Error 400: Bad Request",
+  "retrieved_unix": 1792583380.7072809,
+  "elapsed_seconds": 0.6382720470428467
+}
