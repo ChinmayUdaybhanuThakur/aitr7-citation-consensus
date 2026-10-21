@@ -2,7 +2,7 @@
 
 **Chinmay Thakur · MDE2026011 · IIIT Allahabad · 18 October 2026**
 
-A working, CPU-only controlled study of five citation checkers' **released decisions**. This project implements voting, source-held-out threshold selection, panel ablations, and review deferral. It does not rerun the five services or check arbitrary citation strings against the internet.
+A working, CPU-only controlled study of five citation checkers' **released decisions**. This project implements voting, source-held-out threshold selection, panel ablations, and review deferral. The primary comparison uses the five released decision columns. A separately dated supplement now executes the original CheckIfExist code on citation strings, with cached public responses; this is not a fresh five-service benchmark.
 
 ## Main measured result
 
@@ -70,7 +70,7 @@ Exact numerical results are deterministic; timestamps, platform strings, timing 
 - `results/`: historical experiment; `results/corrected/`: author-corrected labels.
 - `provenance/`: protocol freeze, download hashes, label audit, environment and reproduction evidence.
 - `ai_assistance_log.md`: authentic AI work, actual failures, and unverified human actions.
-- `demo/five_minute_walkthrough.mp4`: exactly five minutes of captioned code-and-results panels, with no audio or claim of a student recording. `demo/walkthrough.html` is an interactive version; the script and viva guide are alongside it.
+- `demo/five_minute_walkthrough.mp4`: five minutes of genuine recorded command execution rendered as a terminal, with clearly labelled synthetic narration. `demo/execution_transcript.json` contains measured events/exit codes. This is not a recording of the student or a desktop screen capture. The script and viva guide are alongside it.
 - `docs/technical_review.md`: assistant technical audit and revision responses.
 - `docs/assignment_checklist.md`: mapping to the assignment's 18 prompt stages and submission items.
 
@@ -82,10 +82,35 @@ For source-held-out selection, choose k using the mean balanced accuracy of the 
 
 Triage accepts 0–1 flags, defers 2–3, and flags 4–5. It defers 53 of 104 references. The automatic subset has 51 references and nine errors; ten corrected-label problems are deferred. Deferral is not counted as success, and conditional recall is not overall recall.
 
-This purposive three-document sample cannot estimate prevalence or deployment performance. Ground truth and base-tool outputs are inherited. The bootstrap is conditional on these sources. No human trust, formatting intervention, live checker rerun, participant experiment, or complete semantic citation audit is claimed.
+This purposive three-document sample cannot estimate prevalence or deployment performance. Ground truth and base-tool outputs are inherited. The bootstrap is conditional on these sources. No human trust, formatting intervention, participant experiment, complete semantic citation audit, or current five-checker benchmark is claimed. The separate CheckIfExist supplement is bounded by its documented source version and retrieval failures.
 
 ## Credits and license
 
 Data: Fidan Badalova and Philipp Mayr, *Manual Reference Verification Dataset for Hallucinated and Suspicious Citation Detection Tools*, Zenodo [v1.0.0](https://doi.org/10.5281/zenodo.21457492) and [v1.1.0](https://doi.org/10.5281/zenodo.23236264), CC BY 4.0. See `data/README.md`. The dataset authors and tool developers are not authors or endorsers of this reanalysis.
 
-Original project code is MIT licensed (`LICENSE`); dataset terms remain CC BY 4.0. No third-party checker code is copied into the implementation. See the verified bibliography for source papers. Codex assisted with design, code, execution, analysis, and writing. The student must review and understand the work before submission; prepared materials are not evidence of a completed student demonstration.
+Original project code is MIT licensed (`LICENSE`); dataset terms remain CC BY 4.0. The pinned CheckIfExist code is redistributed under its original MIT license in `third_party/checkifexist/`; the original notices are retained. HTTP metadata retain their source terms and are not relabelled as original project code. See the verified bibliography for source papers. Codex assisted with design, code, execution, analysis, and writing. The student must review and understand the work before submission; prepared materials are not evidence of a completed student demonstration.
+
+## Executable original-source baseline (21 October supplement)
+
+Requires Node 18+ and Python 3; validation used the versions in `results/*baseline*/run_manifest.json`. The prebuilt module has no npm runtime dependencies. The following commands were executed, including two byte-identical algorithm replays:
+
+```bash
+node --test tests/test_baseline_policy.mjs
+node scripts/run_live_baseline.mjs --crossref-only --out results/crossref_baseline_replay
+node scripts/run_live_baseline.mjs --out results/live_baseline_replay
+python scripts/demo_evidence.py baseline
+```
+
+These commands use the included response cache and make no network requests. If Python is not named `python3`, set `AITR_PYTHON` to its executable. Optional `--live` permits missing cache entries to be acquired from public endpoints without credentials; an existing cached response is not overwritten. `AITR_HTTP_PROXY` is an optional environment proxy, not a credential. The actual online acquisition was executed, but future service availability is not promised.
+
+The original CrossRef stage completed 104/104 cases (TP33 FP49 TN20 FN2); the full cascade completed retrieval for only 23/104 cases. Do not compare a small complete-case subset with the full corpus as if it were representative. See A3/A4, `baseline_validation.md` and `docs/completion_repair.md`.
+
+`provenance/ai_traceability.json` and `docs/authentic_prompt_record.md` now link the actual task prompts, model identifier, tool-call receipts, Git changes and verification artifacts. Unavailable backend-build details and unobserved student actions remain explicitly unknown.
+
+To rebuild the vendored module, use esbuild 0.25.11 (used and recorded for this build):
+
+```bash
+npx --yes esbuild@0.25.11 scripts/upstream_entry.ts --bundle --platform=node --format=esm --outfile=scripts/vendor_checkifexist.mjs
+```
+
+The equivalent build was executed with the locally installed, pinned esbuild binary. Rebuilding is unnecessary for ordinary reproduction. The original sources and bundle are included.

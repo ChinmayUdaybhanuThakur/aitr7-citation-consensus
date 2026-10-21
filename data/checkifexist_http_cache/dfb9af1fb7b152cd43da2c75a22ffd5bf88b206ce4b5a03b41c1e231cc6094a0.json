@@ -1,0 +1,10 @@
+{
+  "url": "https://export.arxiv.org/api/query?search_query=ti:The%20curious%20case%20of%20neural%20text%20degeneration.%20arXiv%20preprint%20arXiv%3A.09751&max_results=5&sortBy=relevance&sortOrder=descending",
+  "status": 429,
+  "body_base64": "",
+  "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "content_type": "",
+  "error": "HTTP Error 429: Unknown Error",
+  "retrieved_unix": 1792583411.167091,
+  "elapsed_seconds": 0.4252350330352783
+}

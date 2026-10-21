@@ -1,0 +1,10 @@
+{
+  "url": "https://dblp.org/search/publ/api?q=The%20capacity%20for%20moral%20self-correction%20in%20large%20language%20models.%20arXiv&format=json&h=5",
+  "status": 429,
+  "body_base64": "",
+  "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "content_type": "",
+  "error": "HTTP Error 429: Too Many Requests",
+  "retrieved_unix": 1792583552.788216,
+  "elapsed_seconds": 0.6375858783721924
+}

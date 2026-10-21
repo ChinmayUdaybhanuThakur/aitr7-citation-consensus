@@ -1,0 +1,10 @@
+{
+  "url": "https://dblp.org/search/publ/api?q=URL%20https%3A%2F%2Fgithub.com%2Fmeta-llama%2Fllama3%2Fblob%2Fmain%2FMODEL_CARD.md&format=json&h=5",
+  "status": 429,
+  "body_base64": "",
+  "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "content_type": "",
+  "error": "HTTP Error 429: Too Many Requests",
+  "retrieved_unix": 1792583605.930965,
+  "elapsed_seconds": 0.6547000408172607
+}

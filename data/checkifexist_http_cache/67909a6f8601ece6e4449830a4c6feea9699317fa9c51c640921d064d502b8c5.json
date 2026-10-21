@@ -1,0 +1,10 @@
+{
+  "url": "https://export.arxiv.org/api/query?search_query=ti:A%20broad-coverage%20challenge%20corpus%20for%20sentence%20understanding%20through%20inference&max_results=5&sortBy=relevance&sortOrder=descending",
+  "status": 429,
+  "body_base64": "",
+  "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "content_type": "",
+  "error": "HTTP Error 429: Unknown Error",
+  "retrieved_unix": 1792583517.38961,
+  "elapsed_seconds": 0.42798304557800293
+}

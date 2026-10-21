@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-21",
+  "core_tests": 16,
+  "baseline_policy_tests": 8,
+  "core_protocol_unchanged": true,
+  "source_files_unmodified": true,
+  "baseline_runs": {
+    "live_baseline": {
+      "rows": 104,
+      "complete_rows": 23,
+      "replay_byte_identical": true,
+      "independently_counted": {
+        "tp": 1,
+        "fp": 2,
+        "tn": 19,
+        "fn": 1
+      },
+      "prediction_sha256": "d67b95458c1f0200256b92e4940f45adffe11dd98685f8676efe8e2997d26124"
+    },
+    "crossref_baseline": {
+      "rows": 104,
+      "complete_rows": 104,
+      "replay_byte_identical": true,
+      "independently_counted": {
+        "tp": 33,
+        "fp": 49,
+        "tn": 20,
+        "fn": 2
+      },
+      "prediction_sha256": "c1c01160c6a9acf8a04efd50c096667dc001e0131b61b2bf93cf4eb671ffd548"
+    }
+  },
+  "current_primary_protocol_sha256": "4c9b3d58221784d10f8ac24eb99456cd20927c65b21c82107ee335cd06f16eda",
+  "protocol_freeze_record": {
+    "frozen_at_utc": "2026-10-18T13:39:30.461939+00:00",
+    "sha256": "4c9b3d58221784d10f8ac24eb99456cd20927c65b21c82107ee335cd06f16eda",
+    "outcomes_observed_before_freeze": false,
+    "note": "Source-paper aggregate results and dataset metadata were known; reference-level CSV and ensemble results had not been loaded."
+  }
+}

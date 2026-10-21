@@ -1,0 +1,39 @@
+{
+  "total_rows": 104,
+  "complete_rows": 23,
+  "incomplete_rows": 81,
+  "complete_row_metrics": {
+    "n": 23,
+    "tp": 1,
+    "fp": 2,
+    "tn": 19,
+    "fn": 1,
+    "recall": 0.5,
+    "false_positive_rate": 0.09523809523809523,
+    "balanced_accuracy": 0.7023809523809523
+  },
+  "historical_on_same_complete_rows": {
+    "n": 23,
+    "tp": 1,
+    "fp": 6,
+    "tn": 15,
+    "fn": 1,
+    "recall": 0.5,
+    "false_positive_rate": 0.2857142857142857,
+    "balanced_accuracy": 0.6071428571428572
+  },
+  "agreement_on_complete_rows": 0.7391304347826086,
+  "all_raw_output_metrics_including_network_failures_not_validated": {
+    "n": 104,
+    "tp": 30,
+    "fp": 28,
+    "tn": 41,
+    "fn": 5,
+    "recall": 0.8571428571428571,
+    "false_positive_rate": 0.4057971014492754,
+    "balanced_accuracy": 0.7256728778467909
+  },
+  "method": "Pinned CheckIfExist full fallback cascade",
+  "protocol_sha256": "2be4af0c15cd0bcfe96532e8273cf0f768e6457c350ac9df90062d77392a0465",
+  "upstream_commit": "e4605651751f53579e57a0e14159c2f93b3f5e31"
+}

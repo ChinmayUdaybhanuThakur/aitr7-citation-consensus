@@ -1,0 +1,10 @@
+{
+  "url": "https://dblp.org/search/publ/api?q=Generating%20with%20confidence%3A%20Uncertainty%20quantification%20for%20black-box%20large%20language%20models.%20arXiv%20preprint%20arXiv%3A2305.19187&format=json&h=5",
+  "status": 429,
+  "body_base64": "",
+  "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "content_type": "",
+  "error": "HTTP Error 429: Too Many Requests",
+  "retrieved_unix": 1792583596.525011,
+  "elapsed_seconds": 0.6452739238739014
+}

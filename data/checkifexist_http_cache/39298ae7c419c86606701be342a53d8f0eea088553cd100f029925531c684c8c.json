@@ -1,0 +1,10 @@
+{
+  "url": "https://dblp.org/search/publ/api?q=Mistral%207B.%20arXiv%20preprint%20arXiv%3A2310.06825.%20https%3A%2F%2Farxiv.org%2Fabs%2F2310.06825&format=json&h=5",
+  "status": 429,
+  "body_base64": "",
+  "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "content_type": "",
+  "error": "HTTP Error 429: Too Many Requests",
+  "retrieved_unix": 1792583355.1647801,
+  "elapsed_seconds": 0.6680879592895508
+}

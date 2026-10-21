@@ -1,0 +1,8 @@
+{
+  "upstream_commit": "e4605651751f53579e57a0e14159c2f93b3f5e31",
+  "esbuild": "0.25.11",
+  "source_modifications": false,
+  "bundle_sha256": "1d36ad5474f58d8e692077f5e7e718978ec04643480f1afae8e0f1a6d3c6cf98",
+  "offline_runtime_dependencies": "Node >=18 and Python 3 standard library",
+  "evaluation_clock_year": 2026
+}

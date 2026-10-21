@@ -17,3 +17,12 @@ This is an assistant self-review, not an independent peer review or a claim that
 | Remaining, ownership | Student review and live viva cannot be automated honestly | Course requires understanding and accountability | Authentic disclosure, runnable demonstration, concise viva guide; do not mark student review complete |
 
 No performance claim was added without a saved computation. No retrospective study was described as external preregistration. The paper's narrow contribution is a reproducible controlled investigation rather than a new verification algorithm.
+
+## 21 October repair review
+
+- Added and executed the pinned original upstream algorithm, not only an output-column evaluator. Full-cascade coverage is explicitly incomplete; CrossRef component covers all 104 records. No full-cascade accuracy claim is based on failed retrieval.
+- Found a genuine adapter issue: asynchronous speculative requests crossed row boundaries in logging. Capture the initiating row, await requests and sort records; two complete cached output files now reproduce exactly.
+- Added eight harness tests plus independent confusion recounts and source-hash checks.
+- Replaced the silent slide video with actual captured command execution and disclosed synthetic narration.
+- Recovered the configured original model identifier and exact selected task prompts; connect activity receipts to Git changes and verification. No student experience is fabricated.
+- Student understanding/reflection remain unobserved. The new paper preserves that disclosure.

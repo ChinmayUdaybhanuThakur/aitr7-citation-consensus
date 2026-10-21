@@ -1,0 +1,10 @@
+{
+  "url": "https://export.arxiv.org/api/query?search_query=ti:Semantic%20uncertainty%3A%20Linguistic%20invariances%20for%20uncertainty%20estimation%20in%20natural%20language%20generation&max_results=5&sortBy=relevance&sortOrder=descending",
+  "status": 429,
+  "body_base64": "",
+  "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "content_type": "",
+  "error": "HTTP Error 429: Unknown Error",
+  "retrieved_unix": 1792583407.007066,
+  "elapsed_seconds": 0.5065150260925293
+}

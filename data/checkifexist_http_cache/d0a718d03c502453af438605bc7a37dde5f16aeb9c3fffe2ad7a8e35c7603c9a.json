@@ -1,0 +1,10 @@
+{
+  "url": "https://api.semanticscholar.org/graph/v1/paper/search?query=ANSI%2FNISO%20Z39.%3A%20JATS%3A%20Journal%20Article%20Tag%20Suite%20.%20https%3A%2F%2Fwww.niso.org%2Fpublications%2Fz3996--jats&limit=5&fields=paperId,title,authors,year,venue,externalIds,url,citationCount,isRetracted",
+  "status": 200,
+  "body_base64": "eyJ0b3RhbCI6IDAsICJvZmZzZXQiOiAwfQo=",
+  "body_sha256": "df3a6e9628f559abd8e5b9abb679ca761d0e2cb0e5a6e8e9944fb6a23ec391fb",
+  "content_type": "application/json",
+  "error": null,
+  "retrieved_unix": 1792583334.612097,
+  "elapsed_seconds": 1.015542984008789
+}

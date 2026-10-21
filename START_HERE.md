@@ -1,15 +1,15 @@
-# AITR Assignment 7 — prepared package
+# AITR Assignment 7 — revised package, 21 October 2026
 
-Start with **paper/main.pdf** (9 pages plus references), then **demo/walkthrough.html** or the five-minute captioned MP4. The implementation, executed notebook, raw data, measured outputs, plots, one-page brief, validation report, AI log and viva guide are included.
+Read `paper/main.pdf`, then play `demo/five_minute_walkthrough.mp4`. The video presents genuine recorded command execution with synthetic narration, not a student impersonation. Full command events are in `demo/execution_transcript.json`.
 
-Verification: 16 tests passed; a fresh virtual environment reproduced 24 numerical files exactly; the notebook executed seven code cells; the paper and one-page brief were rendered and visually inspected.
+The original majority-voting study remains unchanged. The supplement executes pinned original CheckIfExist code: the CrossRef component has 104/104 complete cases; the full cascade has only 23/104, with failure accounting disclosed. Both algorithm replays match their saved output files.
 
-The primary majority-voting hypothesis failed. The paper reports that finding and favorable secondary trade-offs without inventing performance gains. It also reports the authors' two-label dataset correction and the timing of its discovery.
+Verification: 16 core tests, 8 baseline-harness tests, independently recounted baseline results, immutable primary protocol, and a source/response hash trail. See `docs/completion_repair.md` for what changed.
 
-**GitHub repository:** https://github.com/ChinmayUdaybhanuThakur/aitr7-citation-consensus
+AI traceability is in `docs/authentic_prompt_record.md`, `provenance/ai_traceability.json` and `ai_assistance_log.md`. It distinguishes genuine user prompts from assistant research choices and leaves student learning unclaimed.
 
-The implementation, paper, data, results, notebook, demonstration and original protocol-freeze history are published here.
+Repository: https://github.com/ChinmayUdaybhanuThakur/aitr7-citation-consensus
 
-**Remaining student steps:** personal review/understanding and Classroom submission. No Classroom submission or student presentation is claimed.
+Personal responsibilities remain understanding/explaining the work, rerunning a component and providing an honest reflection. Classroom submission and gate approvals are not inferred from these files; consult the separately verified delivery status.
 
-Use README.md for executed reproduction commands. The captioned demonstration is AI-prepared and silent; the presenter script and viva guide support your own explanation. No student demonstration or instructor approval is asserted.
+Use README.md for the executed commands. No paid account, model download or API key is needed for offline reproduction.

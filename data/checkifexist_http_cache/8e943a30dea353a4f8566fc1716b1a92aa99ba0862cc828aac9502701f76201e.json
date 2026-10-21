@@ -1,0 +1,10 @@
+{
+  "url": "https://api.semanticscholar.org/graph/v1/paper/search?query=A.%20Sahoo%20and%20et%20al.%20inatk%3A%20Iterative%20noise%20aware%20text%20denoising.%20arXiv%20preprint%20arXiv%3A2402.XXXX&limit=5&fields=paperId,title,authors,year,venue,externalIds,url,citationCount,isRetracted",
+  "status": 200,
+  "body_base64": "eyJ0b3RhbCI6IDAsICJvZmZzZXQiOiAwfQo=",
+  "body_sha256": "df3a6e9628f559abd8e5b9abb679ca761d0e2cb0e5a6e8e9944fb6a23ec391fb",
+  "content_type": "application/json",
+  "error": null,
+  "retrieved_unix": 1792583424.0668511,
+  "elapsed_seconds": 0.5647828578948975
+}

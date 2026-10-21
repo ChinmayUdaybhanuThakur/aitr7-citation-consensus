@@ -1,0 +1,10 @@
+{
+  "url": "https://export.arxiv.org/api/query?search_query=ti:and%20Petr%20Knoth.%20%3FIdentifying%20and%20extracting%20Data%20Access%20Statements%20from%20full-text%20academic%20articles%3F&max_results=5&sortBy=relevance&sortOrder=descending",
+  "status": 429,
+  "body_base64": "",
+  "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "content_type": "",
+  "error": "HTTP Error 429: Unknown Error",
+  "retrieved_unix": 1792583395.319165,
+  "elapsed_seconds": 0.4336700439453125
+}

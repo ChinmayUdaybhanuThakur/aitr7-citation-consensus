@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?filter=title.search:Experts%20don%3Ft%20cheat%3A%20learning%20what%20you%20don%3Ft%20know%20by%20predicting%20pairs&per_page=5&mailto=contact@example.com",
+  "status": 400,
+  "body_base64": "eyJlcnJvciI6IkludmFsaWQgcXVlcnkgcGFyYW1ldGVycyBlcnJvci4iLCJtZXNzYWdlIjoiV2lsZGNhcmRzICgqIG9yID8pIHJlcXVpcmUgdGhlIGV4YWN0IChuby1zdGVtKSBmaWVsZC4gXCJ0aXRsZS5zZWFyY2hcIiBpcyBzdGVtbWVkLCBzbyB0aGUgbGl0ZXJhbCB0ZXh0IGJlZm9yZSB0aGUgd2lsZGNhcmQgaXMgcmVtb3ZlZCB3aGVuIHRoZSB3b3JrIGlzIGluZGV4ZWQgYW5kIHRoZSBzZWFyY2ggcmV0dXJucyB3cm9uZyByZXN1bHRzLiBVc2UgXCJ0aXRsZS5zZWFyY2guZXhhY3RcIiBpbnN0ZWFkLCBlLmcuIHRpdGxlLnNlYXJjaC5leGFjdDpFeHBlcnRzIGRvbj90IGNoZWF0OiBsZWFybmluZyB3aGF0IHlvdSBkb24/dCBrbm93IGJ5IHByZWRpY3RpbmcgcGFpcnMuIn0K",
+  "body_sha256": "f74d77d2ee8282356dfdfa5e7c074df623b99dcd1198dd35b8e75f11d03efb0b",
+  "content_type": "application/json",
+  "error": "HTTP Error 400: Bad Request",
+  "retrieved_unix": 1792583566.247782,
+  "elapsed_seconds": 0.6588289737701416
+}

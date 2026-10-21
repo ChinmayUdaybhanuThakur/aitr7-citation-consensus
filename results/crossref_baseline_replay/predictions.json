@@ -1,0 +1,3160 @@
+[
+  {
+    "id": "P1:R1",
+    "reference": "Agrawal, L. A., Tan, S., Soylu, D., Ziems, N., Khare, R., Opsahl-Ong, K., Singhvi, A., Shandilya, H., Ryan, M. J., Jiang, M., Potts, C., Sen, K., Dimakis, A. G., Stoica, I., Klein, D., Zaharia, M., & Khattab, O. (2025). GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning https://arxiv.org/abs/2507.19457",
+    "true_problematic": 0,
+    "historical_checkifexist": 0,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Agrawal%2C%20L.%20A.%2C%20Tan%2C%20S.%2C%20Soylu%2C%20D.%2C%20Ziems%2C%20N.%2C%20Khare%2C%20R.%2C%20Opsahl-Ong%2C%20K.%2C%20Singhvi%2C%20A.%2C%20Shandilya%2C%20H.%2C%20Ryan%2C%20M.%20J.%2C%20Jiang%2C%20M.%2C%20Potts%2C%20C.%2C%20Sen%2C%20K.%2C%20Dimakis%2C%20A.%20G.%2C%20Stoica%2C%20I.%2C%20Klein%2C%20D.%2C%20Zaharia%2C%20M.%2C%20%26%20Khattab%2C%20O.%20(2025).%20GEPA%3A%20Reflective%20Prompt%20Evolution%20Can%20Outperform%20Reinforcement%20Learning%20https%3A%2F%2Farxiv.org%2Fabs%2F2507.19457&rows=5",
+        "status": 200,
+        "body_sha256": "4688954d51f134f6293aa113a1232d6bcce35a03c9abcce22b15433b3914cc8a",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 11,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P1:R2",
+    "reference": "ANSI/NISO Z39.96-2024: JATS: Journal Article Tag Suite (2024). https://www.niso.org/publications/z3996-2024-jats",
+    "true_problematic": 0,
+    "historical_checkifexist": 1,
+    "prediction": 0,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=ANSI%2FNISO%20Z39.96-2024%3A%20JATS%3A%20Journal%20Article%20Tag%20Suite%20(2024).%20https%3A%2F%2Fwww.niso.org%2Fpublications%2Fz3996-2024-jats&rows=5",
+        "status": 200,
+        "body_sha256": "bc359a0a4d5e948179674f87c0a3e190e4268dda33fc4928304a76761157c762",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": true,
+      "title": "ANSI/NISO Z39.96-2024, JATS: Journal Article Tag Suite, version 1.4",
+      "authors": "",
+      "year": "",
+      "journal": "",
+      "url": "https://doi.org/10.3789/ansi.niso.z39.96-2024",
+      "doi": "10.3789/ansi.niso.z39.96-2024",
+      "score": 122.63741,
+      "citations": 3,
+      "apa": "undefined,  (n.d.). ANSI/NISO Z39.96-2024, JATS: Journal Article Tag Suite, version 1.4. https://doi.org/10.3789/ansi.niso.z39.96-2024",
+      "mla": "undefined,. \"ANSI/NISO Z39.96-2024, JATS: Journal Article Tag Suite, version 1.4.\" n.d.. https://doi.org/10.3789/ansi.niso.z39.96-2024.",
+      "iso690": "ANSI/NISO Z39.96-2024, JATS: Journal Article Tag Suite, version 1.4. n.d.. https://doi.org/10.3789/ansi.niso.z39.96-2024",
+      "bibtex": "@article{Unknownn.d.ANSINISO,\n  title={ANSI/NISO Z39.96-2024, JATS: Journal Article Tag Suite, version 1.4},\n  author={undefined},\n  year={n.d.},\n  doi={10.3789/ansi.niso.z39.96-2024}\n}",
+      "source": "CrossRef",
+      "matchConfidence": 98,
+      "titleMatchScore": 98,
+      "authorMatchScore": 100,
+      "journalMatchScore": 50,
+      "issues": []
+    }
+  },
+  {
+    "id": "P1:R3",
+    "reference": "Atanassova, I., & Bertin, M. (2024). Breaking Boundaries in Citation Parsing: A Comparative Study of Generative LLMs and Traditional Out-of-the-box Citation Parsers. Proceedings of the 14th Workshop on Bibliometric-Enhanced Information Retrieval (BIR)",
+    "true_problematic": 0,
+    "historical_checkifexist": 0,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Atanassova%2C%20I.%2C%20%26%20Bertin%2C%20M.%20(2024).%20Breaking%20Boundaries%20in%20Citation%20Parsing%3A%20A%20Comparative%20Study%20of%20Generative%20LLMs%20and%20Traditional%20Out-of-the-box%20Citation%20Parsers.%20Proceedings%20of%20the%2014th%20Workshop%20on%20Bibliometric-Enhanced%20Information%20Retrieval%20(BIR)&rows=5",
+        "status": 200,
+        "body_sha256": "6a7e26405de84b40766ae8fd22afe9fed9caee1b5726bdbc1b431d7848f09487",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 23,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P1:R4",
+    "reference": "Atanassova, I., Bertin, M., & Mayr, P. (2020). Synthetic versus Real Reference Strings for Citation Parsing. Proceedings of the 16th International Conference on Semantic Systems, 165?172",
+    "true_problematic": 1,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Atanassova%2C%20I.%2C%20Bertin%2C%20M.%2C%20%26%20Mayr%2C%20P.%20(2020).%20Synthetic%20versus%20Real%20Reference%20Strings%20for%20Citation%20Parsing.%20Proceedings%20of%20the%2016th%20International%20Conference%20on%20Semantic%20Systems%2C%20165%3F172&rows=5",
+        "status": 200,
+        "body_sha256": "664691fcbc7f731fb88a73b9652a7818b169a102127d058aff010832de1ef39b",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 21,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P1:R5",
+    "reference": "CiteX. (2026). CiteX: Workshop on Citation Extraction and Parsing. https://sites.google.com/view/workshop-on-citation-extractio/startseite",
+    "true_problematic": 0,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=CiteX.%20(2026).%20CiteX%3A%20Workshop%20on%20Citation%20Extraction%20and%20Parsing.%20https%3A%2F%2Fsites.google.com%2Fview%2Fworkshop-on-citation-extractio%2Fstartseite&rows=5",
+        "status": 200,
+        "body_sha256": "faec4244952db58e38bf2f3596c548f7cb210b763e537efa2bb6d245f1866625",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 28,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P1:R6",
+    "reference": "COMET. (2025). cometadata/citation-parsing-lora-qwen3-0.6b. https://huggingface.co/cometadata/citation-parsing-lora-qwen3-0.6b",
+    "true_problematic": 0,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=COMET.%20(2025).%20cometadata%2Fcitation-parsing-lora-qwen3-0.6b.%20https%3A%2F%2Fhuggingface.co%2Fcometadata%2Fcitation-parsing-lora-qwen3-0.6b&rows=5",
+        "status": 200,
+        "body_sha256": "98259d98040a5d7417f915a7cec9c2d95a738684fd02209c18a22eb5c75cd640",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 22,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P1:R7",
+    "reference": "Di Giambattista, C., & Heibi, I. (2025, October). OpenCitations: an open infrastructure enabling Open Research Information. https://doi.org/10.5281/zenodo.17199853",
+    "true_problematic": 0,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Di%20Giambattista%2C%20C.%2C%20%26%20Heibi%2C%20I.%20(2025%2C%20October).%20OpenCitations%3A%20an%20open%20infrastructure%20enabling%20Open%20Research%20Information.%20https%3A%2F%2Fdoi.org%2F10.5281%2Fzenodo.17199853&rows=5",
+        "status": 200,
+        "body_sha256": "37c7807dc9e4526682c94fa6f49d1efed8195d142465148447201aadbccf22e4",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 25,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P1:R8",
+    "reference": "European Commission. (2025). Open Research Europe: Full article corpus. https://open-research-europe.ec.europa.eu",
+    "true_problematic": 0,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=European%20Commission.%20(2025).%20Open%20Research%20Europe%3A%20Full%20article%20corpus.%20https%3A%2F%2Fopen-research-europe.ec.europa.eu&rows=5",
+        "status": 200,
+        "body_sha256": "fca3faeafc6c06732c935c0c4d41fccfe6d4d6a352c038a1c8dfd85b952d162a",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 33,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P1:R9",
+    "reference": "Garnett, A. (2016). The XML Markup Evaluation Corpus. In Public Knowledge Project. https://pkp.sfu.ca/2016/04/18/the-xml-markup-evaluation-corpus/",
+    "true_problematic": 0,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Garnett%2C%20A.%20(2016).%20The%20XML%20Markup%20Evaluation%20Corpus.%20In%20Public%20Knowledge%20Project.%20https%3A%2F%2Fpkp.sfu.ca%2F2016%2F04%2F18%2Fthe-xml-markup-evaluation-corpus%2F&rows=5",
+        "status": 200,
+        "body_sha256": "9026ac8d1e59b2ee371ea25d937b6167681d83cc4f772b43d217a8139c4f4aa3",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 100,
+      "authorMatchScore": -40,
+      "journalMatchScore": 50,
+      "issues": [
+        "Result rejected — too many mismatches (likely wrong paper found)"
+      ]
+    }
+  },
+  {
+    "id": "P1:R10",
+    "reference": "Gemma, Kamath, A., Ferret, J., Pathak, S., Vieillard, N., Merhej, R., Perrin, S., Matejovicova, T., Ram‚, A., RiviŠre, M., Rouillard, L., Mesnard, T., Cideron, G., Grill, J., Ramos, S., Yvinec, E., Casbon, M., Pot, E., Penchev, I., ? Hussenot, L. (2025). Gemma 3 Technical Report. https://arxiv.org/abs/2503.19786",
+    "true_problematic": 0,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Gemma%2C%20Kamath%2C%20A.%2C%20Ferret%2C%20J.%2C%20Pathak%2C%20S.%2C%20Vieillard%2C%20N.%2C%20Merhej%2C%20R.%2C%20Perrin%2C%20S.%2C%20Matejovicova%2C%20T.%2C%20Ram%E2%80%9A%2C%20A.%2C%20Rivi%C5%A0re%2C%20M.%2C%20Rouillard%2C%20L.%2C%20Mesnard%2C%20T.%2C%20Cideron%2C%20G.%2C%20Grill%2C%20J.%2C%20Ramos%2C%20S.%2C%20Yvinec%2C%20E.%2C%20Casbon%2C%20M.%2C%20Pot%2C%20E.%2C%20Penchev%2C%20I.%2C%20%3F%20Hussenot%2C%20L.%20(2025).%20Gemma%203%20Technical%20Report.%20https%3A%2F%2Farxiv.org%2Fabs%2F2503.19786&rows=5",
+        "status": 200,
+        "body_sha256": "dca1dd1d06d0eb2bcb13c2360d10ce90c0c96ae06971c926347bfab74d9f97c3",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 23,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P1:R11",
+    "reference": "Grattafiori, A., Dubey, A., Jauhri, A., Pandey, A., Kadian, A., Al-Dahle, A., Letman, A., Mathur, A., Schelten, A., Vaughan, A., Yang, A., Fan, A., Goyal, A., Hartshorn, A., Yang, A., Mitra, A., Sravankumar, A., Korenev, A., Hinsvark, A., ? Ma, Z. (2024). The Llama 3 Herd of Models. https://arxiv.org/abs/2407.21783",
+    "true_problematic": 0,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Grattafiori%2C%20A.%2C%20Dubey%2C%20A.%2C%20Jauhri%2C%20A.%2C%20Pandey%2C%20A.%2C%20Kadian%2C%20A.%2C%20Al-Dahle%2C%20A.%2C%20Letman%2C%20A.%2C%20Mathur%2C%20A.%2C%20Schelten%2C%20A.%2C%20Vaughan%2C%20A.%2C%20Yang%2C%20A.%2C%20Fan%2C%20A.%2C%20Goyal%2C%20A.%2C%20Hartshorn%2C%20A.%2C%20Yang%2C%20A.%2C%20Mitra%2C%20A.%2C%20Sravankumar%2C%20A.%2C%20Korenev%2C%20A.%2C%20Hinsvark%2C%20A.%2C%20%3F%20Ma%2C%20Z.%20(2024).%20The%20Llama%203%20Herd%20of%20Models.%20https%3A%2F%2Farxiv.org%2Fabs%2F2407.21783&rows=5",
+        "status": 200,
+        "body_sha256": "b4f93306137facabf9a88ef9f451ae63639cfcbb24aa2a5a3b9f39b8d4fee743",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 21,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P1:R12",
+    "reference": "Grennan, M., Schibel, M., Collins, A., & Beel, J. (2019). GIANT: The 1-Billion Annotated Synthetic Bibliographic-Reference-String Dataset for Deep Citation Parsing. In E. Curry, M. T. Keane, A. Ojo, & D. Salwala (Eds.), Proceedings for the 27th AIAI irish conference on artificial intelligence and cognitive science, galway, ireland, december 5-6, 2019 (Vol. 2563, pp. 260?271). CEUR-WS.org. https://ceur-ws.org/Vol-2563/aics_25.pdf",
+    "true_problematic": 0,
+    "historical_checkifexist": 0,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Grennan%2C%20M.%2C%20Schibel%2C%20M.%2C%20Collins%2C%20A.%2C%20%26%20Beel%2C%20J.%20(2019).%20GIANT%3A%20The%201-Billion%20Annotated%20Synthetic%20Bibliographic-Reference-String%20Dataset%20for%20Deep%20Citation%20Parsing.%20In%20E.%20Curry%2C%20M.%20T.%20Keane%2C%20A.%20Ojo%2C%20%26%20D.%20Salwala%20(Eds.)%2C%20Proceedings%20for%20the%2027th%20AIAI%20irish%20conference%20on%20artificial%20intelligence%20and%20cognitive%20science%2C%20galway%2C%20ireland%2C%20december%205-6%2C%202019%20(Vol.%202563%2C%20pp.%20260%3F271).%20CEUR-WS.org.%20https%3A%2F%2Fceur-ws.org%2FVol-2563%2Faics_25.pdf&rows=5",
+        "status": 200,
+        "body_sha256": "d5ff828ec82015aab49404d8a58b9c08cd58a35ee51a01321e491fe51ea3bf2b",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 13,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P1:R13",
+    "reference": "Jiang, A., Sablayrolles, A., et al. (2023). Mistral 7B. arXiv preprint arXiv:2310.06825. https://arxiv.org/abs/2310.06825",
+    "true_problematic": 0,
+    "historical_checkifexist": 0,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Jiang%2C%20A.%2C%20Sablayrolles%2C%20A.%2C%20et%20al.%20(2023).%20Mistral%207B.%20arXiv%20preprint%20arXiv%3A2310.06825.%20https%3A%2F%2Farxiv.org%2Fabs%2F2310.06825&rows=5",
+        "status": 200,
+        "body_sha256": "17ffee1bb73a3c79f0da9e92c0d0c6f52643b4d0240825c6e4eec9c5d6e326c1",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 17,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P1:R14",
+    "reference": "Kapfer, C., Stine, K., Narasimhan, B., Mentzel, C., & Candes, E. (2025). Marlowe: Stanford?s GPU-based Computational Instrument (Version 0.1). Zenodo. https://doi.org/10.5281/zenodo.14751899",
+    "true_problematic": 0,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Kapfer%2C%20C.%2C%20Stine%2C%20K.%2C%20Narasimhan%2C%20B.%2C%20Mentzel%2C%20C.%2C%20%26%20Candes%2C%20E.%20(2025).%20Marlowe%3A%20Stanford%3Fs%20GPU-based%20Computational%20Instrument%20(Version%200.1).%20Zenodo.%20https%3A%2F%2Fdoi.org%2F10.5281%2Fzenodo.14751899&rows=5",
+        "status": 200,
+        "body_sha256": "169c21458fd2a0a05cf0935ceb64a46b71846ef80de84238d02a2e4cbb483e1a",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 34,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P1:R15",
+    "reference": "Lipinski, M., Yao, K., Breitinger, C., Beel, J., & Gipp, B. (2013). Evaluation of Header Metadata Extraction Approaches and Tools for Scientific PDF Documents. Proceedings of the 13th ACM/IEEE-CS Joint Conference on Digital Libraries, 385?386",
+    "true_problematic": 0,
+    "historical_checkifexist": 0,
+    "prediction": 0,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Lipinski%2C%20M.%2C%20Yao%2C%20K.%2C%20Breitinger%2C%20C.%2C%20Beel%2C%20J.%2C%20%26%20Gipp%2C%20B.%20(2013).%20Evaluation%20of%20Header%20Metadata%20Extraction%20Approaches%20and%20Tools%20for%20Scientific%20PDF%20Documents.%20Proceedings%20of%20the%2013th%20ACM%2FIEEE-CS%20Joint%20Conference%20on%20Digital%20Libraries%2C%20385%3F386&rows=5",
+        "status": 200,
+        "body_sha256": "94148ce46adb210816e60e31e4d8224079985f7f5a6d1d2a70c4732283360168",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": true,
+      "title": "Evaluation of header metadata extraction approaches and tools for scientific PDF documents",
+      "authors": "Lipinski, Yao, Breitinger, Beel, Gipp",
+      "year": "2013",
+      "journal": "Proceedings of the 13th ACM/IEEE-CS joint conference on Digital libraries",
+      "url": "https://doi.org/10.1145/2467696.2467753",
+      "doi": "10.1145/2467696.2467753",
+      "score": 174.12915,
+      "citations": 40,
+      "apa": "Lipinski, M., Yao, K., Breitinger, C., Beel, J., Gipp, B. (2013). Evaluation of header metadata extraction approaches and tools for scientific PDF documents. Proceedings of the 13th ACM/IEEE-CS joint conference on Digital libraries. https://doi.org/10.1145/2467696.2467753",
+      "mla": "Lipinski, Mario, et al. \"Evaluation of header metadata extraction approaches and tools for scientific PDF documents.\" Proceedings of the 13th ACM/IEEE-CS joint conference on Digital libraries, 2013. https://doi.org/10.1145/2467696.2467753.",
+      "iso690": "LIPINSKI, Mario; YAO, Kevin; BREITINGER, Corinna; BEEL, Joeran; GIPP, Bela. Evaluation of header metadata extraction approaches and tools for scientific PDF documents. Proceedings of the 13th ACM/IEEE-CS joint conference on Digital libraries, 2013. https://doi.org/10.1145/2467696.2467753",
+      "bibtex": "@article{Lipinski2013Evaluation,\n  title={Evaluation of header metadata extraction approaches and tools for scientific PDF documents},\n  author={Lipinski, Mario and Yao, Kevin and Breitinger, Corinna and Beel, Joeran and Gipp, Bela},\n  year={2013},\n  journal={Proceedings of the 13th ACM/IEEE-CS joint conference on Digital libraries},\n  doi={10.1145/2467696.2467753}\n}",
+      "source": "CrossRef",
+      "matchConfidence": 100,
+      "titleMatchScore": 100,
+      "authorMatchScore": 100,
+      "journalMatchScore": 100,
+      "issues": []
+    }
+  },
+  {
+    "id": "P1:R16",
+    "reference": "Lopez, P. (2009). GROBID: Combining Automatic Bibliographic Data Recognition and Term Extraction for Scholarship Publications. International Journal on Document Analysis and Recognition, 13(1), 1?23",
+    "true_problematic": 1,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Lopez%2C%20P.%20(2009).%20GROBID%3A%20Combining%20Automatic%20Bibliographic%20Data%20Recognition%20and%20Term%20Extraction%20for%20Scholarship%20Publications.%20International%20Journal%20on%20Document%20Analysis%20and%20Recognition%2C%2013(1)%2C%201%3F23&rows=5",
+        "status": 200,
+        "body_sha256": "150dbde62e52083e8ceb286ebc40d2b91adeab9eef34f26218870e10737a6bc2",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": true,
+      "title": "GROBID: Combining Automatic Bibliographic Data Recognition and Term Extraction for Scholarship Publications",
+      "authors": "Lopez",
+      "year": "2009",
+      "journal": "Lecture Notes in Computer Science",
+      "url": "https://doi.org/10.1007/978-3-642-04346-8_62",
+      "doi": "10.1007/978-3-642-04346-8_62",
+      "score": 90.48271,
+      "citations": 155,
+      "apa": "Lopez, P. (2009). GROBID: Combining Automatic Bibliographic Data Recognition and Term Extraction for Scholarship Publications. Lecture Notes in Computer Science. https://doi.org/10.1007/978-3-642-04346-8_62",
+      "mla": "Lopez, Patrice. \"GROBID: Combining Automatic Bibliographic Data Recognition and Term Extraction for Scholarship Publications.\" Lecture Notes in Computer Science, 2009. https://doi.org/10.1007/978-3-642-04346-8_62.",
+      "iso690": "LOPEZ, Patrice. GROBID: Combining Automatic Bibliographic Data Recognition and Term Extraction for Scholarship Publications. Lecture Notes in Computer Science, 2009. https://doi.org/10.1007/978-3-642-04346-8_62",
+      "bibtex": "@article{Lopez2009GROBID,\n  title={GROBID: Combining Automatic Bibliographic Data Recognition and Term Extraction for Scholarship Publications},\n  author={Lopez, Patrice},\n  year={2009},\n  journal={Lecture Notes in Computer Science},\n  doi={10.1007/978-3-642-04346-8_62}\n}",
+      "source": "CrossRef",
+      "matchConfidence": 75,
+      "titleMatchScore": 100,
+      "authorMatchScore": 80,
+      "journalMatchScore": 0,
+      "issues": [
+        "Possible Extra/Fake Authors: Document, Analysis",
+        "Journal Mismatch: actual is \"Lecture Notes in Computer Science\""
+      ]
+    }
+  },
+  {
+    "id": "P1:R17",
+    "reference": "Microsoft Corporation. (2025). MarkItDown: A Python Tool for Converting Files to Markdown. https://github.com/microsoft/markitdown",
+    "true_problematic": 0,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Microsoft%20Corporation.%20(2025).%20MarkItDown%3A%20A%20Python%20Tool%20for%20Converting%20Files%20to%20Markdown.%20https%3A%2F%2Fgithub.com%2Fmicrosoft%2Fmarkitdown&rows=5",
+        "status": 200,
+        "body_sha256": "5763080e9d62666a712cbe7504f550be5f8a4326875e3436f945e31adb4e5a94",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 19,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P1:R18",
+    "reference": "OpenAI, Agarwal, S., Ahmad, L., Ai, J., Altman, S., Applebaum, A., Arbus, E., Arora, R. K., Bai, Y., Baker, B., Bao, H., Barak, B., Bennett, A., Bertao, T., Brett, N., Brevdo, E., Brockman, G., Bubeck, S., Chang, C., ? Zhao, S. (2025). gpt-oss-120b & gpt-oss-20b Model Card. https://arxiv.org/abs/2508.10925",
+    "true_problematic": 0,
+    "historical_checkifexist": 0,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=OpenAI%2C%20Agarwal%2C%20S.%2C%20Ahmad%2C%20L.%2C%20Ai%2C%20J.%2C%20Altman%2C%20S.%2C%20Applebaum%2C%20A.%2C%20Arbus%2C%20E.%2C%20Arora%2C%20R.%20K.%2C%20Bai%2C%20Y.%2C%20Baker%2C%20B.%2C%20Bao%2C%20H.%2C%20Barak%2C%20B.%2C%20Bennett%2C%20A.%2C%20Bertao%2C%20T.%2C%20Brett%2C%20N.%2C%20Brevdo%2C%20E.%2C%20Brockman%2C%20G.%2C%20Bubeck%2C%20S.%2C%20Chang%2C%20C.%2C%20%3F%20Zhao%2C%20S.%20(2025).%20gpt-oss-120b%20%26%20gpt-oss-20b%20Model%20Card.%20https%3A%2F%2Farxiv.org%2Fabs%2F2508.10925&rows=5",
+        "status": 200,
+        "body_sha256": "3da048e690b3754edffdfd77f1fea53813aa245fe89649feb186646be1665915",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 19,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P1:R19",
+    "reference": "OpenCitations. (2025). Workshop on Open Citations and Open Scholarly Metadata. https://workshop-oc.github.io/",
+    "true_problematic": 0,
+    "historical_checkifexist": 0,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=OpenCitations.%20(2025).%20Workshop%20on%20Open%20Citations%20and%20Open%20Scholarly%20Metadata.%20https%3A%2F%2Fworkshop-oc.github.io%2F&rows=5",
+        "status": 200,
+        "body_sha256": "a5feea2d533f2830ce6bceeda26caf785feec88cd3bfc85a7daf8577d3055004",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 59,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P1:R20",
+    "reference": "sarin, parth, & Alperin, J. P. (2025). Citation Parsing and Analysis with Language Models. arXiv Preprint arXiv:2505.15948",
+    "true_problematic": 0,
+    "historical_checkifexist": 0,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=sarin%2C%20parth%2C%20%26%20Alperin%2C%20J.%20P.%20(2025).%20Citation%20Parsing%20and%20Analysis%20with%20Language%20Models.%20arXiv%20Preprint%20arXiv%3A2505.15948&rows=5",
+        "status": 200,
+        "body_sha256": "00355b7cf453178ce3928bc18aeeb73afc4ffe8fc0e4b022f7889d8f572a8b2d",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 37,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P1:R21",
+    "reference": "Tkaczyk, D., Fedoryszak, M., Dendek, P., & Bolikowski, ?. (2018). Evaluation and Comparison of Open Source Bibliographic Reference Parsers. Scientometrics, 117(1), 1?29",
+    "true_problematic": 1,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Tkaczyk%2C%20D.%2C%20Fedoryszak%2C%20M.%2C%20Dendek%2C%20P.%2C%20%26%20Bolikowski%2C%20%3F.%20(2018).%20Evaluation%20and%20Comparison%20of%20Open%20Source%20Bibliographic%20Reference%20Parsers.%20Scientometrics%2C%20117(1)%2C%201%3F29&rows=5",
+        "status": 200,
+        "body_sha256": "3cb42456cc1553c4765217ca4824b9991ff40f7bf5a20dc6f685e3208a4cd98c",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 30,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P1:R22",
+    "reference": "Weimer, V., Shahid, M. A., Heck, T., Oerder, T., Mayr, P., & Schindler, C. (2025, October). Open Citation Data for Educational Research. https://doi.org/10.5281/zenodo.16325125",
+    "true_problematic": 0,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Weimer%2C%20V.%2C%20Shahid%2C%20M.%20A.%2C%20Heck%2C%20T.%2C%20Oerder%2C%20T.%2C%20Mayr%2C%20P.%2C%20%26%20Schindler%2C%20C.%20(2025%2C%20October).%20Open%20Citation%20Data%20for%20Educational%20Research.%20https%3A%2F%2Fdoi.org%2F10.5281%2Fzenodo.16325125&rows=5",
+        "status": 200,
+        "body_sha256": "cd2fb301583bb5e2b40ddcf42e98fb7bd81768e8b75a97680d6fe6131aad4867",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 26,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P1:R23",
+    "reference": "Yang, A., Li, A., Yang, B., Zhang, B., Hui, B., Zheng, B., Yu, B., Gao, C., Huang, C., Lv, C., Zheng, C., Liu, D., Zhou, F., Huang, F., Hu, F., Ge, H., Wei, H., Lin, H., Tang, J., ? Qiu, Z. (2025). Qwen3 Technical Report. https://arxiv.org/abs/2505.09388",
+    "true_problematic": 0,
+    "historical_checkifexist": 0,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Yang%2C%20A.%2C%20Li%2C%20A.%2C%20Yang%2C%20B.%2C%20Zhang%2C%20B.%2C%20Hui%2C%20B.%2C%20Zheng%2C%20B.%2C%20Yu%2C%20B.%2C%20Gao%2C%20C.%2C%20Huang%2C%20C.%2C%20Lv%2C%20C.%2C%20Zheng%2C%20C.%2C%20Liu%2C%20D.%2C%20Zhou%2C%20F.%2C%20Huang%2C%20F.%2C%20Hu%2C%20F.%2C%20Ge%2C%20H.%2C%20Wei%2C%20H.%2C%20Lin%2C%20H.%2C%20Tang%2C%20J.%2C%20%3F%20Qiu%2C%20Z.%20(2025).%20Qwen3%20Technical%20Report.%20https%3A%2F%2Farxiv.org%2Fabs%2F2505.09388&rows=5",
+        "status": 200,
+        "body_sha256": "c4283c8111456927771ef70307292af62415fe0fd54483461fb53f490c041097",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 20,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P1:R24",
+    "reference": "Yang, A., Yang, B., Zhang, B., Hui, B., Zheng, B., Yu, B., Li, C., Liu, D., Huang, F., Wei, H., Lin, H., & al., et. (2025). Qwen2.5 Technical Report. arXiv preprint arXiv:2412.15115. https://doi.org/10.48550/arXiv.2412.15115",
+    "true_problematic": 0,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Yang%2C%20A.%2C%20Yang%2C%20B.%2C%20Zhang%2C%20B.%2C%20Hui%2C%20B.%2C%20Zheng%2C%20B.%2C%20Yu%2C%20B.%2C%20Li%2C%20C.%2C%20Liu%2C%20D.%2C%20Huang%2C%20F.%2C%20Wei%2C%20H.%2C%20Lin%2C%20H.%2C%20%26%20al.%2C%20et.%20(2025).%20Qwen2.5%20Technical%20Report.%20arXiv%20preprint%20arXiv%3A2412.15115.%20https%3A%2F%2Fdoi.org%2F10.48550%2FarXiv.2412.15115&rows=5",
+        "status": 200,
+        "body_sha256": "56d5962a31c620d58e1cfb3cc9e27848fd9374fa330f14cdea18374d6362962a",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 18,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P2:R1",
+    "reference": "Daina Bouquin et al. ?Credit Lost: Two decades of software citation in astronomy?. In: F1000Research 9 (2020), p. 1257. doi: 10.12688/f1000research.26932.2",
+    "true_problematic": 1,
+    "historical_checkifexist": 1,
+    "prediction": 0,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Daina%20Bouquin%20et%20al.%20%3FCredit%20Lost%3A%20Two%20decades%20of%20software%20citation%20in%20astronomy%3F.%20In%3A%20F1000Research%209%20(2020)%2C%20p.%201257.%20doi%3A%2010.12688%2Ff1000research.26932.2&rows=5",
+        "status": 200,
+        "body_sha256": "22e8af136f62018050e917435a016e9a7f189acabbf51fa6879894fac573ecc4",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": true,
+      "title": "Credit Lost: Two Decades of Software Citation in Astronomy",
+      "authors": "Bouquin, Chivvis, Henneken, Lockhart, Muench, Koch",
+      "year": "2020",
+      "journal": "The Astrophysical Journal Supplement Series",
+      "url": "https://doi.org/10.3847/1538-4365/ab7be6",
+      "doi": "10.3847/1538-4365/ab7be6",
+      "score": 76.088524,
+      "citations": 9,
+      "apa": "Bouquin, D., Chivvis, D., Henneken, E., Lockhart, K., Muench, A., Koch, J. (2020). Credit Lost: Two Decades of Software Citation in Astronomy. The Astrophysical Journal Supplement Series. https://doi.org/10.3847/1538-4365/ab7be6",
+      "mla": "Bouquin, Daina R., et al. \"Credit Lost: Two Decades of Software Citation in Astronomy.\" The Astrophysical Journal Supplement Series, 2020. https://doi.org/10.3847/1538-4365/ab7be6.",
+      "iso690": "BOUQUIN, Daina R.; CHIVVIS, Daniel A.; HENNEKEN, Edwin; LOCKHART, Kelly; MUENCH, August; KOCH, Jennifer. Credit Lost: Two Decades of Software Citation in Astronomy. The Astrophysical Journal Supplement Series, 2020. https://doi.org/10.3847/1538-4365/ab7be6",
+      "bibtex": "@article{Bouquin2020Credit,\n  title={Credit Lost: Two Decades of Software Citation in Astronomy},\n  author={Bouquin, Daina R. and Chivvis, Daniel A. and Henneken, Edwin and Lockhart, Kelly and Muench, August and Koch, Jennifer},\n  year={2020},\n  journal={The Astrophysical Journal Supplement Series},\n  doi={10.3847/1538-4365/ab7be6}\n}",
+      "source": "CrossRef",
+      "matchConfidence": 85,
+      "titleMatchScore": 100,
+      "authorMatchScore": 90,
+      "journalMatchScore": 0,
+      "issues": [
+        "Possible Extra/Fake Authors: F1000Research",
+        "Note: You used 'et al.', please verify if your citation style allows it",
+        "Journal Mismatch: actual is \"The Astrophysical Journal Supplement Series\""
+      ]
+    }
+  },
+  {
+    "id": "P2:R2",
+    "reference": "James Howison and Julia Bullard. ?Software in the scientific literature: Problems with seeing, finding, and using software mentioned in the biology literature?. In: Journal of the Association for Information Science and Technology 67.9 (2015), pp. 2137?2155. doi: 10.1002/asi.23538",
+    "true_problematic": 0,
+    "historical_checkifexist": 0,
+    "prediction": 0,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=James%20Howison%20and%20Julia%20Bullard.%20%3FSoftware%20in%20the%20scientific%20literature%3A%20Problems%20with%20seeing%2C%20finding%2C%20and%20using%20software%20mentioned%20in%20the%20biology%20literature%3F.%20In%3A%20Journal%20of%20the%20Association%20for%20Information%20Science%20and%20Technology%2067.9%20(2015)%2C%20pp.%202137%3F2155.%20doi%3A%2010.1002%2Fasi.23538&rows=5",
+        "status": 200,
+        "body_sha256": "149d86c24885b3e2208f606bc4c1289865b4a3c152913851e9234f637fab6002",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": true,
+      "title": "Software in the scientific literature: Problems with seeing, finding, and using software mentioned in the biology literature",
+      "authors": "Howison, Bullard",
+      "year": "2016",
+      "journal": "Journal of the Association for Information Science and Technology",
+      "url": "https://doi.org/10.1002/asi.23538",
+      "doi": "10.1002/asi.23538",
+      "score": 148.11691,
+      "citations": 113,
+      "apa": "Howison, J., Bullard, J. (2015). Software in the scientific literature: Problems with seeing, finding, and using software mentioned in the biology literature. Journal of the Association for Information Science and Technology. https://doi.org/10.1002/asi.23538",
+      "mla": "Howison, James, and Julia Bullard. \"Software in the scientific literature: Problems with seeing, finding, and using software mentioned in the biology literature.\" Journal of the Association for Information Science and Technology, 2015. https://doi.org/10.1002/asi.23538.",
+      "iso690": "HOWISON, James; BULLARD, Julia. Software in the scientific literature: Problems with seeing, finding, and using software mentioned in the biology literature. Journal of the Association for Information Science and Technology, 2015. https://doi.org/10.1002/asi.23538",
+      "bibtex": "@article{Howison2015Software,\n  title={Software in the scientific literature: Problems with seeing, finding, and using software mentioned in the biology literature},\n  author={Howison, James and Bullard, Julia},\n  year={2015},\n  journal={Journal of the Association for Information Science and Technology},\n  doi={10.1002/asi.23538}\n}",
+      "source": "CrossRef",
+      "matchConfidence": 100,
+      "titleMatchScore": 100,
+      "authorMatchScore": 100,
+      "journalMatchScore": 100,
+      "issues": []
+    }
+  },
+  {
+    "id": "P2:R3",
+    "reference": "Caifan Du, James Howison, and Patrice Lopez. ?Softcite: Automatic Extraction of Software Mentions in Research Literature?. In: Poster abstracts of the 1st Workshop on Natural Language Processing and Data Mining for Scientific Text Workshop (SciNLP). 2020",
+    "true_problematic": 0,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Caifan%20Du%2C%20James%20Howison%2C%20and%20Patrice%20Lopez.%20%3FSoftcite%3A%20Automatic%20Extraction%20of%20Software%20Mentions%20in%20Research%20Literature%3F.%20In%3A%20Poster%20abstracts%20of%20the%201st%20Workshop%20on%20Natural%20Language%20Processing%20and%20Data%20Mining%20for%20Scientific%20Text%20Workshop%20(SciNLP).%202020&rows=5",
+        "status": 200,
+        "body_sha256": "4f9870a6c74d76f18505ab897b675a58354f29f9d5065dd013875a81998d9b9f",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 26,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P2:R4",
+    "reference": "Caifan Du et al. ?Softcite dataset: A dataset of software mentions in biomedical and economic research publications?. In: Journal of the Association for Information Science and Technology 72.7 (2021), pp. 870?884. doi: 10.1002/asi.24454",
+    "true_problematic": 0,
+    "historical_checkifexist": 0,
+    "prediction": 0,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Caifan%20Du%20et%20al.%20%3FSoftcite%20dataset%3A%20A%20dataset%20of%20software%20mentions%20in%20biomedical%20and%20economic%20research%20publications%3F.%20In%3A%20Journal%20of%20the%20Association%20for%20Information%20Science%20and%20Technology%2072.7%20(2021)%2C%20pp.%20870%3F884.%20doi%3A%2010.1002%2Fasi.24454&rows=5",
+        "status": 200,
+        "body_sha256": "2fc06e41d03e20abf94b34b2182763c9e072f03abf995ec4c20340e29711e584",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": true,
+      "title": "Softcite dataset: A dataset of software mentions in biomedical and economic research publications",
+      "authors": "Du, Cohoon, Lopez, Howison",
+      "year": "2021",
+      "journal": "Journal of the Association for Information Science and Technology",
+      "url": "https://doi.org/10.1002/asi.24454",
+      "doi": "10.1002/asi.24454",
+      "score": 126.25895,
+      "citations": 32,
+      "apa": "Du, C., Cohoon, J., Lopez, P., Howison, J. (2021). Softcite dataset: A dataset of software mentions in biomedical and economic research publications. Journal of the Association for Information Science and Technology. https://doi.org/10.1002/asi.24454",
+      "mla": "Du, Caifan, et al. \"Softcite dataset: A dataset of software mentions in biomedical and economic research publications.\" Journal of the Association for Information Science and Technology, 2021. https://doi.org/10.1002/asi.24454.",
+      "iso690": "DU, Caifan; COHOON, Johanna; LOPEZ, Patrice; HOWISON, James. Softcite dataset: A dataset of software mentions in biomedical and economic research publications. Journal of the Association for Information Science and Technology, 2021. https://doi.org/10.1002/asi.24454",
+      "bibtex": "@article{Du2021Softcite,\n  title={Softcite dataset: A dataset of software mentions in biomedical and economic research publications},\n  author={Du, Caifan and Cohoon, Johanna and Lopez, Patrice and Howison, James},\n  year={2021},\n  journal={Journal of the Association for Information Science and Technology},\n  doi={10.1002/asi.24454}\n}",
+      "source": "CrossRef",
+      "matchConfidence": 100,
+      "titleMatchScore": 100,
+      "authorMatchScore": 100,
+      "journalMatchScore": 100,
+      "issues": [
+        "Note: You used 'et al.', please verify if your citation style allows it"
+      ]
+    }
+  },
+  {
+    "id": "P2:R5",
+    "reference": "James Howison et al. Softcite Dataset Version 2. Version 2.0. Zenodo, June 2023. doi: 10.5281/zenodo.7995565. url: https://doi.org/10.5281/zenodo.7995565",
+    "true_problematic": 0,
+    "historical_checkifexist": 0,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=James%20Howison%20et%20al.%20Softcite%20Dataset%20Version%202.%20Version%202.0.%20Zenodo%2C%20June%202023.%20doi%3A%2010.5281%2Fzenodo.7995565.%20url%3A%20https%3A%2F%2Fdoi.org%2F10.5281%2Fzenodo.7995565&rows=5",
+        "status": 200,
+        "body_sha256": "fdad2d54fe8492d6b5cc36987b846d6877e0e797076a2803657602981f443a61",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 32,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P2:R6",
+    "reference": "Daniel Schindler, Benjamin Zapilko, and Frank Krger. ?SoMeSci?A 5 Star Open Data Gold Standard Knowledge Graph of Software Mentions in Scientific Articles?. In: Scientific Data 9.1 (2022), p. 212. doi: 10.1038/s41597-022-01328-8",
+    "true_problematic": 1,
+    "historical_checkifexist": 0,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Daniel%20Schindler%2C%20Benjamin%20Zapilko%2C%20and%20Frank%20Kr%C2%81ger.%20%3FSoMeSci%3FA%205%20Star%20Open%20Data%20Gold%20Standard%20Knowledge%20Graph%20of%20Software%20Mentions%20in%20Scientific%20Articles%3F.%20In%3A%20Scientific%20Data%209.1%20(2022)%2C%20p.%20212.%20doi%3A%2010.1038%2Fs41597-022-01328-8&rows=5",
+        "status": 200,
+        "body_sha256": "67b6250ae8cfdfb08ca77bcfbde13592e7b6ec898b3c29d1efe1f4db976eeeaa",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": true,
+      "title": "SoMeSci- A 5 Star Open Data Gold Standard Knowledge Graph of Software Mentions in Scientific Articles",
+      "authors": "Schindler, Bensmann, Dietze, Krüger",
+      "year": "2021",
+      "journal": "Proceedings of the 30th ACM International Conference on Information &amp; Knowledge Management",
+      "url": "https://doi.org/10.1145/3459637.3482017",
+      "doi": "10.1145/3459637.3482017",
+      "score": 98.562035,
+      "citations": 30,
+      "apa": "Schindler, D., Bensmann, F., Dietze, S., Krüger, F. (2021). SoMeSci- A 5 Star Open Data Gold Standard Knowledge Graph of Software Mentions in Scientific Articles. Proceedings of the 30th ACM International Conference on Information &amp; Knowledge Management. https://doi.org/10.1145/3459637.3482017",
+      "mla": "Schindler, David, et al. \"SoMeSci- A 5 Star Open Data Gold Standard Knowledge Graph of Software Mentions in Scientific Articles.\" Proceedings of the 30th ACM International Conference on Information &amp; Knowledge Management, 2021. https://doi.org/10.1145/3459637.3482017.",
+      "iso690": "SCHINDLER, David; BENSMANN, Felix; DIETZE, Stefan; KRÜGER, Frank. SoMeSci- A 5 Star Open Data Gold Standard Knowledge Graph of Software Mentions in Scientific Articles. Proceedings of the 30th ACM International Conference on Information &amp; Knowledge Management, 2021. https://doi.org/10.1145/3459637.3482017",
+      "bibtex": "@article{Schindler2021SoMeSci,\n  title={SoMeSci- A 5 Star Open Data Gold Standard Knowledge Graph of Software Mentions in Scientific Articles},\n  author={Schindler, David and Bensmann, Felix and Dietze, Stefan and Krüger, Frank},\n  year={2021},\n  journal={Proceedings of the 30th ACM International Conference on Information &amp; Knowledge Management},\n  doi={10.1145/3459637.3482017}\n}",
+      "source": "CrossRef",
+      "matchConfidence": 47.5,
+      "titleMatchScore": 100,
+      "authorMatchScore": -5,
+      "journalMatchScore": 100,
+      "issues": [
+        "Possible Extra/Fake Authors: Benjamin, Zapilko, Krger",
+        "Note: year 2022 vs 2021 (likely online-first vs print date)"
+      ]
+    }
+  },
+  {
+    "id": "P2:R7",
+    "reference": "Goran Duck et al. ?A survey of bioinformatics database and software usage through mining the literature?. In: PLOS ONE 11.6 (2016), e0157989. doi: 10.1371/journal.pone.0157989",
+    "true_problematic": 0,
+    "historical_checkifexist": 0,
+    "prediction": 0,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Goran%20Duck%20et%20al.%20%3FA%20survey%20of%20bioinformatics%20database%20and%20software%20usage%20through%20mining%20the%20literature%3F.%20In%3A%20PLOS%20ONE%2011.6%20(2016)%2C%20e0157989.%20doi%3A%2010.1371%2Fjournal.pone.0157989&rows=5",
+        "status": 200,
+        "body_sha256": "4541cf2f8ae949cd5e7faf49315d687417cf26203494af6267ffa7e8c8772136",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": true,
+      "title": "A Survey of Bioinformatics Database and Software Usage through Mining the Literature",
+      "authors": "Duck, Nenadic, Filannino, Brass, Robertson, Stevens",
+      "year": "2016",
+      "journal": "PLOS ONE",
+      "url": "https://doi.org/10.1371/journal.pone.0157989",
+      "doi": "10.1371/journal.pone.0157989",
+      "score": 90.76858,
+      "citations": 48,
+      "apa": "Duck, G., Nenadic, G., Filannino, M., Brass, A., Robertson, D., Stevens, R. (2016). A Survey of Bioinformatics Database and Software Usage through Mining the Literature. PLOS ONE. https://doi.org/10.1371/journal.pone.0157989",
+      "mla": "Duck, Geraint, et al. \"A Survey of Bioinformatics Database and Software Usage through Mining the Literature.\" PLOS ONE, 2016. https://doi.org/10.1371/journal.pone.0157989.",
+      "iso690": "DUCK, Geraint; NENADIC, Goran; FILANNINO, Michele; BRASS, Andy; ROBERTSON, David L.; STEVENS, Robert. A Survey of Bioinformatics Database and Software Usage through Mining the Literature. PLOS ONE, 2016. https://doi.org/10.1371/journal.pone.0157989",
+      "bibtex": "@article{Duck2016A,\n  title={A Survey of Bioinformatics Database and Software Usage through Mining the Literature},\n  author={Duck, Geraint and Nenadic, Goran and Filannino, Michele and Brass, Andy and Robertson, David L. and Stevens, Robert},\n  year={2016},\n  journal={PLOS ONE},\n  doi={10.1371/journal.pone.0157989}\n}",
+      "source": "CrossRef",
+      "matchConfidence": 100,
+      "titleMatchScore": 100,
+      "authorMatchScore": 100,
+      "journalMatchScore": 100,
+      "issues": [
+        "Note: You used 'et al.', please verify if your citation style allows it"
+      ]
+    }
+  },
+  {
+    "id": "P2:R8",
+    "reference": "Ana-Maria Istrate et al. ?A large dataset of software mentions in the biomedical literature?. In: arXiv (Sept. 2022). arXiv:2209.00693 [cs]. doi: 10.48550/arXiv.2209.00693. url: http://arxiv.org/abs/2209.00693 (visited on 04/24/2025)",
+    "true_problematic": 0,
+    "historical_checkifexist": 0,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Ana-Maria%20Istrate%20et%20al.%20%3FA%20large%20dataset%20of%20software%20mentions%20in%20the%20biomedical%20literature%3F.%20In%3A%20arXiv%20(Sept.%202022).%20arXiv%3A2209.00693%20%5Bcs%5D.%20doi%3A%2010.48550%2FarXiv.2209.00693.%20url%3A%20http%3A%2F%2Farxiv.org%2Fabs%2F2209.00693%20(visited%20on%2004%2F24%2F2025)&rows=5",
+        "status": 200,
+        "body_sha256": "38b5fd0e1770af0752b61b889c55618682efc7869b924248d3d96af6c5b6c40b",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 13,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P2:R9",
+    "reference": "Daniel Schindler, Benjamin Zapilko, and Frank Krger. ?SoftwareKG?a knowledge graph of software mentions from biomedical literature?. In: Semantic Web 14.1 (2022), pp. 73?95. doi: 10.3233/SW-223172",
+    "true_problematic": 1,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Daniel%20Schindler%2C%20Benjamin%20Zapilko%2C%20and%20Frank%20Kr%C2%81ger.%20%3FSoftwareKG%3Fa%20knowledge%20graph%20of%20software%20mentions%20from%20biomedical%20literature%3F.%20In%3A%20Semantic%20Web%2014.1%20(2022)%2C%20pp.%2073%3F95.%20doi%3A%2010.3233%2FSW-223172&rows=5",
+        "status": 200,
+        "body_sha256": "39f7510786adf8856766c2d4d6007e1c564118e7967f38c80303f41483e43f6b",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 29,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P2:R10",
+    "reference": "Matteo Cancellieri, David Pride, and Petr Knoth. ?Identifying and extracting Data Access Statements from full-text academic articles?. In: Proceedings of the Joint Conference on Digital Libraries, JCDL 2025 (2025)",
+    "true_problematic": 1,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Matteo%20Cancellieri%2C%20David%20Pride%2C%20and%20Petr%20Knoth.%20%3FIdentifying%20and%20extracting%20Data%20Access%20Statements%20from%20full-text%20academic%20articles%3F.%20In%3A%20Proceedings%20of%20the%20Joint%20Conference%20on%20Digital%20Libraries%2C%20JCDL%202025%20(2025)&rows=5",
+        "status": 200,
+        "body_sha256": "cda986f720ae5d0974b3dd5991a912e2aff246060c4d8e5b8bfea11e8fc7d8d3",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 23,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P2:R11",
+    "reference": "Petr Knoth et al. ?CORE: A Global Aggregation Service for Open Access Papers?. en. In: Scientific Data 10.1 (June 2023). Publisher: Nature Publishing Group, p. 366. issn: 2052-4463. doi: 10.1038/s41597-023-02208-w. url: https://www.nature.com/articles/s41597-023-02208-w (visited on 04/24/2025",
+    "true_problematic": 0,
+    "historical_checkifexist": 1,
+    "prediction": 0,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Petr%20Knoth%20et%20al.%20%3FCORE%3A%20A%20Global%20Aggregation%20Service%20for%20Open%20Access%20Papers%3F.%20en.%20In%3A%20Scientific%20Data%2010.1%20(June%202023).%20Publisher%3A%20Nature%20Publishing%20Group%2C%20p.%20366.%20issn%3A%202052-4463.%20doi%3A%2010.1038%2Fs41597-023-02208-w.%20url%3A%20https%3A%2F%2Fwww.nature.com%2Farticles%2Fs41597-023-02208-w%20(visited%20on%2004%2F24%2F2025&rows=5",
+        "status": 200,
+        "body_sha256": "938af6fe03422c97ce42e83196b2e200b6da0b3cf9ede7f1814f8caf8c0f1f7f",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": true,
+      "title": "CORE: A Global Aggregation Service for Open Access Papers",
+      "authors": "Knoth, Herrmannova, Cancellieri, Anastasiou, Pontika, Pearce, Gyawali, Pride",
+      "year": "2023",
+      "journal": "Scientific Data",
+      "url": "https://doi.org/10.1038/s41597-023-02208-w",
+      "doi": "10.1038/s41597-023-02208-w",
+      "score": 96.127014,
+      "citations": 29,
+      "apa": "Knoth, P., Herrmannova, D., Cancellieri, M., Anastasiou, L., Pontika, N., Pearce, S., Gyawali, B., Pride, D. (2023). CORE: A Global Aggregation Service for Open Access Papers. Scientific Data. https://doi.org/10.1038/s41597-023-02208-w",
+      "mla": "Knoth, Petr, et al. \"CORE: A Global Aggregation Service for Open Access Papers.\" Scientific Data, 2023. https://doi.org/10.1038/s41597-023-02208-w.",
+      "iso690": "KNOTH, Petr; HERRMANNOVA, Drahomira; CANCELLIERI, Matteo; ANASTASIOU, Lucas; PONTIKA, Nancy; PEARCE, Samuel; GYAWALI, Bikash; PRIDE, David. CORE: A Global Aggregation Service for Open Access Papers. Scientific Data, 2023. https://doi.org/10.1038/s41597-023-02208-w",
+      "bibtex": "@article{Knoth2023CORE,\n  title={CORE: A Global Aggregation Service for Open Access Papers},\n  author={Knoth, Petr and Herrmannova, Drahomira and Cancellieri, Matteo and Anastasiou, Lucas and Pontika, Nancy and Pearce, Samuel and Gyawali, Bikash and Pride, David},\n  year={2023},\n  journal={Scientific Data},\n  doi={10.1038/s41597-023-02208-w}\n}",
+      "source": "CrossRef",
+      "matchConfidence": 90,
+      "titleMatchScore": 100,
+      "authorMatchScore": 80,
+      "journalMatchScore": 100,
+      "issues": [
+        "Possible Extra/Fake Authors: June, Group",
+        "Note: You used 'et al.', please verify if your citation style allows it"
+      ]
+    }
+  },
+  {
+    "id": "P2:R12",
+    "reference": "Patrice Lopez et al. ?Mining Software Entities in Scientific Literature: Document-level NER for an Extremely Imbalance and Large-scale Task?. In: Proceedings of the 30th ACM International Conference on Information & Knowledge Management. CIKM ?21. New York, NY, USA: Association for Computing Machinery, Oct. 2021, pp. 3986?3995. isbn: 978-1-4503-8446-9. doi: 10.1145/3459637.3481936. url: https://dl.acm.org/ doi/10.1145/3459637.3481936 (visited on 04/24/2025",
+    "true_problematic": 0,
+    "historical_checkifexist": 0,
+    "prediction": 0,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Patrice%20Lopez%20et%20al.%20%3FMining%20Software%20Entities%20in%20Scientific%20Literature%3A%20Document-level%20NER%20for%20an%20Extremely%20Imbalance%20and%20Large-scale%20Task%3F.%20In%3A%20Proceedings%20of%20the%2030th%20ACM%20International%20Conference%20on%20Information%20%26%20Knowledge%20Management.%20CIKM%20%3F21.%20New%20York%2C%20NY%2C%20USA%3A%20Association%20for%20Computing%20Machinery%2C%20Oct.%202021%2C%20pp.%203986%3F3995.%20isbn%3A%20978-1-4503-8446-9.%20doi%3A%2010.1145%2F3459637.3481936.%20url%3A%20https%3A%2F%2Fdl.acm.org%2F%20doi%2F10.1145%2F3459637.3481936%20(visited%20on%2004%2F24%2F2025&rows=5",
+        "status": 200,
+        "body_sha256": "9da444b92b0d21c6355073f2cf194e4d214d6c2f5e1146692436248135324f59",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": true,
+      "title": "Mining Software Entities in Scientific Literature",
+      "authors": "Lopez, Du, Cohoon, Ram, Howison",
+      "year": "2021",
+      "journal": "Proceedings of the 30th ACM International Conference on Information &amp; Knowledge Management",
+      "url": "https://doi.org/10.1145/3459637.3481936",
+      "doi": "10.1145/3459637.3481936",
+      "score": 134.94171,
+      "citations": 12,
+      "apa": "Lopez, P., Du, C., Cohoon, J., Ram, K., Howison, J. (2021). Mining Software Entities in Scientific Literature. Proceedings of the 30th ACM International Conference on Information &amp; Knowledge Management. https://doi.org/10.1145/3459637.3481936",
+      "mla": "Lopez, Patrice, et al. \"Mining Software Entities in Scientific Literature.\" Proceedings of the 30th ACM International Conference on Information &amp; Knowledge Management, 2021. https://doi.org/10.1145/3459637.3481936.",
+      "iso690": "LOPEZ, Patrice; DU, Caifan; COHOON, Johanna; RAM, Karthik; HOWISON, James. Mining Software Entities in Scientific Literature. Proceedings of the 30th ACM International Conference on Information &amp; Knowledge Management, 2021. https://doi.org/10.1145/3459637.3481936",
+      "bibtex": "@article{Lopez2021Mining,\n  title={Mining Software Entities in Scientific Literature},\n  author={Lopez, Patrice and Du, Caifan and Cohoon, Johanna and Ram, Karthik and Howison, James},\n  year={2021},\n  journal={Proceedings of the 30th ACM International Conference on Information &amp; Knowledge Management},\n  doi={10.1145/3459637.3481936}\n}",
+      "source": "CrossRef",
+      "matchConfidence": 100,
+      "titleMatchScore": 100,
+      "authorMatchScore": 100,
+      "journalMatchScore": 100,
+      "issues": [
+        "Note: You used 'et al.', please verify if your citation style allows it"
+      ]
+    }
+  },
+  {
+    "id": "P2:R13",
+    "reference": "Micha? Marci?czuk and Marcin Oleksy. ?Inforex ? a Collaborative System for Text Corpora Annotation and Analysis Goes Open?. In: Proceedings of the International Conference on Recent Advances in Natural Language Processing (RANLP 2019). Ed. by Ruslan Mitkov and Galia Angelova. Varna, Bulgaria: INCOMA Ltd., Sept. 2019, pp. 711?719. doi: 10.26615/978-954-452-056-4_083. url: https://aclanthology.org/R19-1083/",
+    "true_problematic": 0,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Micha%3F%20Marci%3Fczuk%20and%20Marcin%20Oleksy.%20%3FInforex%20%3F%20a%20Collaborative%20System%20for%20Text%20Corpora%20Annotation%20and%20Analysis%20Goes%20Open%3F.%20In%3A%20Proceedings%20of%20the%20International%20Conference%20on%20Recent%20Advances%20in%20Natural%20Language%20Processing%20(RANLP%202019).%20Ed.%20by%20Ruslan%20Mitkov%20and%20Galia%20Angelova.%20Varna%2C%20Bulgaria%3A%20INCOMA%20Ltd.%2C%20Sept.%202019%2C%20pp.%20711%3F719.%20doi%3A%2010.26615%2F978-954-452-056-4_083.%20url%3A%20https%3A%2F%2Faclanthology.org%2FR19-1083%2F&rows=5",
+        "status": 200,
+        "body_sha256": "7748a60fa548a8c7a221e5d1004eb2cbb4fb28f0aa8bf944e344cb4baf713b4b",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 22,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P2:R14",
+    "reference": "David Pride et al. ?SoFAIR Project Dataset - An annotated dataset of software mentions in full text scientific articles.? In: Nature Scientific Data (Nov. 2025). doi: 10.21954/ou.rd.30374830.v2. url: https://ordo.open.ac.uk/articles/dataset/SoFAIR_Project_Dataset_-_An_annotated_dataset_of_software_mentions_in_full_text_scientific_articles_/30374830",
+    "true_problematic": 0,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=David%20Pride%20et%20al.%20%3FSoFAIR%20Project%20Dataset%20-%20An%20annotated%20dataset%20of%20software%20mentions%20in%20full%20text%20scientific%20articles.%3F%20In%3A%20Nature%20Scientific%20Data%20(Nov.%202025).%20doi%3A%2010.21954%2Fou.rd.30374830.v2.%20url%3A%20https%3A%2F%2Fordo.open.ac.uk%2Farticles%2Fdataset%2FSoFAIR_Project_Dataset_-_An_annotated_dataset_of_software_mentions_in_full_text_scientific_articles_%2F30374830&rows=5",
+        "status": 200,
+        "body_sha256": "778a300dd179161c288c73975c408184754c4602b294798bf462fa99863fd3ca",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 22,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P2:R15",
+    "reference": "Arfon M. Smith, Daniel S. Katz, and Kyle E. Niemeyer. ?Software citation principles?. en. In: PeerJ Computer Science 2 (Sept. 2016). Publisher: PeerJ Inc., e86. issn: 2376-5992. doi: 10.7717/peerj-cs.86. url: https://peerj.com/articles/cs-86 (visited on 06/03/2025)",
+    "true_problematic": 0,
+    "historical_checkifexist": 1,
+    "prediction": 0,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Arfon%20M.%20Smith%2C%20Daniel%20S.%20Katz%2C%20and%20Kyle%20E.%20Niemeyer.%20%3FSoftware%20citation%20principles%3F.%20en.%20In%3A%20PeerJ%20Computer%20Science%202%20(Sept.%202016).%20Publisher%3A%20PeerJ%20Inc.%2C%20e86.%20issn%3A%202376-5992.%20doi%3A%2010.7717%2Fpeerj-cs.86.%20url%3A%20https%3A%2F%2Fpeerj.com%2Farticles%2Fcs-86%20(visited%20on%2006%2F03%2F2025)&rows=5",
+        "status": 200,
+        "body_sha256": "55149fa13bc8824e83469087822b1229d3eb4ae2110746eff3510e8d026b4024",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": true,
+      "title": "Software citation principles",
+      "authors": "Smith, Katz, Niemeyer, ",
+      "year": "2016",
+      "journal": "PeerJ Computer Science",
+      "url": "https://doi.org/10.7717/peerj-cs.86",
+      "doi": "10.7717/peerj-cs.86",
+      "score": 193.46461,
+      "citations": 217,
+      "apa": "Smith, A., Katz, D., Niemeyer, K., undefined,  (2016). Software citation principles. PeerJ Computer Science. https://doi.org/10.7717/peerj-cs.86",
+      "mla": "Smith, Arfon M., et al. \"Software citation principles.\" PeerJ Computer Science, 2016. https://doi.org/10.7717/peerj-cs.86.",
+      "iso690": "SMITH, Arfon M.; KATZ, Daniel S.; NIEMEYER, Kyle E.; . Software citation principles. PeerJ Computer Science, 2016. https://doi.org/10.7717/peerj-cs.86",
+      "bibtex": "@article{Smith2016Software,\n  title={Software citation principles},\n  author={Smith, Arfon M. and Katz, Daniel S. and Niemeyer, Kyle E. and undefined},\n  year={2016},\n  journal={PeerJ Computer Science},\n  doi={10.7717/peerj-cs.86}\n}",
+      "source": "CrossRef",
+      "matchConfidence": 100,
+      "titleMatchScore": 100,
+      "authorMatchScore": 90,
+      "journalMatchScore": 100,
+      "issues": [
+        "Possible Extra/Fake Authors: Sept"
+      ]
+    }
+  },
+  {
+    "id": "P3:R1",
+    "reference": "Lorenz Kuhn, Yarin Gal, and Sebastian Farquhar. Semantic uncertainty: Linguistic invariances for uncertainty estimation in natural language generation. In International Conference on Learning Representations (ICLR), 2023",
+    "true_problematic": 0,
+    "historical_checkifexist": 0,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Lorenz%20Kuhn%2C%20Yarin%20Gal%2C%20and%20Sebastian%20Farquhar.%20Semantic%20uncertainty%3A%20Linguistic%20invariances%20for%20uncertainty%20estimation%20in%20natural%20language%20generation.%20In%20International%20Conference%20on%20Learning%20Representations%20(ICLR)%2C%202023&rows=5",
+        "status": 200,
+        "body_sha256": "cc4ff601e2f43bfa7251277f58168d62b53fdbf4389ee72e70bdf256db5e662a",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 27,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R2",
+    "reference": "Yasin Abbasi Yadkori, Ilja Kuzborskij, Andr s Gy”rgy, and Csaba Szepesv ri. To believe or not to believe your llm. arXiv preprint arXiv:2406.02543, 2024",
+    "true_problematic": 0,
+    "historical_checkifexist": 0,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Yasin%20Abbasi%20Yadkori%2C%20Ilja%20Kuzborskij%2C%20Andr%C2%A0s%20Gy%E2%80%9Drgy%2C%20and%20Csaba%20Szepesv%C2%A0ri.%20To%20believe%20or%20not%20to%20believe%20your%20llm.%20arXiv%20preprint%20arXiv%3A2406.02543%2C%202024&rows=5",
+        "status": 200,
+        "body_sha256": "d94c1d5a394ef36cf33a2deabb68fcc87120fd105c1aad8ea458a559ad381126",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 33,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R3",
+    "reference": "Ari Holtzman, Jan Buys, Li Du, Maxwell Forbes, and Yejin Choi. The curious case of neural text degeneration. arXiv preprint arXiv:1904.09751, 2019",
+    "true_problematic": 0,
+    "historical_checkifexist": 0,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Ari%20Holtzman%2C%20Jan%20Buys%2C%20Li%20Du%2C%20Maxwell%20Forbes%2C%20and%20Yejin%20Choi.%20The%20curious%20case%20of%20neural%20text%20degeneration.%20arXiv%20preprint%20arXiv%3A1904.09751%2C%202019&rows=5",
+        "status": 200,
+        "body_sha256": "1570fbe937826e10353e9dab3f4c72b0015a2862a9aff819740700941db0fa23",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 23,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R4",
+    "reference": "Franz Aichberger, Lily Chen, and John Smith. Semantically diverse language generation. In International Conference on Learning Representations (ICLR), 2025",
+    "true_problematic": 1,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Franz%20Aichberger%2C%20Lily%20Chen%2C%20and%20John%20Smith.%20Semantically%20diverse%20language%20generation.%20In%20International%20Conference%20on%20Learning%20Representations%20(ICLR)%2C%202025&rows=5",
+        "status": 200,
+        "body_sha256": "d79c49905ce81e24315bc2f02bd6dbaec82154b6ae72d952881b4747154b849f",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 36,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R5",
+    "reference": "Jacob Austin and et al. Diffuseq: Sequence to sequence text generation with diffusion models. In ICLR, 2022",
+    "true_problematic": 1,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Jacob%20Austin%20and%20et%20al.%20Diffuseq%3A%20Sequence%20to%20sequence%20text%20generation%20with%20diffusion%20models.%20In%20ICLR%2C%202022&rows=5",
+        "status": 200,
+        "body_sha256": "3d590b6148bab0aa12c2753a68f70d16748a6c80a09a23f2e32aff7234961348",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 29,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R6",
+    "reference": "Nuo Lou and et al. Dsp: Diffusion-based span prediction for masked text modeling. arXiv preprint arXiv:2305.XXXX, 2023",
+    "true_problematic": 1,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Nuo%20Lou%20and%20et%20al.%20Dsp%3A%20Diffusion-based%20span%20prediction%20for%20masked%20text%20modeling.%20arXiv%20preprint%20arXiv%3A2305.XXXX%2C%202023&rows=5",
+        "status": 200,
+        "body_sha256": "082b52bed43aeb3904eee4bfcaad64b4e0a684dc2b68a819a471a84259cf46b6",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 24,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R7",
+    "reference": "Sheng Shi and et al. Maskgpt: Uniform denoising diffusion for language. arXiv preprint arXiv:2401.XXXX, 2024",
+    "true_problematic": 1,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Sheng%20Shi%20and%20et%20al.%20Maskgpt%3A%20Uniform%20denoising%20diffusion%20for%20language.%20arXiv%20preprint%20arXiv%3A2401.XXXX%2C%202024&rows=5",
+        "status": 200,
+        "body_sha256": "b249ae148840170c8f8657ed80776b2d3eb89e9f592974af1197b39323dc4609",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 44,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R8",
+    "reference": "A. Sahoo and et al. inatk: Iterative noise aware text denoising. arXiv preprint arXiv:2402.XXXX, 2024",
+    "true_problematic": 1,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=A.%20Sahoo%20and%20et%20al.%20inatk%3A%20Iterative%20noise%20aware%20text%20denoising.%20arXiv%20preprint%20arXiv%3A2402.XXXX%2C%202024&rows=5",
+        "status": 200,
+        "body_sha256": "122b3a3c910be39c6cc85fdaad1a4e46a94317276aec924aa3992bc8becde902",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 37,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R9",
+    "reference": "X. Ou and et al. Tuqdm: Token unmasking with quantized diffusion models. In ACL, 2024",
+    "true_problematic": 1,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=X.%20Ou%20and%20et%20al.%20Tuqdm%3A%20Token%20unmasking%20with%20quantized%20diffusion%20models.%20In%20ACL%2C%202024&rows=5",
+        "status": 200,
+        "body_sha256": "2e875320511f57d38ae17ecabf7607f995539c7e344aa020d5595ec3414f4bcf",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 28,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R10",
+    "reference": "Yuxin Nie and et al. Llada: Large language auto-diffusion for accelerated denoising. arXiv preprint arXiv:2403.XXXX, 2024",
+    "true_problematic": 1,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Yuxin%20Nie%20and%20et%20al.%20Llada%3A%20Large%20language%20auto-diffusion%20for%20accelerated%20denoising.%20arXiv%20preprint%20arXiv%3A2403.XXXX%2C%202024&rows=5",
+        "status": 200,
+        "body_sha256": "57efee1d32a5e84aeee94d28de99e7974b34372cfc879e2bbda0cd29462cdb23",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 39,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R11",
+    "reference": "Adina Williams, Nikita Nangia, and Samuel R. Bowman. A broad-coverage challenge corpus for sentence understanding through inference. In Proceedings of NAACL-HLT, 2018",
+    "true_problematic": 0,
+    "historical_checkifexist": 1,
+    "prediction": 0,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Adina%20Williams%2C%20Nikita%20Nangia%2C%20and%20Samuel%20R.%20Bowman.%20A%20broad-coverage%20challenge%20corpus%20for%20sentence%20understanding%20through%20inference.%20In%20Proceedings%20of%20NAACL-HLT%2C%202018&rows=5",
+        "status": 200,
+        "body_sha256": "0e15705b2e44a1afec1e2b6ad818bc2d8aeca3a4f35bc12fc2cbaebb7471effa",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": true,
+      "title": "A Broad-Coverage Challenge Corpus for Sentence Understanding through Inference",
+      "authors": "Williams, Nangia, Bowman",
+      "year": "2018",
+      "journal": "Proceedings of the 2018 Conference of the North American Chapter of\n          the Association for Computational Linguistics: Human Language\n          Technologies, Volume 1 (Long Papers)",
+      "url": "https://doi.org/10.18653/v1/n18-1101",
+      "doi": "10.18653/v1/n18-1101",
+      "score": 103.71647,
+      "citations": 966,
+      "apa": "Williams, A., Nangia, N., Bowman, S. (2018). A Broad-Coverage Challenge Corpus for Sentence Understanding through Inference. Proceedings of the 2018 Conference of the North American Chapter of\n          the Association for Computational Linguistics: Human Language\n          Technologies, Volume 1 (Long Papers). https://doi.org/10.18653/v1/n18-1101",
+      "mla": "Williams, Adina, et al. \"A Broad-Coverage Challenge Corpus for Sentence Understanding through Inference.\" Proceedings of the 2018 Conference of the North American Chapter of\n          the Association for Computational Linguistics: Human Language\n          Technologies, Volume 1 (Long Papers), 2018. https://doi.org/10.18653/v1/n18-1101.",
+      "iso690": "WILLIAMS, Adina; NANGIA, Nikita; BOWMAN, Samuel. A Broad-Coverage Challenge Corpus for Sentence Understanding through Inference. Proceedings of the 2018 Conference of the North American Chapter of\n          the Association for Computational Linguistics: Human Language\n          Technologies, Volume 1 (Long Papers), 2018. https://doi.org/10.18653/v1/n18-1101",
+      "bibtex": "@article{Williams2018A,\n  title={A Broad-Coverage Challenge Corpus for Sentence Understanding through Inference},\n  author={Williams, Adina and Nangia, Nikita and Bowman, Samuel},\n  year={2018},\n  journal={Proceedings of the 2018 Conference of the North American Chapter of\n          the Association for Computational Linguistics: Human Language\n          Technologies, Volume 1 (Long Papers)},\n  doi={10.18653/v1/n18-1101}\n}",
+      "source": "CrossRef",
+      "matchConfidence": 100,
+      "titleMatchScore": 100,
+      "authorMatchScore": 100,
+      "journalMatchScore": 100,
+      "issues": []
+    }
+  },
+  {
+    "id": "P3:R12",
+    "reference": "Pengcheng He, Weizhu Liu, Jianfeng Gao, and Weizhu Chen. Deberta: Decoding-enhanced bert with disentangled attention. In International Conference on Learning Representations (ICLR), 2021",
+    "true_problematic": 1,
+    "historical_checkifexist": 0,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Pengcheng%20He%2C%20Weizhu%20Liu%2C%20Jianfeng%20Gao%2C%20and%20Weizhu%20Chen.%20Deberta%3A%20Decoding-enhanced%20bert%20with%20disentangled%20attention.%20In%20International%20Conference%20on%20Learning%20Representations%20(ICLR)%2C%202021&rows=5",
+        "status": 200,
+        "body_sha256": "7f2d5cc2ddf80215f126d8ef5343d0b66ef2f1f3aacc8033305714d1dc008bfb",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 23,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R13",
+    "reference": "Alex Wang, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel R Bowman. Glue: A multi-task benchmark and analysis platform for natural language understanding. arXiv preprint arXiv:1804.07461, 2018",
+    "true_problematic": 0,
+    "historical_checkifexist": 1,
+    "prediction": 0,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Alex%20Wang%2C%20Amanpreet%20Singh%2C%20Julian%20Michael%2C%20Felix%20Hill%2C%20Omer%20Levy%2C%20and%20Samuel%20R%20Bowman.%20Glue%3A%20A%20multi-task%20benchmark%20and%20analysis%20platform%20for%20natural%20language%20understanding.%20arXiv%20preprint%20arXiv%3A1804.07461%2C%202018&rows=5",
+        "status": 200,
+        "body_sha256": "d07568f50ed78786c00ffe591c238e75053b234a9412fe989e16351a2d5557e1",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": true,
+      "title": "GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding",
+      "authors": "Wang, Singh, Michael, Hill, Levy, Bowman",
+      "year": "2018",
+      "journal": "Proceedings of the 2018 EMNLP Workshop BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP",
+      "url": "https://doi.org/10.18653/v1/w18-5446",
+      "doi": "10.18653/v1/w18-5446",
+      "score": 132.5918,
+      "citations": 2206,
+      "apa": "Wang, A., Singh, A., Michael, J., Hill, F., Levy, O., Bowman, S. (2018). GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding. Proceedings of the 2018 EMNLP Workshop BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP. https://doi.org/10.18653/v1/w18-5446",
+      "mla": "Wang, Alex, et al. \"GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding.\" Proceedings of the 2018 EMNLP Workshop BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP, 2018. https://doi.org/10.18653/v1/w18-5446.",
+      "iso690": "WANG, Alex; SINGH, Amanpreet; MICHAEL, Julian; HILL, Felix; LEVY, Omer; BOWMAN, Samuel. GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding. Proceedings of the 2018 EMNLP Workshop BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP, 2018. https://doi.org/10.18653/v1/w18-5446",
+      "bibtex": "@article{Wang2018GLUE,\n  title={GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding},\n  author={Wang, Alex and Singh, Amanpreet and Michael, Julian and Hill, Felix and Levy, Omer and Bowman, Samuel},\n  year={2018},\n  journal={Proceedings of the 2018 EMNLP Workshop BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP},\n  doi={10.18653/v1/w18-5446}\n}",
+      "source": "CrossRef",
+      "matchConfidence": 100,
+      "titleMatchScore": 100,
+      "authorMatchScore": 100,
+      "journalMatchScore": 100,
+      "issues": []
+    }
+  },
+  {
+    "id": "P3:R14",
+    "reference": "Mandar Joshi, Eunsol Choi, Daniel S. Weld, and Luke Zettlemoyer. Triviaqa: A large scale distantly supervised challenge for reading comprehension. In Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (ACL), pp. 1601?1611, 2017",
+    "true_problematic": 0,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Mandar%20Joshi%2C%20Eunsol%20Choi%2C%20Daniel%20S.%20Weld%2C%20and%20Luke%20Zettlemoyer.%20Triviaqa%3A%20A%20large%20scale%20distantly%20supervised%20challenge%20for%20reading%20comprehension.%20In%20Proceedings%20of%20the%2055th%20Annual%20Meeting%20of%20the%20Association%20for%20Computational%20Linguistics%20(ACL)%2C%20pp.%201601%3F1611%2C%202017&rows=5",
+        "status": 200,
+        "body_sha256": "bd50eca09cc7ebd813f589928ed4b88384401666dbbc18343a3a26b072087536",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 31,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R15",
+    "reference": "Yarin Gal and Zoubin Ghahramani. Dropout as a bayesian approximation: Representing model uncertainty in deep learning. In International Conference on Machine Learning (ICML), 2016",
+    "true_problematic": 0,
+    "historical_checkifexist": 0,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Yarin%20Gal%20and%20Zoubin%20Ghahramani.%20Dropout%20as%20a%20bayesian%20approximation%3A%20Representing%20model%20uncertainty%20in%20deep%20learning.%20In%20International%20Conference%20on%20Machine%20Learning%20(ICML)%2C%202016&rows=5",
+        "status": 200,
+        "body_sha256": "523bc1433d1898e5188f33a9b0cffe2a059f2bb423d835a5c6d66e3e4469e1c2",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 21,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R16",
+    "reference": "Balaji Lakshminarayanan, Alexander Pritzel, and Charles Blundell. Simple and scalable predictive uncertainty estimation using deep ensembles. In Advances in Neural Information Processing Systems (NeurIPS), volume 30, 2017",
+    "true_problematic": 0,
+    "historical_checkifexist": 0,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Balaji%20Lakshminarayanan%2C%20Alexander%20Pritzel%2C%20and%20Charles%20Blundell.%20Simple%20and%20scalable%20predictive%20uncertainty%20estimation%20using%20deep%20ensembles.%20In%20Advances%20in%20Neural%20Information%20Processing%20Systems%20(NeurIPS)%2C%20volume%2030%2C%202017&rows=5",
+        "status": 200,
+        "body_sha256": "b2c40adee4910a3ae52db07aa769c36b9d51950529f2a636daed009a330bb431",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 29,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R17",
+    "reference": "Andrey Malinin and Mark Gales. Predictive uncertainty estimation via prior networks. In Advances in Neural Information Processing Systems (NeurIPS), volume 31, 2018",
+    "true_problematic": 0,
+    "historical_checkifexist": 0,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Andrey%20Malinin%20and%20Mark%20Gales.%20Predictive%20uncertainty%20estimation%20via%20prior%20networks.%20In%20Advances%20in%20Neural%20Information%20Processing%20Systems%20(NeurIPS)%2C%20volume%2031%2C%202018&rows=5",
+        "status": 200,
+        "body_sha256": "decd9919caad5e5697eb3555245d6676275df1d8c76471728677d3efad6bb61d",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 32,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R18",
+    "reference": "Andrey Malinin, David Uthoff, Roman Heil, Yaya Li, and Mark Gales. Ensemble distribution distillation. International Conference on Learning Representations (ICLR), 2020",
+    "true_problematic": 1,
+    "historical_checkifexist": 0,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Andrey%20Malinin%2C%20David%20Uthoff%2C%20Roman%20Heil%2C%20Yaya%20Li%2C%20and%20Mark%20Gales.%20Ensemble%20distribution%20distillation.%20International%20Conference%20on%20Learning%20Representations%20(ICLR)%2C%202020&rows=5",
+        "status": 200,
+        "body_sha256": "866a65ff6e5b41217c28fd73113b794f8dc6dafb95729e1021d45b939207b8e6",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 22,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R19",
+    "reference": "Hao Jiang, Bo Pang, Wei Ding, Jian Xu, and Lawrence Carin. To trust or not to trust a classifier. In International Conference on Learning Representations (ICLR), 2021",
+    "true_problematic": 1,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Hao%20Jiang%2C%20Bo%20Pang%2C%20Wei%20Ding%2C%20Jian%20Xu%2C%20and%20Lawrence%20Carin.%20To%20trust%20or%20not%20to%20trust%20a%20classifier.%20In%20International%20Conference%20on%20Learning%20Representations%20(ICLR)%2C%202021&rows=5",
+        "status": 200,
+        "body_sha256": "92704c4382b7c1220a8e55e8672eafbcea8cb5df7d15faa1d4e06c6d278215be",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 31,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R20",
+    "reference": "Yayati Desai and Gregory Durrett. Calibration of text generation models. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), pp. 4690?4697, 2020",
+    "true_problematic": 1,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Yayati%20Desai%20and%20Gregory%20Durrett.%20Calibration%20of%20text%20generation%20models.%20In%20Proceedings%20of%20the%202020%20Conference%20on%20Empirical%20Methods%20in%20Natural%20Language%20Processing%20(EMNLP)%2C%20pp.%204690%3F4697%2C%202020&rows=5",
+        "status": 200,
+        "body_sha256": "be439075f857c50d5b573313b768c78417cae49dc0264c3fb94b6ba7bd55d6e2",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 23,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R21",
+    "reference": "Maria Glushkova, Shiori Kobayashi, and Junichi Suzuki. Uncertainty estimation in neural text regression. In Findings of the Association for Computational Linguistics: EMNLP 2021, pp. 4567?4576, 2021",
+    "true_problematic": 1,
+    "historical_checkifexist": 1,
+    "prediction": 0,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Maria%20Glushkova%2C%20Shiori%20Kobayashi%2C%20and%20Junichi%20Suzuki.%20Uncertainty%20estimation%20in%20neural%20text%20regression.%20In%20Findings%20of%20the%20Association%20for%20Computational%20Linguistics%3A%20EMNLP%202021%2C%20pp.%204567%3F4576%2C%202021&rows=5",
+        "status": 200,
+        "body_sha256": "ec9e5e3008abb03df9f1cfeff67c88a2316f7e6f0497f7e05bb4d137cd468024",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": true,
+      "title": "Findings of the Association for Computational Linguistics: EMNLP 2021",
+      "authors": "",
+      "year": "2021",
+      "journal": "",
+      "url": "https://doi.org/10.18653/v1/2021.findings-emnlp",
+      "doi": "10.18653/v1/2021.findings-emnlp",
+      "score": 57.12946,
+      "citations": 2,
+      "apa": " (2021). Findings of the Association for Computational Linguistics: EMNLP 2021. https://doi.org/10.18653/v1/2021.findings-emnlp",
+      "mla": "\"Findings of the Association for Computational Linguistics: EMNLP 2021.\" 2021. https://doi.org/10.18653/v1/2021.findings-emnlp.",
+      "iso690": "Findings of the Association for Computational Linguistics: EMNLP 2021. 2021. https://doi.org/10.18653/v1/2021.findings-emnlp",
+      "bibtex": "@article{Unknown2021Findings,\n  title={Findings of the Association for Computational Linguistics: EMNLP 2021},\n  author={},\n  year={2021},\n  doi={10.18653/v1/2021.findings-emnlp}\n}",
+      "source": "CrossRef",
+      "matchConfidence": 100,
+      "titleMatchScore": 100,
+      "authorMatchScore": 100,
+      "journalMatchScore": 50,
+      "issues": []
+    }
+  },
+  {
+    "id": "P3:R22",
+    "reference": "Yichao Wang, Bowen Zhou, Adam Lopez, and Benjamin Snyder. Uncertainty quantification in abstractive summarization. In Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (ACL), pp. 1234?1245, 2022",
+    "true_problematic": 1,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Yichao%20Wang%2C%20Bowen%20Zhou%2C%20Adam%20Lopez%2C%20and%20Benjamin%20Snyder.%20Uncertainty%20quantification%20in%20abstractive%20summarization.%20In%20Proceedings%20of%20the%2060th%20Annual%20Meeting%20of%20the%20Association%20for%20Computational%20Linguistics%20(ACL)%2C%20pp.%201234%3F1245%2C%202022&rows=5",
+        "status": 200,
+        "body_sha256": "719a83348fdd56e8ffef327cc1d51b82f10b857f2ebee93fe4e3991664eb7136",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 29,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R23",
+    "reference": "Sarah Wiegreffe, Matthew Finlayson, Oyvind Tafjord, Peter Clark, and Ashish Sabharwal. Increasing probability mass on answer choices does not always improve accuracy. In Houda Bouamor, Juan Pino, and Kalika Bali (eds.), Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, pp. 8392?8417, Singapore, December 2023. Association for Computational Linguistics. doi: 10.18653/v1/2023.emnlp-main.522. URL https://aclanthology.org/2023.emnlp-main.522/",
+    "true_problematic": 0,
+    "historical_checkifexist": 0,
+    "prediction": 0,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Sarah%20Wiegreffe%2C%20Matthew%20Finlayson%2C%20Oyvind%20Tafjord%2C%20Peter%20Clark%2C%20and%20Ashish%20Sabharwal.%20Increasing%20probability%20mass%20on%20answer%20choices%20does%20not%20always%20improve%20accuracy.%20In%20Houda%20Bouamor%2C%20Juan%20Pino%2C%20and%20Kalika%20Bali%20(eds.)%2C%20Proceedings%20of%20the%202023%20Conference%20on%20Empirical%20Methods%20in%20Natural%20Language%20Processing%2C%20pp.%208392%3F8417%2C%20Singapore%2C%20December%202023.%20Association%20for%20Computational%20Linguistics.%20doi%3A%2010.18653%2Fv1%2F2023.emnlp-main.522.%20URL%20https%3A%2F%2Faclanthology.org%2F2023.emnlp-main.522%2F&rows=5",
+        "status": 200,
+        "body_sha256": "76ddbd06734f504de517c2fe5aac6114aa6579d6084f220a730475b78c2ebfe6",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": true,
+      "title": "Increasing Probability Mass on Answer Choices Does Not Always Improve Accuracy",
+      "authors": "Wiegreffe, Finlayson, Tafjord, Clark, Sabharwal",
+      "year": "2023",
+      "journal": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+      "url": "https://doi.org/10.18653/v1/2023.emnlp-main.522",
+      "doi": "10.18653/v1/2023.emnlp-main.522",
+      "score": 214.21358,
+      "citations": 1,
+      "apa": "Wiegreffe, S., Finlayson, M., Tafjord, O., Clark, P., Sabharwal, A. (2023). Increasing Probability Mass on Answer Choices Does Not Always Improve Accuracy. Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing. https://doi.org/10.18653/v1/2023.emnlp-main.522",
+      "mla": "Wiegreffe, Sarah, et al. \"Increasing Probability Mass on Answer Choices Does Not Always Improve Accuracy.\" Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, 2023. https://doi.org/10.18653/v1/2023.emnlp-main.522.",
+      "iso690": "WIEGREFFE, Sarah; FINLAYSON, Matthew; TAFJORD, Oyvind; CLARK, Peter; SABHARWAL, Ashish. Increasing Probability Mass on Answer Choices Does Not Always Improve Accuracy. Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, 2023. https://doi.org/10.18653/v1/2023.emnlp-main.522",
+      "bibtex": "@article{Wiegreffe2023Increasing,\n  title={Increasing Probability Mass on Answer Choices Does Not Always Improve Accuracy},\n  author={Wiegreffe, Sarah and Finlayson, Matthew and Tafjord, Oyvind and Clark, Peter and Sabharwal, Ashish},\n  year={2023},\n  journal={Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},\n  doi={10.18653/v1/2023.emnlp-main.522}\n}",
+      "source": "CrossRef",
+      "matchConfidence": 100,
+      "titleMatchScore": 100,
+      "authorMatchScore": 100,
+      "journalMatchScore": 100,
+      "issues": []
+    }
+  },
+  {
+    "id": "P3:R24",
+    "reference": "Jason Lin, Stephen Roller, Ashwin Stewart, and Luke Zettlemoyer. Teaching language models to script their confidence. In Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP), pp. 123?135, 2022",
+    "true_problematic": 1,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Jason%20Lin%2C%20Stephen%20Roller%2C%20Ashwin%20Stewart%2C%20and%20Luke%20Zettlemoyer.%20Teaching%20language%20models%20to%20script%20their%20confidence.%20In%20Proceedings%20of%20the%202022%20Conference%20on%20Empirical%20Methods%20in%20Natural%20Language%20Processing%20(EMNLP)%2C%20pp.%20123%3F135%2C%202022&rows=5",
+        "status": 200,
+        "body_sha256": "989074ec4a1adfa3f24d9a479042a4a51a4e26207fdea95f792fc8e73a3e1687",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 26,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R25",
+    "reference": "Srinivasan Kadavath, Urvashi Khandelwal, Alec Radford, and Noam Shazeer. Answer me this: Self-verifying large language models. In arXiv preprint arXiv:2205.05407, 2022",
+    "true_problematic": 1,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Srinivasan%20Kadavath%2C%20Urvashi%20Khandelwal%2C%20Alec%20Radford%2C%20and%20Noam%20Shazeer.%20Answer%20me%20this%3A%20Self-verifying%20large%20language%20models.%20In%20arXiv%20preprint%20arXiv%3A2205.05407%2C%202022&rows=5",
+        "status": 200,
+        "body_sha256": "af482550ec4e33736122105824037133be695130a43229c0fa973ba8238522c2",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 34,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R26",
+    "reference": "Sam Mielke, Elif Akyrek, and Ond?rej Dusek. Evaluating the reliability of self-assessment in language models. In Findings of the Association for Computational Linguistics: EMNLP 2020, pp. 4320?4330, 2020",
+    "true_problematic": 1,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Sam%20Mielke%2C%20Elif%20Aky%C2%81rek%2C%20and%20Ond%3Frej%20Dusek.%20Evaluating%20the%20reliability%20of%20self-assessment%20in%20language%20models.%20In%20Findings%20of%20the%20Association%20for%20Computational%20Linguistics%3A%20EMNLP%202020%2C%20pp.%204320%3F4330%2C%202020&rows=5",
+        "status": 200,
+        "body_sha256": "0f5ce3e044fdc39e1d875da60ad8536bd05fea1d4d0ff45c7936e26064697484",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 23,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R27",
+    "reference": "Mohit Jain, Ethan Perez, and James Glass. Learning to predict confidence for language models. In Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP), pp. 245?256, 2021",
+    "true_problematic": 1,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Mohit%20Jain%2C%20Ethan%20Perez%2C%20and%20James%20Glass.%20Learning%20to%20predict%20confidence%20for%20language%20models.%20In%20Proceedings%20of%20the%202021%20Conference%20on%20Empirical%20Methods%20in%20Natural%20Language%20Processing%20(EMNLP)%2C%20pp.%20245%3F256%2C%202021&rows=5",
+        "status": 200,
+        "body_sha256": "f039d082b64b13d27c74f568119d8f90de3fe60765325fe15fb4c08d1860a3c6",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 24,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R28",
+    "reference": "Roi Cohen, Mor Geva, Jonathan Berant, and Amir Globerson. Crawling the internal knowledgebase of language models. In Andreas Vlachos and Isabelle Augenstein (eds.), Findings of the Association for Computational Linguistics: EACL 2023, pp. 1856?1869, Dubrovnik, Croatia, May 2023. Association for Computational Linguistics",
+    "true_problematic": 0,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Roi%20Cohen%2C%20Mor%20Geva%2C%20Jonathan%20Berant%2C%20and%20Amir%20Globerson.%20Crawling%20the%20internal%20knowledgebase%20of%20language%20models.%20In%20Andreas%20Vlachos%20and%20Isabelle%20Augenstein%20(eds.)%2C%20Findings%20of%20the%20Association%20for%20Computational%20Linguistics%3A%20EACL%202023%2C%20pp.%201856%3F1869%2C%20Dubrovnik%2C%20Croatia%2C%20May%202023.%20Association%20for%20Computational%20Linguistics&rows=5",
+        "status": 200,
+        "body_sha256": "bcf02ce3fb9f14d78a8234f1699fbc25760c570e01d1b60f90bf03a2a811a2aa",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": true,
+      "title": "Crawling The Internal Knowledge-Base of Language Models",
+      "authors": "Cohen, Geva, Berant, Globerson",
+      "year": "2023",
+      "journal": "Findings of the Association for Computational Linguistics: EACL 2023",
+      "url": "https://doi.org/10.18653/v1/2023.findings-eacl.139",
+      "doi": "10.18653/v1/2023.findings-eacl.139",
+      "score": 192.35336,
+      "citations": 15,
+      "apa": "Cohen, R., Geva, M., Berant, J., Globerson, A. (2023). Crawling The Internal Knowledge-Base of Language Models. Findings of the Association for Computational Linguistics: EACL 2023. https://doi.org/10.18653/v1/2023.findings-eacl.139",
+      "mla": "Cohen, Roi, et al. \"Crawling The Internal Knowledge-Base of Language Models.\" Findings of the Association for Computational Linguistics: EACL 2023, 2023. https://doi.org/10.18653/v1/2023.findings-eacl.139.",
+      "iso690": "COHEN, Roi; GEVA, Mor; BERANT, Jonathan; GLOBERSON, Amir. Crawling The Internal Knowledge-Base of Language Models. Findings of the Association for Computational Linguistics: EACL 2023, 2023. https://doi.org/10.18653/v1/2023.findings-eacl.139",
+      "bibtex": "@article{Cohen2023Crawling,\n  title={Crawling The Internal Knowledge-Base of Language Models},\n  author={Cohen, Roi and Geva, Mor and Berant, Jonathan and Globerson, Amir},\n  year={2023},\n  journal={Findings of the Association for Computational Linguistics: EACL 2023},\n  doi={10.18653/v1/2023.findings-eacl.139}\n}",
+      "source": "CrossRef",
+      "matchConfidence": 80,
+      "titleMatchScore": 100,
+      "authorMatchScore": 60,
+      "journalMatchScore": 100,
+      "issues": [
+        "Possible Extra/Fake Authors: Vlachos, Isabelle, Dubrovnik, Croatia"
+      ]
+    }
+  },
+  {
+    "id": "P3:R29",
+    "reference": "Deep Ganguli, Amanda Askell, Nicholas Schiefer, Thomas I. Liao, Kamile? Luko?iut?e, Anna Chen, Anna Goldie, Azalia Mirhoseini, Catherine Olsson, Danny Hernandez, Dawn Drain, Dustin Li, Eli Tran-Johnson, Ethan Perez, Jackson Kernion, Jamie Kerr, Jared Mueller, Joshua Landau, Kamal Ndousse, Karina Nguyen, Liane Lovitt, Michael Sellitto, Nelson Elhage, Noemi Mercado, Nova DasSarma, Oliver Rausch, Robert Lasenby, Robin Larson, Sam Ringer, Sandipan Kundu, Saurav Kadavath, Scott Johnston, Shauna Kravec, Sheer El Showk, Tamera Lanham, Timothy Telleen-Lawton, Tom Henighan, Tristan Hume, Yuntao Bai, Zac Hatfield Dodds, Ben Mann, Dario Amodei, Nicholas Joseph, Sam McCandlish, Tom Brown, Christopher Olah, Jack Clark, Samuel R. Bowman, and Jared Kaplan. The capacity for moral self-correction in large language models. arXiv, 2302.07459, 2023",
+    "true_problematic": 0,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Deep%20Ganguli%2C%20Amanda%20Askell%2C%20Nicholas%20Schiefer%2C%20Thomas%20I.%20Liao%2C%20Kamile%3F%20Luko%3Fiut%3Fe%2C%20Anna%20Chen%2C%20Anna%20Goldie%2C%20Azalia%20Mirhoseini%2C%20Catherine%20Olsson%2C%20Danny%20Hernandez%2C%20Dawn%20Drain%2C%20Dustin%20Li%2C%20Eli%20Tran-Johnson%2C%20Ethan%20Perez%2C%20Jackson%20Kernion%2C%20Jamie%20Kerr%2C%20Jared%20Mueller%2C%20Joshua%20Landau%2C%20Kamal%20Ndousse%2C%20Karina%20Nguyen%2C%20Liane%20Lovitt%2C%20Michael%20Sellitto%2C%20Nelson%20Elhage%2C%20Noemi%20Mercado%2C%20Nova%20DasSarma%2C%20Oliver%20Rausch%2C%20Robert%20Lasenby%2C%20Robin%20Larson%2C%20Sam%20Ringer%2C%20Sandipan%20Kundu%2C%20Saurav%20Kadavath%2C%20Scott%20Johnston%2C%20Shauna%20Kravec%2C%20Sheer%20El%20Showk%2C%20Tamera%20Lanham%2C%20Timothy%20Telleen-Lawton%2C%20Tom%20Henighan%2C%20Tristan%20Hume%2C%20Yuntao%20Bai%2C%20Zac%20Hatfield%20Dodds%2C%20Ben%20Mann%2C%20Dario%20Amodei%2C%20Nicholas%20Joseph%2C%20Sam%20McCandlish%2C%20Tom%20Brown%2C%20Christopher%20Olah%2C%20Jack%20Clark%2C%20Samuel%20R.%20Bowman%2C%20and%20Jared%20Kaplan.%20The%20capacity%20for%20moral%20self-correction%20in%20large%20language%20models.%20arXiv%2C%202302.07459%2C%202023&rows=5",
+        "status": 200,
+        "body_sha256": "0d0d3c0de2e0faaaf37a2d0a3568cc3f437c3341999f7fd3d4cff4597598031d",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 15,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R30",
+    "reference": "Jie Ren, Yao Zhao, Tu Vu, Peter J. Liu, and Balaji Lakshminarayanan. Self-evaluation improves selective generation in large language models. In Javier Antor n, Arno Blaas, Kelly Buchanan,Fan Feng, Vincent Fortuin, Sahra Ghalebikesabi, Andreas Kriegler, Ian Mason, David Rohde, Francisco J. R. Ruiz, Tobias Uelwer, Yubin Xie, and Rui Yang (eds.), Proceedings on \"I Can?t Believe It?s Not Better: Failure Modes in the Age of Foundation Models\" at NeurIPS 2023 Workshops, volume 239 of Proceedings of Machine Learning Research, pp. 49?64. PMLR, 16 Dec 2023. URL https://proceedings.mlr.press/v239/ren23a.html",
+    "true_problematic": 0,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Jie%20Ren%2C%20Yao%20Zhao%2C%20Tu%20Vu%2C%20Peter%20J.%20Liu%2C%20and%20Balaji%20Lakshminarayanan.%20Self-evaluation%20improves%20selective%20generation%20in%20large%20language%20models.%20In%20Javier%20Antor%C2%A0n%2C%20Arno%20Blaas%2C%20Kelly%20Buchanan%2CFan%20Feng%2C%20Vincent%20Fortuin%2C%20Sahra%20Ghalebikesabi%2C%20Andreas%20Kriegler%2C%20Ian%20Mason%2C%20David%20Rohde%2C%20Francisco%20J.%20R.%20Ruiz%2C%20Tobias%20Uelwer%2C%20Yubin%20Xie%2C%20and%20Rui%20Yang%20(eds.)%2C%20Proceedings%20on%20%22I%20Can%3Ft%20Believe%20It%3Fs%20Not%20Better%3A%20Failure%20Modes%20in%20the%20Age%20of%20Foundation%20Models%22%20at%20NeurIPS%202023%20Workshops%2C%20volume%20239%20of%20Proceedings%20of%20Machine%20Learning%20Research%2C%20pp.%2049%3F64.%20PMLR%2C%2016%20Dec%202023.%20URL%20https%3A%2F%2Fproceedings.mlr.press%2Fv239%2Fren23a.html&rows=5",
+        "status": 200,
+        "body_sha256": "c0eff933360dfdc827110b4cae7cf0d3d2010eb12a91f1dd4e0fe53a14b3199c",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 18,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R31",
+    "reference": "Katherine Tian, Eric Mitchell, Allan Zhou, Archit Sharma, Rafael Rafailov, Huaxiu Yao, Chelsea Finn, and Christopher Manning. Just ask for calibration: Strategies for eliciting calibrated confidence scores from language models fine-tuned with human feedback. In Houda Bouamor, Juan Pino, and Kalika Bali (eds.), Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, pp. 5433?5442, Singapore, December 2023. Association for Computational Linguistics",
+    "true_problematic": 0,
+    "historical_checkifexist": 1,
+    "prediction": 0,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Katherine%20Tian%2C%20Eric%20Mitchell%2C%20Allan%20Zhou%2C%20Archit%20Sharma%2C%20Rafael%20Rafailov%2C%20Huaxiu%20Yao%2C%20Chelsea%20Finn%2C%20and%20Christopher%20Manning.%20Just%20ask%20for%20calibration%3A%20Strategies%20for%20eliciting%20calibrated%20confidence%20scores%20from%20language%20models%20fine-tuned%20with%20human%20feedback.%20In%20Houda%20Bouamor%2C%20Juan%20Pino%2C%20and%20Kalika%20Bali%20(eds.)%2C%20Proceedings%20of%20the%202023%20Conference%20on%20Empirical%20Methods%20in%20Natural%20Language%20Processing%2C%20pp.%205433%3F5442%2C%20Singapore%2C%20December%202023.%20Association%20for%20Computational%20Linguistics&rows=5",
+        "status": 200,
+        "body_sha256": "cfe8e453185e81910ddcbd8c758f905efc866e52078ba81fe7fe6b97b78aa80a",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": true,
+      "title": "Just Ask for Calibration: Strategies for Eliciting Calibrated Confidence Scores from Language Models Fine-Tuned with Human Feedback",
+      "authors": "Tian, Mitchell, Zhou, Sharma, Rafailov, Yao, Finn, Manning",
+      "year": "2023",
+      "journal": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+      "url": "https://doi.org/10.18653/v1/2023.emnlp-main.330",
+      "doi": "10.18653/v1/2023.emnlp-main.330",
+      "score": 246.88684,
+      "citations": 121,
+      "apa": "Tian, K., Mitchell, E., Zhou, A., Sharma, A., Rafailov, R., Yao, H., Finn, C., Manning, C. (2023). Just Ask for Calibration: Strategies for Eliciting Calibrated Confidence Scores from Language Models Fine-Tuned with Human Feedback. Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing. https://doi.org/10.18653/v1/2023.emnlp-main.330",
+      "mla": "Tian, Katherine, et al. \"Just Ask for Calibration: Strategies for Eliciting Calibrated Confidence Scores from Language Models Fine-Tuned with Human Feedback.\" Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, 2023. https://doi.org/10.18653/v1/2023.emnlp-main.330.",
+      "iso690": "TIAN, Katherine; MITCHELL, Eric; ZHOU, Allan; SHARMA, Archit; RAFAILOV, Rafael; YAO, Huaxiu; FINN, Chelsea; MANNING, Christopher. Just Ask for Calibration: Strategies for Eliciting Calibrated Confidence Scores from Language Models Fine-Tuned with Human Feedback. Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, 2023. https://doi.org/10.18653/v1/2023.emnlp-main.330",
+      "bibtex": "@article{Tian2023Just,\n  title={Just Ask for Calibration: Strategies for Eliciting Calibrated Confidence Scores from Language Models Fine-Tuned with Human Feedback},\n  author={Tian, Katherine and Mitchell, Eric and Zhou, Allan and Sharma, Archit and Rafailov, Rafael and Yao, Huaxiu and Finn, Chelsea and Manning, Christopher},\n  year={2023},\n  journal={Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},\n  doi={10.18653/v1/2023.emnlp-main.330}\n}",
+      "source": "CrossRef",
+      "matchConfidence": 100,
+      "titleMatchScore": 100,
+      "authorMatchScore": 100,
+      "journalMatchScore": 100,
+      "issues": []
+    }
+  },
+  {
+    "id": "P3:R32",
+    "reference": "Zhen Lin, Shubhendu Trivedi, and Jimeng Sun. Contextualized sequence likelihood: Enhanced confidence scores for natural language generation. In Yaser Al-Onaizan, Mohit Bansal, and Yun-Nung Chen (eds.), Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing, pp. 10351?10368, Miami, Florida, USA, November 2024. Association for Computational Linguistics. doi: 10.18653/v1/2024.emnlp-main.578. URL https://aclanthology.org/2024.emnlp-main.578/",
+    "true_problematic": 0,
+    "historical_checkifexist": 0,
+    "prediction": 0,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Zhen%20Lin%2C%20Shubhendu%20Trivedi%2C%20and%20Jimeng%20Sun.%20Contextualized%20sequence%20likelihood%3A%20Enhanced%20confidence%20scores%20for%20natural%20language%20generation.%20In%20Yaser%20Al-Onaizan%2C%20Mohit%20Bansal%2C%20and%20Yun-Nung%20Chen%20(eds.)%2C%20Proceedings%20of%20the%202024%20Conference%20on%20Empirical%20Methods%20in%20Natural%20Language%20Processing%2C%20pp.%2010351%3F10368%2C%20Miami%2C%20Florida%2C%20USA%2C%20November%202024.%20Association%20for%20Computational%20Linguistics.%20doi%3A%2010.18653%2Fv1%2F2024.emnlp-main.578.%20URL%20https%3A%2F%2Faclanthology.org%2F2024.emnlp-main.578%2F&rows=5",
+        "status": 200,
+        "body_sha256": "40b55efe97277b763128ee7b2ec36684d625a959b252f0f76fb17fca40a5be04",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": true,
+      "title": "Contextualized Sequence Likelihood: Enhanced Confidence Scores for Natural Language Generation",
+      "authors": "Lin, Trivedi, Sun",
+      "year": "2024",
+      "journal": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+      "url": "https://doi.org/10.18653/v1/2024.emnlp-main.578",
+      "doi": "10.18653/v1/2024.emnlp-main.578",
+      "score": 194.57231,
+      "citations": 2,
+      "apa": "Lin, Z., Trivedi, S., Sun, J. (2024). Contextualized Sequence Likelihood: Enhanced Confidence Scores for Natural Language Generation. Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing. https://doi.org/10.18653/v1/2024.emnlp-main.578",
+      "mla": "Lin, Zhen, et al. \"Contextualized Sequence Likelihood: Enhanced Confidence Scores for Natural Language Generation.\" Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing, 2024. https://doi.org/10.18653/v1/2024.emnlp-main.578.",
+      "iso690": "LIN, Zhen; TRIVEDI, Shubhendu; SUN, Jimeng. Contextualized Sequence Likelihood: Enhanced Confidence Scores for Natural Language Generation. Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing, 2024. https://doi.org/10.18653/v1/2024.emnlp-main.578",
+      "bibtex": "@article{Lin2024Contextualized,\n  title={Contextualized Sequence Likelihood: Enhanced Confidence Scores for Natural Language Generation},\n  author={Lin, Zhen and Trivedi, Shubhendu and Sun, Jimeng},\n  year={2024},\n  journal={Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing},\n  doi={10.18653/v1/2024.emnlp-main.578}\n}",
+      "source": "CrossRef",
+      "matchConfidence": 100,
+      "titleMatchScore": 100,
+      "authorMatchScore": 100,
+      "journalMatchScore": 100,
+      "issues": []
+    }
+  },
+  {
+    "id": "P3:R33",
+    "reference": "Jinhao Duan, Hao Cheng, Shiqi Wang, Alex Zavalny, Chenan Wang, Renjing Xu, Bhavya Kailkhura, and Kaidi Xu. Shifting attention to relevance: Towards the predictive uncertainty quantification of free-form large language models. In Lun-Wei Ku, Andre Martins, and Vivek Srikumar (eds.), Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 5050?5063, Bangkok, Thailand, August 2024. Association for Computational Linguistics. doi: 0.18653/v1/2024.acl-long.276. URL https://aclanthology.org/2024.acl-long.276/",
+    "true_problematic": 0,
+    "historical_checkifexist": 0,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Jinhao%20Duan%2C%20Hao%20Cheng%2C%20Shiqi%20Wang%2C%20Alex%20Zavalny%2C%20Chenan%20Wang%2C%20Renjing%20Xu%2C%20Bhavya%20Kailkhura%2C%20and%20Kaidi%20Xu.%20Shifting%20attention%20to%20relevance%3A%20Towards%20the%20predictive%20uncertainty%20quantification%20of%20free-form%20large%20language%20models.%20In%20Lun-Wei%20Ku%2C%20Andre%20Martins%2C%20and%20Vivek%20Srikumar%20(eds.)%2C%20Proceedings%20of%20the%2062nd%20Annual%20Meeting%20of%20the%20Association%20for%20Computational%20Linguistics%20(Volume%201%3A%20Long%20Papers)%2C%20pp.%205050%3F5063%2C%20Bangkok%2C%20Thailand%2C%20August%202024.%20Association%20for%20Computational%20Linguistics.%20doi%3A%200.18653%2Fv1%2F2024.acl-long.276.%20URL%20https%3A%2F%2Faclanthology.org%2F2024.acl-long.276%2F&rows=5",
+        "status": 200,
+        "body_sha256": "f332a13cdb1d9b8f6b6d7f4a8f8ffeb0abdaf17d1fe49d5a3dec50e73a151332",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": true,
+      "title": "Shifting Attention to Relevance: Towards the Predictive Uncertainty Quantification of Free-Form Large Language Models",
+      "authors": "Duan, Cheng, Wang, Zavalny, Wang, Xu, Kailkhura, Xu",
+      "year": "2024",
+      "journal": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "url": "https://doi.org/10.18653/v1/2024.acl-long.276",
+      "doi": "10.18653/v1/2024.acl-long.276",
+      "score": 277.70215,
+      "citations": 50,
+      "apa": "Duan, J., Cheng, H., Wang, S., Zavalny, A., Wang, C., Xu, R., Kailkhura, B., Xu, K. (2024). Shifting Attention to Relevance: Towards the Predictive Uncertainty Quantification of Free-Form Large Language Models. Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). https://doi.org/10.18653/v1/2024.acl-long.276",
+      "mla": "Duan, Jinhao, et al. \"Shifting Attention to Relevance: Towards the Predictive Uncertainty Quantification of Free-Form Large Language Models.\" Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), 2024. https://doi.org/10.18653/v1/2024.acl-long.276.",
+      "iso690": "DUAN, Jinhao; CHENG, Hao; WANG, Shiqi; ZAVALNY, Alex; WANG, Chenan; XU, Renjing; KAILKHURA, Bhavya; XU, Kaidi. Shifting Attention to Relevance: Towards the Predictive Uncertainty Quantification of Free-Form Large Language Models. Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), 2024. https://doi.org/10.18653/v1/2024.acl-long.276",
+      "bibtex": "@article{Duan2024Shifting,\n  title={Shifting Attention to Relevance: Towards the Predictive Uncertainty Quantification of Free-Form Large Language Models},\n  author={Duan, Jinhao and Cheng, Hao and Wang, Shiqi and Zavalny, Alex and Wang, Chenan and Xu, Renjing and Kailkhura, Bhavya and Xu, Kaidi},\n  year={2024},\n  journal={Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},\n  doi={10.18653/v1/2024.acl-long.276}\n}",
+      "source": "CrossRef",
+      "matchConfidence": 80,
+      "titleMatchScore": 100,
+      "authorMatchScore": 60,
+      "journalMatchScore": 100,
+      "issues": [
+        "Possible Extra/Fake Authors: Lun-Wei, Martins, Vivek, Thailand"
+      ]
+    }
+  },
+  {
+    "id": "P3:R34",
+    "reference": "Roi Cohen, May Hamri, Mor Geva, and Amir Globerson. LM vs LM: Detecting factual errors via cross examination. In Houda Bouamor, Juan Pino, and Kalika Bali (eds.), Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, pp. 12621?12640, Singapore, December 2023. Association for Computational Linguistics",
+    "true_problematic": 0,
+    "historical_checkifexist": 1,
+    "prediction": 0,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Roi%20Cohen%2C%20May%20Hamri%2C%20Mor%20Geva%2C%20and%20Amir%20Globerson.%20LM%20vs%20LM%3A%20Detecting%20factual%20errors%20via%20cross%20examination.%20In%20Houda%20Bouamor%2C%20Juan%20Pino%2C%20and%20Kalika%20Bali%20(eds.)%2C%20Proceedings%20of%20the%202023%20Conference%20on%20Empirical%20Methods%20in%20Natural%20Language%20Processing%2C%20pp.%2012621%3F12640%2C%20Singapore%2C%20December%202023.%20Association%20for%20Computational%20Linguistics&rows=5",
+        "status": 200,
+        "body_sha256": "5c5c072f0bf01c9554a328dd08f8454ed578a361a5345e24f3d0b57d4635b679",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": true,
+      "title": "LM vs LM: Detecting Factual Errors via Cross Examination",
+      "authors": "Cohen, Hamri, Geva, Globerson",
+      "year": "2023",
+      "journal": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+      "url": "https://doi.org/10.18653/v1/2023.emnlp-main.778",
+      "doi": "10.18653/v1/2023.emnlp-main.778",
+      "score": 216.38234,
+      "citations": 48,
+      "apa": "Cohen, R., Hamri, M., Geva, M., Globerson, A. (2023). LM vs LM: Detecting Factual Errors via Cross Examination. Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing. https://doi.org/10.18653/v1/2023.emnlp-main.778",
+      "mla": "Cohen, Roi, et al. \"LM vs LM: Detecting Factual Errors via Cross Examination.\" Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, 2023. https://doi.org/10.18653/v1/2023.emnlp-main.778.",
+      "iso690": "COHEN, Roi; HAMRI, May; GEVA, Mor; GLOBERSON, Amir. LM vs LM: Detecting Factual Errors via Cross Examination. Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, 2023. https://doi.org/10.18653/v1/2023.emnlp-main.778",
+      "bibtex": "@article{Cohen2023LM,\n  title={LM vs LM: Detecting Factual Errors via Cross Examination},\n  author={Cohen, Roi and Hamri, May and Geva, Mor and Globerson, Amir},\n  year={2023},\n  journal={Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},\n  doi={10.18653/v1/2023.emnlp-main.778}\n}",
+      "source": "CrossRef",
+      "matchConfidence": 100,
+      "titleMatchScore": 100,
+      "authorMatchScore": 100,
+      "journalMatchScore": 100,
+      "issues": []
+    }
+  },
+  {
+    "id": "P3:R35",
+    "reference": "Alexandros N. Angelopoulos, Stephen Bates, and Caroline Uhler. Conformal prediction in neural  forecasting. In Proceedings of the 37th Conference on Uncertainty in Artificial Intelligence (UAI), pp. 23?33, 2023",
+    "true_problematic": 1,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Alexandros%20N.%20Angelopoulos%2C%20Stephen%20Bates%2C%20and%20Caroline%20Uhler.%20Conformal%20prediction%20in%20neural%20forecasting.%20In%20Proceedings%20of%20the%2037th%20Conference%20on%20Uncertainty%20in%20Artificial%20Intelligence%20(UAI)%2C%20pp.%2023%3F33%2C%202023&rows=5",
+        "status": 200,
+        "body_sha256": "3e51d1c1ec8d9e753ee3388abfb4cff6e0d0fbf30eee57875b64d2e6a23c40c7",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 21,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R36",
+    "reference": "Shauli Ravfogel, Shachar Zalmanski, and Yoav Goldberg. Well-calibrated language models can be produced with small calibration sets. In Findings of the Association for Computational Linguistics: ACL 2023, pp. 1572?1583, 2023",
+    "true_problematic": 1,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Shauli%20Ravfogel%2C%20Shachar%20Zalmanski%2C%20and%20Yoav%20Goldberg.%20Well-calibrated%20language%20models%20can%20be%20produced%20with%20small%20calibration%20sets.%20In%20Findings%20of%20the%20Association%20for%20Computational%20Linguistics%3A%20ACL%202023%2C%20pp.%201572%3F1583%2C%202023&rows=5",
+        "status": 200,
+        "body_sha256": "d635ef59bb19de5a893cee50c8cd083b7f3d3b769abd95aa50a7ab027dc1b175",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 24,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R37",
+    "reference": "Gustaf Ahdritz, Tian Qin, Nikhil Vyas, Boaz Barak, and Benjamin L Edelman. Distinguishing the knowable from the unknowable with language models. arXiv preprint arXiv:2402.03563, 2024",
+    "true_problematic": 0,
+    "historical_checkifexist": 0,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Gustaf%20Ahdritz%2C%20Tian%20Qin%2C%20Nikhil%20Vyas%2C%20Boaz%20Barak%2C%20and%20Benjamin%20L%20Edelman.%20Distinguishing%20the%20knowable%20from%20the%20unknowable%20with%20language%20models.%20arXiv%20preprint%20arXiv%3A2402.03563%2C%202024&rows=5",
+        "status": 200,
+        "body_sha256": "bb0d150edab3334b010710506e05c5533a304c52ede46ea4a49c11949d9c0da3",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 38,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R38",
+    "reference": "Daniel D. Johnson, Daniel Tarlow, David Duvenaud, and Chris J. Maddison. Experts don?t cheat: learning what you don?t know by predicting pairs. In Proceedings of the 41st International Conference on Machine Learning, 2024",
+    "true_problematic": 0,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Daniel%20D.%20Johnson%2C%20Daniel%20Tarlow%2C%20David%20Duvenaud%2C%20and%20Chris%20J.%20Maddison.%20Experts%20don%3Ft%20cheat%3A%20learning%20what%20you%20don%3Ft%20know%20by%20predicting%20pairs.%20In%20Proceedings%20of%20the%2041st%20International%20Conference%20on%20Machine%20Learning%2C%202024&rows=5",
+        "status": 200,
+        "body_sha256": "3ecd012c40a7fe142dfe0000d49659c32b79274bf11f99ef053f5e4d5bc417ec",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 25,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R39",
+    "reference": "Ashwin K Vijayakumar, Michael Cogswell, Ramprasath R. Selvaraju, Qing Sun, Stefan Lee, David Crandall, and Dhruv Batra. Diverse beam search: Decoding diverse solutions from neural sequence models. arXiv, 1610.02424, 2018",
+    "true_problematic": 0,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Ashwin%20K%20Vijayakumar%2C%20Michael%20Cogswell%2C%20Ramprasath%20R.%20Selvaraju%2C%20Qing%20Sun%2C%20Stefan%20Lee%2C%20David%20Crandall%2C%20and%20Dhruv%20Batra.%20Diverse%20beam%20search%3A%20Decoding%20diverse%20solutions%20from%20neural%20sequence%20models.%20arXiv%2C%201610.02424%2C%202018&rows=5",
+        "status": 200,
+        "body_sha256": "422a5dbc84570dd5df6b7f2c275e254e08aef21f7c75713457f303cf4705ece7",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 19,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R40",
+    "reference": "Xiang Lisa Li, Ari Holtzman, Daniel Fried, Percy Liang, Jason Eisner, Tatsunori Hashimoto, Luke Zettlemoyer, and Mike Lewis. Contrastive decoding: Open-ended text generation as optimization. In Anna Rogers, Jordan Boyd-Graber, and Naoaki Okazaki (eds.), Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 12286?12312, Toronto, Canada, July 2023. Association for Computational Linguistics",
+    "true_problematic": 0,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Xiang%20Lisa%20Li%2C%20Ari%20Holtzman%2C%20Daniel%20Fried%2C%20Percy%20Liang%2C%20Jason%20Eisner%2C%20Tatsunori%20Hashimoto%2C%20Luke%20Zettlemoyer%2C%20and%20Mike%20Lewis.%20Contrastive%20decoding%3A%20Open-ended%20text%20generation%20as%20optimization.%20In%20Anna%20Rogers%2C%20Jordan%20Boyd-Graber%2C%20and%20Naoaki%20Okazaki%20(eds.)%2C%20Proceedings%20of%20the%2061st%20Annual%20Meeting%20of%20the%20Association%20for%20Computational%20Linguistics%20(Volume%201%3A%20Long%20Papers)%2C%20pp.%2012286%3F12312%2C%20Toronto%2C%20Canada%2C%20July%202023.%20Association%20for%20Computational%20Linguistics&rows=5",
+        "status": 200,
+        "body_sha256": "f6bbfea7855fb91ca00219b10f0d924d9451e0b3fb4f78474b2d05fe3cca002e",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": true,
+      "title": "Contrastive Decoding: Open-ended Text Generation as Optimization",
+      "authors": "Li, Holtzman, Fried, Liang, Eisner, Hashimoto, Zettlemoyer, Lewis",
+      "year": "2023",
+      "journal": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "url": "https://doi.org/10.18653/v1/2023.acl-long.687",
+      "doi": "10.18653/v1/2023.acl-long.687",
+      "score": 250.5819,
+      "citations": 102,
+      "apa": "Li, X., Holtzman, A., Fried, D., Liang, P., Eisner, J., Hashimoto, T., Zettlemoyer, L., Lewis, M. (2023). Contrastive Decoding: Open-ended Text Generation as Optimization. Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). https://doi.org/10.18653/v1/2023.acl-long.687",
+      "mla": "Li, Xiang Lisa, et al. \"Contrastive Decoding: Open-ended Text Generation as Optimization.\" Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), 2023. https://doi.org/10.18653/v1/2023.acl-long.687.",
+      "iso690": "LI, Xiang Lisa; HOLTZMAN, Ari; FRIED, Daniel; LIANG, Percy; EISNER, Jason; HASHIMOTO, Tatsunori; ZETTLEMOYER, Luke; LEWIS, Mike. Contrastive Decoding: Open-ended Text Generation as Optimization. Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), 2023. https://doi.org/10.18653/v1/2023.acl-long.687",
+      "bibtex": "@article{Li2023Contrastive,\n  title={Contrastive Decoding: Open-ended Text Generation as Optimization},\n  author={Li, Xiang Lisa and Holtzman, Ari and Fried, Daniel and Liang, Percy and Eisner, Jason and Hashimoto, Tatsunori and Zettlemoyer, Luke and Lewis, Mike},\n  year={2023},\n  journal={Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},\n  doi={10.18653/v1/2023.acl-long.687}\n}",
+      "source": "CrossRef",
+      "matchConfidence": 75,
+      "titleMatchScore": 100,
+      "authorMatchScore": 50,
+      "journalMatchScore": 100,
+      "issues": [
+        "Possible Extra/Fake Authors: Rogers, Boyd-Graber, Naoaki, Okazaki, Canada"
+      ]
+    }
+  },
+  {
+    "id": "P3:R41",
+    "reference": "Jiwei Li, Michel Galley, Chris Brockett, Jianfeng Gao, and Bill Dolan. A diversity-promoting objective function for neural conversation models. In Kevin Knight, Ani Nenkova, and Owen Rambow (eds.), Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, pp. 110?119, San Diego, California, June 2016. Association for Computational Linguistics",
+    "true_problematic": 0,
+    "historical_checkifexist": 1,
+    "prediction": 0,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Jiwei%20Li%2C%20Michel%20Galley%2C%20Chris%20Brockett%2C%20Jianfeng%20Gao%2C%20and%20Bill%20Dolan.%20A%20diversity-promoting%20objective%20function%20for%20neural%20conversation%20models.%20In%20Kevin%20Knight%2C%20Ani%20Nenkova%2C%20and%20Owen%20Rambow%20(eds.)%2C%20Proceedings%20of%20the%202016%20Conference%20of%20the%20North%20American%20Chapter%20of%20the%20Association%20for%20Computational%20Linguistics%3A%20Human%20Language%20Technologies%2C%20pp.%20110%3F119%2C%20San%20Diego%2C%20California%2C%20June%202016.%20Association%20for%20Computational%20Linguistics&rows=5",
+        "status": 200,
+        "body_sha256": "41ba92455cf68f1c313aede8407dcec79d2c68c862f0c8093b1b00fc5a4e8696",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": true,
+      "title": "A Diversity-Promoting Objective Function for Neural Conversation Models",
+      "authors": "Li, Galley, Brockett, Gao, Dolan",
+      "year": "2016",
+      "journal": "Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+      "url": "https://doi.org/10.18653/v1/n16-1014",
+      "doi": "10.18653/v1/n16-1014",
+      "score": 199.40248,
+      "citations": 736,
+      "apa": "Li, J., Galley, M., Brockett, C., Gao, J., Dolan, B. (2016). A Diversity-Promoting Objective Function for Neural Conversation Models. Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies. https://doi.org/10.18653/v1/n16-1014",
+      "mla": "Li, Jiwei, et al. \"A Diversity-Promoting Objective Function for Neural Conversation Models.\" Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, 2016. https://doi.org/10.18653/v1/n16-1014.",
+      "iso690": "LI, Jiwei; GALLEY, Michel; BROCKETT, Chris; GAO, Jianfeng; DOLAN, Bill. A Diversity-Promoting Objective Function for Neural Conversation Models. Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, 2016. https://doi.org/10.18653/v1/n16-1014",
+      "bibtex": "@article{Li2016A,\n  title={A Diversity-Promoting Objective Function for Neural Conversation Models},\n  author={Li, Jiwei and Galley, Michel and Brockett, Chris and Gao, Jianfeng and Dolan, Bill},\n  year={2016},\n  journal={Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},\n  doi={10.18653/v1/n16-1014}\n}",
+      "source": "CrossRef",
+      "matchConfidence": 100,
+      "titleMatchScore": 100,
+      "authorMatchScore": 100,
+      "journalMatchScore": 100,
+      "issues": []
+    }
+  },
+  {
+    "id": "P3:R42",
+    "reference": "Yik-Cheung Tam. Cluster-based beam search for pointer-generator chatbot grounded by knowledge. Computer Speech & Language, 64:101094, 2020. ISSN 0885-2308",
+    "true_problematic": 0,
+    "historical_checkifexist": 0,
+    "prediction": 0,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Yik-Cheung%20Tam.%20Cluster-based%20beam%20search%20for%20pointer-generator%20chatbot%20grounded%20by%20knowledge.%20Computer%20Speech%20%26%20Language%2C%2064%3A101094%2C%202020.%20ISSN%200885-2308&rows=5",
+        "status": 200,
+        "body_sha256": "35390251f540c18a84159683acf629e056e1b3c5fc48d79ec03d669a109ace26",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": true,
+      "title": "Cluster-based beam search for pointer-generator chatbot grounded by knowledge",
+      "authors": "Tam",
+      "year": "2020",
+      "journal": "Computer Speech &amp; Language",
+      "url": "https://doi.org/10.1016/j.csl.2020.101094",
+      "doi": "10.1016/j.csl.2020.101094",
+      "score": 160.56331,
+      "citations": 18,
+      "apa": "Tam, Y. (2020). Cluster-based beam search for pointer-generator chatbot grounded by knowledge. Computer Speech &amp; Language. https://doi.org/10.1016/j.csl.2020.101094",
+      "mla": "Tam, Yik-Cheung. \"Cluster-based beam search for pointer-generator chatbot grounded by knowledge.\" Computer Speech &amp; Language, 2020. https://doi.org/10.1016/j.csl.2020.101094.",
+      "iso690": "TAM, Yik-Cheung. Cluster-based beam search for pointer-generator chatbot grounded by knowledge. Computer Speech &amp; Language, 2020. https://doi.org/10.1016/j.csl.2020.101094",
+      "bibtex": "@article{Tam2020Clusterbased,\n  title={Cluster-based beam search for pointer-generator chatbot grounded by knowledge},\n  author={Tam, Yik-Cheung},\n  year={2020},\n  journal={Computer Speech &amp; Language},\n  doi={10.1016/j.csl.2020.101094}\n}",
+      "source": "CrossRef",
+      "matchConfidence": 100,
+      "titleMatchScore": 100,
+      "authorMatchScore": 100,
+      "journalMatchScore": 100,
+      "issues": []
+    }
+  },
+  {
+    "id": "P3:R43",
+    "reference": "Mikel Artetxe, Gorka Labaka, and Eneko Agirre. Learning principled bilingual mappings of word embeddings while preserving monolingual invariance. In Jian Su, Kevin Duh, and Xavier Carreras (eds.), Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing, pp. 2289?2294, Austin, Texas, November 2016. Association for Computational Linguistics. doi: 10.18653/v1/D16-1250. URL https://aclanthology.org/D16-1250/",
+    "true_problematic": 0,
+    "historical_checkifexist": 0,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Mikel%20Artetxe%2C%20Gorka%20Labaka%2C%20and%20Eneko%20Agirre.%20Learning%20principled%20bilingual%20mappings%20of%20word%20embeddings%20while%20preserving%20monolingual%20invariance.%20In%20Jian%20Su%2C%20Kevin%20Duh%2C%20and%20Xavier%20Carreras%20(eds.)%2C%20Proceedings%20of%20the%202016%20Conference%20on%20Empirical%20Methods%20in%20Natural%20Language%20Processing%2C%20pp.%202289%3F2294%2C%20Austin%2C%20Texas%2C%20November%202016.%20Association%20for%20Computational%20Linguistics.%20doi%3A%2010.18653%2Fv1%2FD16-1250.%20URL%20https%3A%2F%2Faclanthology.org%2FD16-1250%2F&rows=5",
+        "status": 200,
+        "body_sha256": "1704ecf849990624dece0d1dab5b7333729dc682392127d6bb3ef1881450070e",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 25,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R44",
+    "reference": "Daphne Ippolito, Reno Kriz, JoÆo Sedoc, Maria Kustikova, and Chris Callison-Burch. Comparison of diverse decoding methods from conditional language models. In Anna Korhonen, David Traum, and Llu¡s M…rquez (eds.), Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, pp. 3752?3762, Florence, Italy, July 2019. Association for Computational Linguistics",
+    "true_problematic": 0,
+    "historical_checkifexist": 1,
+    "prediction": 0,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Daphne%20Ippolito%2C%20Reno%20Kriz%2C%20Jo%C3%86o%20Sedoc%2C%20Maria%20Kustikova%2C%20and%20Chris%20Callison-Burch.%20Comparison%20of%20diverse%20decoding%20methods%20from%20conditional%20language%20models.%20In%20Anna%20Korhonen%2C%20David%20Traum%2C%20and%20Llu%C2%A1s%20M%E2%80%A6rquez%20(eds.)%2C%20Proceedings%20of%20the%2057th%20Annual%20Meeting%20of%20the%20Association%20for%20Computational%20Linguistics%2C%20pp.%203752%3F3762%2C%20Florence%2C%20Italy%2C%20July%202019.%20Association%20for%20Computational%20Linguistics&rows=5",
+        "status": 200,
+        "body_sha256": "b6614168c67364a5b4a7e526750cd441b06281be9caa5419bc60e3a7f113a7b9",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": true,
+      "title": "Comparison of Diverse Decoding Methods from Conditional Language Models",
+      "authors": "Ippolito, Kriz, Sedoc, Kustikova, Callison-Burch",
+      "year": "2019",
+      "journal": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+      "url": "https://doi.org/10.18653/v1/p19-1365",
+      "doi": "10.18653/v1/p19-1365",
+      "score": 225.09378,
+      "citations": 36,
+      "apa": "Ippolito, D., Kriz, R., Sedoc, J., Kustikova, M., Callison-Burch, C. (2019). Comparison of Diverse Decoding Methods from Conditional Language Models. Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics. https://doi.org/10.18653/v1/p19-1365",
+      "mla": "Ippolito, Daphne, et al. \"Comparison of Diverse Decoding Methods from Conditional Language Models.\" Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, 2019. https://doi.org/10.18653/v1/p19-1365.",
+      "iso690": "IPPOLITO, Daphne; KRIZ, Reno; SEDOC, João; KUSTIKOVA, Maria; CALLISON-BURCH, Chris. Comparison of Diverse Decoding Methods from Conditional Language Models. Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, 2019. https://doi.org/10.18653/v1/p19-1365",
+      "bibtex": "@article{Ippolito2019Comparison,\n  title={Comparison of Diverse Decoding Methods from Conditional Language Models},\n  author={Ippolito, Daphne and Kriz, Reno and Sedoc, João and Kustikova, Maria and Callison-Burch, Chris},\n  year={2019},\n  journal={Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics},\n  doi={10.18653/v1/p19-1365}\n}",
+      "source": "CrossRef",
+      "matchConfidence": 100,
+      "titleMatchScore": 100,
+      "authorMatchScore": 100,
+      "journalMatchScore": 100,
+      "issues": []
+    }
+  },
+  {
+    "id": "P3:R45",
+    "reference": "Peter W Culicover. Paraphrase generation and information retrieval from stored text. Mech. Transl. Comput. Linguistics, 11(3-4):78?88, 1968",
+    "true_problematic": 0,
+    "historical_checkifexist": 0,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Peter%20W%20Culicover.%20Paraphrase%20generation%20and%20information%20retrieval%20from%20stored%20text.%20Mech.%20Transl.%20Comput.%20Linguistics%2C%2011(3-4)%3A78%3F88%2C%201968&rows=5",
+        "status": 200,
+        "body_sha256": "ac2104c40f51050099d67dc106fd123a482d5105de4aff7b9b16740c9f0d977c",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 28,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R46",
+    "reference": "Sebastian Pado, Michel Galley, Daniel Jurafsky, and Christopher D Manning. Machine translation evaluation with textual entailment features. In Proceedings of the Fourth Workshop on Statistical Machine Translation (WMT), pp. 37?41, 2009",
+    "true_problematic": 0,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Sebastian%20Pado%2C%20Michel%20Galley%2C%20Daniel%20Jurafsky%2C%20and%20Christopher%20D%20Manning.%20Machine%20translation%20evaluation%20with%20textual%20entailment%20features.%20In%20Proceedings%20of%20the%20Fourth%20Workshop%20on%20Statistical%20Machine%20Translation%20(WMT)%2C%20pp.%2037%3F41%2C%202009&rows=5",
+        "status": 200,
+        "body_sha256": "3a74e5dd2cab8e3ae477d69cdba798b4b92fb1235302c19847ece5d7d5e4f1df",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 28,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R47",
+    "reference": "Ion Androutsopoulos and Prodromos Malakasiotis. A survey of paraphrasing and textual entailment methods. Journal of Artificial Intelligence Research, 38:135?187, 2010",
+    "true_problematic": 0,
+    "historical_checkifexist": 0,
+    "prediction": 0,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Ion%20Androutsopoulos%20and%20Prodromos%20Malakasiotis.%20A%20survey%20of%20paraphrasing%20and%20textual%20entailment%20methods.%20Journal%20of%20Artificial%20Intelligence%20Research%2C%2038%3A135%3F187%2C%202010&rows=5",
+        "status": 200,
+        "body_sha256": "d758a9e05f6d40353321df73faa575dd72f4b84613b0afd8e85ab58d6f49a1c1",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": true,
+      "title": "A Survey of Paraphrasing and Textual Entailment Methods",
+      "authors": "Androutsopoulos, Malakasiotis",
+      "year": "2010",
+      "journal": "Journal of Artificial Intelligence Research",
+      "url": "https://doi.org/10.1613/jair.2985",
+      "doi": "10.1613/jair.2985",
+      "score": 119.83858,
+      "citations": 168,
+      "apa": "Androutsopoulos, I., Malakasiotis, P. (2010). A Survey of Paraphrasing and Textual Entailment Methods. Journal of Artificial Intelligence Research. https://doi.org/10.1613/jair.2985",
+      "mla": "Androutsopoulos, I., and P. Malakasiotis. \"A Survey of Paraphrasing and Textual Entailment Methods.\" Journal of Artificial Intelligence Research, 2010. https://doi.org/10.1613/jair.2985.",
+      "iso690": "ANDROUTSOPOULOS, I.; MALAKASIOTIS, P.. A Survey of Paraphrasing and Textual Entailment Methods. Journal of Artificial Intelligence Research, 2010. https://doi.org/10.1613/jair.2985",
+      "bibtex": "@article{Androutsopoulos2010A,\n  title={A Survey of Paraphrasing and Textual Entailment Methods},\n  author={Androutsopoulos, I. and Malakasiotis, P.},\n  year={2010},\n  journal={Journal of Artificial Intelligence Research},\n  doi={10.1613/jair.2985}\n}",
+      "source": "CrossRef",
+      "matchConfidence": 100,
+      "titleMatchScore": 100,
+      "authorMatchScore": 100,
+      "journalMatchScore": 100,
+      "issues": []
+    }
+  },
+  {
+    "id": "P3:R48",
+    "reference": "Shyam Fernando and Mark Stevenson. Semantic similarity based on lexical substitution. In Proceedings of ACL-08: HLT, pp. 756?764, 2008",
+    "true_problematic": 1,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Shyam%20Fernando%20and%20Mark%20Stevenson.%20Semantic%20similarity%20based%20on%20lexical%20substitution.%20In%20Proceedings%20of%20ACL-08%3A%20HLT%2C%20pp.%20756%3F764%2C%202008&rows=5",
+        "status": 200,
+        "body_sha256": "918f6b375e84a9ef734f63a4028e5490ea25a89babce64095fbecd93b87f6a89",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 28,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R49",
+    "reference": "Asma Issa, George Mohler, and John Johnson. Paraphrase identification using deep contextualized representations. In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP), pp. 517?526, 2018",
+    "true_problematic": 1,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Asma%20Issa%2C%20George%20Mohler%2C%20and%20John%20Johnson.%20Paraphrase%20identification%20using%20deep%20contextualized%20representations.%20In%20Proceedings%20of%20the%202018%20Conference%20on%20Empirical%20Methods%20in%20Natural%20Language%20Processing%20(EMNLP)%2C%20pp.%20517%3F526%2C%202018&rows=5",
+        "status": 200,
+        "body_sha256": "9206e3dfe35e00fb4460e73ece5dc860ee6b5625d0f4919da845d24fc5802dfa",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 31,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R50",
+    "reference": "Lei Yu, Jimmy Dumsmyr, and Kevin Knight. Deep paraphrase identification. In Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP), pp.650?655, 2014",
+    "true_problematic": 1,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Lei%20Yu%2C%20Jimmy%20Dumsmyr%2C%20and%20Kevin%20Knight.%20Deep%20paraphrase%20identification.%20In%20Proceedings%20of%20the%202014%20Conference%20on%20Empirical%20Methods%20in%20Natural%20Language%20Processing%20(EMNLP)%2C%20pp.650%3F655%2C%202014&rows=5",
+        "status": 200,
+        "body_sha256": "fde358a8342828dc3f297e83c74fd01ef858d1ff40daa911f674eff184395afc",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": true,
+      "title": "Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+      "authors": "",
+      "year": "2014",
+      "journal": "",
+      "url": "https://doi.org/10.3115/v1/d14-1",
+      "doi": "10.3115/v1/d14-1",
+      "score": 61.351807,
+      "citations": 54,
+      "apa": " (2014). Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP). https://doi.org/10.3115/v1/d14-1",
+      "mla": "\"Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP).\" 2014. https://doi.org/10.3115/v1/d14-1.",
+      "iso690": "Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP). 2014. https://doi.org/10.3115/v1/d14-1",
+      "bibtex": "@article{Unknown2014Proceedings,\n  title={Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)},\n  author={},\n  year={2014},\n  doi={10.3115/v1/d14-1}\n}",
+      "source": "CrossRef",
+      "matchConfidence": 75,
+      "titleMatchScore": 100,
+      "authorMatchScore": 50,
+      "journalMatchScore": 50,
+      "issues": [
+        "Possible Extra/Fake Authors: Jimmy, Dumsmyr, Kevin, Knight, Deep"
+      ]
+    }
+  },
+  {
+    "id": "P3:R51",
+    "reference": "Richard Socher, Eric H. Huang, Jeffrey Pennin, Christopher D. Manning, and Andrew Y. Ng.Dynamic pooling and unfolding recursive autoencoders for paraphrase detection. In Advances in Neural Information Processing Systems (NeurIPS), volume 24, pp. 801?809, 2011",
+    "true_problematic": 0,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Richard%20Socher%2C%20Eric%20H.%20Huang%2C%20Jeffrey%20Pennin%2C%20Christopher%20D.%20Manning%2C%20and%20Andrew%20Y.%20Ng.Dynamic%20pooling%20and%20unfolding%20recursive%20autoencoders%20for%20paraphrase%20detection.%20In%20Advances%20in%20Neural%20Information%20Processing%20Systems%20(NeurIPS)%2C%20volume%2024%2C%20pp.%20801%3F809%2C%202011&rows=5",
+        "status": 200,
+        "body_sha256": "926570d3dcf95d0a7c41e3d4b6799035c193c7bb8445ecfd797ed9bc7f423c73",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 27,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R52",
+    "reference": "Yi Tay, Kelvin Fu, Kai Wu, Ivan Casanueva, Jianfeng Liu, Byron Wallace, Shuohang Wang, Bajrang Singh, and Julian McAuley. Reasoning with heterogeneous graph representations for knowledge-aware question answering. In Findings of the Association for Computational Linguistics: ACL 2021, pp. 3497?3506, 2021",
+    "true_problematic": 1,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Yi%20Tay%2C%20Kelvin%20Fu%2C%20Kai%20Wu%2C%20Ivan%20Casanueva%2C%20Jianfeng%20Liu%2C%20Byron%20Wallace%2C%20Shuohang%20Wang%2C%20Bajrang%20Singh%2C%20and%20Julian%20McAuley.%20Reasoning%20with%20heterogeneous%20graph%20representations%20for%20knowledge-aware%20question%20answering.%20In%20Findings%20of%20the%20Association%20for%20Computational%20Linguistics%3A%20ACL%202021%2C%20pp.%203497%3F3506%2C%202021&rows=5",
+        "status": 200,
+        "body_sha256": "408abdaa203ab5feb6f6c9cb14a57eecdc1512cb9ceaeb57327402cc1ab991fa",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 23,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R53",
+    "reference": "Alex Wang, Rishi Bommasani, Dan Hendrycks, Daniel Song, and Zhilin Zhang. Efficient few-shot learning with efl: A single transformer for all tasks. In arXiv preprint arXiv:2107.13586, 2021",
+    "true_problematic": 1,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Alex%20Wang%2C%20Rishi%20Bommasani%2C%20Dan%20Hendrycks%2C%20Daniel%20Song%2C%20and%20Zhilin%20Zhang.%20Efficient%20few-shot%20learning%20with%20efl%3A%20A%20single%20transformer%20for%20all%20tasks.%20In%20arXiv%20preprint%20arXiv%3A2107.13586%2C%202021&rows=5",
+        "status": 200,
+        "body_sha256": "a3513da9b0879a82781ae65ee7705d9e592e6724fa7f8d638229e86b110b1bb6",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 27,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R54",
+    "reference": "Zhen Lin, Shubhendu Trivedi, and Jimeng Sun. Generating with confidence: Uncertainty quantification for black-box large language models. arXiv preprint arXiv:2305.19187, 2023",
+    "true_problematic": 0,
+    "historical_checkifexist": 0,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Zhen%20Lin%2C%20Shubhendu%20Trivedi%2C%20and%20Jimeng%20Sun.%20Generating%20with%20confidence%3A%20Uncertainty%20quantification%20for%20black-box%20large%20language%20models.%20arXiv%20preprint%20arXiv%3A2305.19187%2C%202023&rows=5",
+        "status": 200,
+        "body_sha256": "6ae55878dcc5589b5aac80dc92de2bc4cf1fdac5ffdd0c1ea22367f9a3c59492",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 39,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R55",
+    "reference": "Sunil Reddy, Danqi Chen, and Christopher D. Manning. Coqa: A conversational question answering challenge. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL), pp. 1944?1954, 2019",
+    "true_problematic": 1,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Sunil%20Reddy%2C%20Danqi%20Chen%2C%20and%20Christopher%20D.%20Manning.%20Coqa%3A%20A%20conversational%20question%20answering%20challenge.%20In%20Proceedings%20of%20the%202019%20Conference%20of%20the%20North%20American%20Chapter%20of%20the%20Association%20for%20Computational%20Linguistics%3A%20Human%20Language%20Technologies%20(NAACL)%2C%20pp.%201944%3F1954%2C%202019&rows=5",
+        "status": 200,
+        "body_sha256": "cd7ac879e0f116f1ce3f4aa0fc3807129b55ba68eeea6393afa9eed742d098a9",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": true,
+      "title": "CoQA: A Conversational Question Answering Challenge",
+      "authors": "Reddy, Chen, Manning",
+      "year": "2019",
+      "journal": "Transactions of the Association for Computational Linguistics",
+      "url": "https://doi.org/10.1162/tacl_a_00266",
+      "doi": "10.1162/tacl_a_00266",
+      "score": 113.758286,
+      "citations": 435,
+      "apa": "Reddy, S., Chen, D., Manning, C. (2019). CoQA: A Conversational Question Answering Challenge. Transactions of the Association for Computational Linguistics. https://doi.org/10.1162/tacl_a_00266",
+      "mla": "Reddy, Siva, et al. \"CoQA: A Conversational Question Answering Challenge.\" Transactions of the Association for Computational Linguistics, 2019. https://doi.org/10.1162/tacl_a_00266.",
+      "iso690": "REDDY, Siva; CHEN, Danqi; MANNING, Christopher D.. CoQA: A Conversational Question Answering Challenge. Transactions of the Association for Computational Linguistics, 2019. https://doi.org/10.1162/tacl_a_00266",
+      "bibtex": "@article{Reddy2019CoQA,\n  title={CoQA: A Conversational Question Answering Challenge},\n  author={Reddy, Siva and Chen, Danqi and Manning, Christopher D.},\n  year={2019},\n  journal={Transactions of the Association for Computational Linguistics},\n  doi={10.1162/tacl_a_00266}\n}",
+      "source": "CrossRef",
+      "matchConfidence": 75,
+      "titleMatchScore": 100,
+      "authorMatchScore": 50,
+      "journalMatchScore": 100,
+      "issues": [
+        "Possible Extra/Fake Authors: North, Human, Language, Technologies, NAACL"
+      ]
+    }
+  },
+  {
+    "id": "P3:R56",
+    "reference": "Stephanie Lin, Jacob Hilton, and Owain Evans. TruthfulQA: Measuring how models mimic human falsehoods. In Smaranda Muresan, Preslav Nakov, and Aline Villavicencio (eds.), Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 3214?3252, Dublin, Ireland, May 2022. Association for Computational Linguistics. doi: 10.18653/v1/2022.acl-long.229. URL https://aclanthology.org/2022.acl-long.229/",
+    "true_problematic": 0,
+    "historical_checkifexist": 0,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Stephanie%20Lin%2C%20Jacob%20Hilton%2C%20and%20Owain%20Evans.%20TruthfulQA%3A%20Measuring%20how%20models%20mimic%20human%20falsehoods.%20In%20Smaranda%20Muresan%2C%20Preslav%20Nakov%2C%20and%20Aline%20Villavicencio%20(eds.)%2C%20Proceedings%20of%20the%2060th%20Annual%20Meeting%20of%20the%20Association%20for%20Computational%20Linguistics%20(Volume%201%3A%20Long%20Papers)%2C%20pp.%203214%3F3252%2C%20Dublin%2C%20Ireland%2C%20May%202022.%20Association%20for%20Computational%20Linguistics.%20doi%3A%2010.18653%2Fv1%2F2022.acl-long.229.%20URL%20https%3A%2F%2Faclanthology.org%2F2022.acl-long.229%2F&rows=5",
+        "status": 200,
+        "body_sha256": "c8519c7a1d1d1be7738907f5ed6ff8bcc3bbcaf1260cd49a08da7ae8e616c3b5",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": true,
+      "title": "TruthfulQA: Measuring How Models Mimic Human Falsehoods",
+      "authors": "Lin, Hilton, Evans",
+      "year": "2022",
+      "journal": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "url": "https://doi.org/10.18653/v1/2022.acl-long.229",
+      "doi": "10.18653/v1/2022.acl-long.229",
+      "score": 216.63779,
+      "citations": 729,
+      "apa": "Lin, S., Hilton, J., Evans, O. (2022). TruthfulQA: Measuring How Models Mimic Human Falsehoods. Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). https://doi.org/10.18653/v1/2022.acl-long.229",
+      "mla": "Lin, Stephanie, et al. \"TruthfulQA: Measuring How Models Mimic Human Falsehoods.\" Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), 2022. https://doi.org/10.18653/v1/2022.acl-long.229.",
+      "iso690": "LIN, Stephanie; HILTON, Jacob; EVANS, Owain. TruthfulQA: Measuring How Models Mimic Human Falsehoods. Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), 2022. https://doi.org/10.18653/v1/2022.acl-long.229",
+      "bibtex": "@article{Lin2022TruthfulQA,\n  title={TruthfulQA: Measuring How Models Mimic Human Falsehoods},\n  author={Lin, Stephanie and Hilton, Jacob and Evans, Owain},\n  year={2022},\n  journal={Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},\n  doi={10.18653/v1/2022.acl-long.229}\n}",
+      "source": "CrossRef",
+      "matchConfidence": 75,
+      "titleMatchScore": 100,
+      "authorMatchScore": 50,
+      "journalMatchScore": 100,
+      "issues": [
+        "Possible Extra/Fake Authors: Muresan, Preslav, Nakov, Villavicencio, Ireland"
+      ]
+    }
+  },
+  {
+    "id": "P3:R57",
+    "reference": "Sewon Min, Mike Lewis, and Daniel Jurafsky. Ambigqa: Answering ambiguous open-domain questions. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), pp. 7582?7601, 2020",
+    "true_problematic": 1,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Sewon%20Min%2C%20Mike%20Lewis%2C%20and%20Daniel%20Jurafsky.%20Ambigqa%3A%20Answering%20ambiguous%20open-domain%20questions.%20In%20Proceedings%20of%20the%202020%20Conference%20on%20Empirical%20Methods%20in%20Natural%20Language%20Processing%20(EMNLP)%2C%20pp.%207582%3F7601%2C%202020&rows=5",
+        "status": 200,
+        "body_sha256": "099e107f86676a8a18afbcbf03093ac48adec816adfb850ef5c4ec87c084384d",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": true,
+      "title": "AmbigQA: Answering Ambiguous Open-domain Questions",
+      "authors": "Min, Michael, Hajishirzi, Zettlemoyer",
+      "year": "2020",
+      "journal": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+      "url": "https://doi.org/10.18653/v1/2020.emnlp-main.466",
+      "doi": "10.18653/v1/2020.emnlp-main.466",
+      "score": 122.8894,
+      "citations": 86,
+      "apa": "Min, S., Michael, J., Hajishirzi, H., Zettlemoyer, L. (2020). AmbigQA: Answering Ambiguous Open-domain Questions. Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP). https://doi.org/10.18653/v1/2020.emnlp-main.466",
+      "mla": "Min, Sewon, et al. \"AmbigQA: Answering Ambiguous Open-domain Questions.\" Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2020. https://doi.org/10.18653/v1/2020.emnlp-main.466.",
+      "iso690": "MIN, Sewon; MICHAEL, Julian; HAJISHIRZI, Hannaneh; ZETTLEMOYER, Luke. AmbigQA: Answering Ambiguous Open-domain Questions. Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2020. https://doi.org/10.18653/v1/2020.emnlp-main.466",
+      "bibtex": "@article{Min2020AmbigQA,\n  title={AmbigQA: Answering Ambiguous Open-domain Questions},\n  author={Min, Sewon and Michael, Julian and Hajishirzi, Hannaneh and Zettlemoyer, Luke},\n  year={2020},\n  journal={Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)},\n  doi={10.18653/v1/2020.emnlp-main.466}\n}",
+      "source": "CrossRef",
+      "matchConfidence": 52.5,
+      "titleMatchScore": 100,
+      "authorMatchScore": 5,
+      "journalMatchScore": 100,
+      "issues": [
+        "Possible Extra/Fake Authors: Mike, Daniel"
+      ]
+    }
+  },
+  {
+    "id": "P3:R58",
+    "reference": "S. Zhang, S. Roller, N. Goyal, M. Artetxe, M. Chen, S. Chen, M. Dewan, M. Diab, Y. Jiang, J. Kos, et al. Opt: Open pre-trained transformer language models. arXiv preprint  arXiv:2205.01068, 2022",
+    "true_problematic": 1,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=S.%20Zhang%2C%20S.%20Roller%2C%20N.%20Goyal%2C%20M.%20Artetxe%2C%20M.%20Chen%2C%20S.%20Chen%2C%20M.%20Dewan%2C%20M.%20Diab%2C%20Y.%20Jiang%2C%20J.%20Kos%2C%20et%20al.%20Opt%3A%20Open%20pre-trained%20transformer%20language%20models.%20arXiv%20preprint%20arXiv%3A2205.01068%2C%202022&rows=5",
+        "status": 200,
+        "body_sha256": "a16cb69527f23a2c83d17c13eaccb0c9517aa1088a957186bac1599b432742f6",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 29,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R59",
+    "reference": "Hugo Touvron, Thibaut Martin, Kevin Stone, Marie-Anne Lachaux, Timoth‚e Albert, et al. Llama: Open and efficient foundation language models. arXiv preprint arXiv:2302.13971, 2023",
+    "true_problematic": 1,
+    "historical_checkifexist": 0,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Hugo%20Touvron%2C%20Thibaut%20Martin%2C%20Kevin%20Stone%2C%20Marie-Anne%20Lachaux%2C%20Timoth%E2%80%9Ae%20Albert%2C%20et%20al.%20Llama%3A%20Open%20and%20efficient%20foundation%20language%20models.%20arXiv%20preprint%20arXiv%3A2302.13971%2C%202023&rows=5",
+        "status": 200,
+        "body_sha256": "bad23d37424e1761ff24a463f0506f02c11d446dca9f2aaacc5a28bcd7ba0f0c",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 26,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R60",
+    "reference": "AI@Meta. Llama 3 model card. 2024. URL https://github.com/meta-llama/llama3/blob/main/MODEL_CARD.md",
+    "true_problematic": 0,
+    "historical_checkifexist": 1,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=AI%40Meta.%20Llama%203%20model%20card.%202024.%20URL%20https%3A%2F%2Fgithub.com%2Fmeta-llama%2Fllama3%2Fblob%2Fmain%2FMODEL_CARD.md&rows=5",
+        "status": 200,
+        "body_sha256": "d8df38ac7af2a2ca3a63fd95cfb8dd6eba7b7e705b4f7d4a736599c94f462580",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 30,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R61",
+    "reference": "Augustine Kong. A note on importance sampling using standardized weights. University of Chicago, Dept. of Statistics, Tech. Rep, 348:14, 1992",
+    "true_problematic": 0,
+    "historical_checkifexist": 1,
+    "prediction": 0,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Augustine%20Kong.%20A%20note%20on%20importance%20sampling%20using%20standardized%20weights.%20University%20of%20Chicago%2C%20Dept.%20of%20Statistics%2C%20Tech.%20Rep%2C%20348%3A14%2C%201992&rows=5",
+        "status": 200,
+        "body_sha256": "f538193cea1c9e9d6af35cbc335141beed44a31a4705024e0b5503f09f3679d3",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": true,
+      "title": "Importance Sampling",
+      "authors": "Kong",
+      "year": "2014",
+      "journal": "Wiley StatsRef: Statistics Reference Online",
+      "url": "https://doi.org/10.1002/9781118445112.stat05402",
+      "doi": "10.1002/9781118445112.stat05402",
+      "score": 34.279713,
+      "citations": 0,
+      "apa": "Kong, A. (2014). Importance Sampling. Wiley StatsRef: Statistics Reference Online. https://doi.org/10.1002/9781118445112.stat05402",
+      "mla": "Kong, A. \"Importance Sampling.\" Wiley StatsRef: Statistics Reference Online, 2014. https://doi.org/10.1002/9781118445112.stat05402.",
+      "iso690": "KONG, A.. Importance Sampling. Wiley StatsRef: Statistics Reference Online, 2014. https://doi.org/10.1002/9781118445112.stat05402",
+      "bibtex": "@article{Kong2014Importance,\n  title={Importance Sampling},\n  author={Kong, A.},\n  year={2014},\n  journal={Wiley StatsRef: Statistics Reference Online},\n  doi={10.1002/9781118445112.stat05402}\n}",
+      "source": "CrossRef",
+      "matchConfidence": 90,
+      "titleMatchScore": 100,
+      "authorMatchScore": 80,
+      "journalMatchScore": 100,
+      "issues": [
+        "Possible Extra/Fake Authors: Dept, Tech",
+        "Year Mismatch: you wrote 1992, actual is 2014"
+      ]
+    }
+  },
+  {
+    "id": "P3:R62",
+    "reference": "Ilia Kulikov, Alexander Miller, Kyunghyun Cho, and Jason Weston. Importance of search and evaluation strategies in neural dialogue modeling. pp. 76?87, 01 2019. doi: 10.18653/v1/W19-8609.",
+    "true_problematic": 0,
+    "historical_checkifexist": 0,
+    "prediction": 0,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Ilia%20Kulikov%2C%20Alexander%20Miller%2C%20Kyunghyun%20Cho%2C%20and%20Jason%20Weston.%20Importance%20of%20search%20and%20evaluation%20strategies%20in%20neural%20dialogue%20modeling.%20pp.%2076%3F87%2C%2001%202019.%20doi%3A%2010.18653%2Fv1%2FW19-8609.&rows=5",
+        "status": 200,
+        "body_sha256": "65cd887555356aab59cdb6834846541039159b152ca2896fc39c51d0de08024b",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": true,
+      "title": "Importance of Search and Evaluation Strategies in Neural Dialogue Modeling",
+      "authors": "Kulikov, Miller, Cho, Weston",
+      "year": "2019",
+      "journal": "Proceedings of the 12th International Conference on Natural Language Generation",
+      "url": "https://doi.org/10.18653/v1/w19-8609",
+      "doi": "10.18653/v1/w19-8609",
+      "score": 126.1942,
+      "citations": 19,
+      "apa": "Kulikov, I., Miller, A., Cho, K., Weston, J. (2019). Importance of Search and Evaluation Strategies in Neural Dialogue Modeling. Proceedings of the 12th International Conference on Natural Language Generation. https://doi.org/10.18653/v1/w19-8609",
+      "mla": "Kulikov, Ilia, et al. \"Importance of Search and Evaluation Strategies in Neural Dialogue Modeling.\" Proceedings of the 12th International Conference on Natural Language Generation, 2019. https://doi.org/10.18653/v1/w19-8609.",
+      "iso690": "KULIKOV, Ilia; MILLER, Alexander; CHO, Kyunghyun; WESTON, Jason. Importance of Search and Evaluation Strategies in Neural Dialogue Modeling. Proceedings of the 12th International Conference on Natural Language Generation, 2019. https://doi.org/10.18653/v1/w19-8609",
+      "bibtex": "@article{Kulikov2019Importance,\n  title={Importance of Search and Evaluation Strategies in Neural Dialogue Modeling},\n  author={Kulikov, Ilia and Miller, Alexander and Cho, Kyunghyun and Weston, Jason},\n  year={2019},\n  journal={Proceedings of the 12th International Conference on Natural Language Generation},\n  doi={10.18653/v1/w19-8609}\n}",
+      "source": "CrossRef",
+      "matchConfidence": 85,
+      "titleMatchScore": 100,
+      "authorMatchScore": 100,
+      "journalMatchScore": 0,
+      "issues": [
+        "Journal Mismatch: actual is \"Proceedings of the 12th International Conference on Natural Language Generation\""
+      ]
+    }
+  },
+  {
+    "id": "P3:R63",
+    "reference": "John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, and Oleg Klimov. Proximal policy optimization algorithms. CoRR, abs/1707.06347, 2017. URL http://arxiv.org/abs/1707.06347",
+    "true_problematic": 0,
+    "historical_checkifexist": 0,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=John%20Schulman%2C%20Filip%20Wolski%2C%20Prafulla%20Dhariwal%2C%20Alec%20Radford%2C%20and%20Oleg%20Klimov.%20Proximal%20policy%20optimization%20algorithms.%20CoRR%2C%20abs%2F1707.06347%2C%202017.%20URL%20http%3A%2F%2Farxiv.org%2Fabs%2F1707.06347&rows=5",
+        "status": 200,
+        "body_sha256": "03b52daa49fb20eec6a13e3461ee0b7ca2fc42ee948ba436a3ab3a189c668c5c",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 21,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R64",
+    "reference": "Daya Guo, Dejian Yang, Haowei Zhang, Junxiao Song, Ruoyu Zhang, Runxin Xu, Qihao Zhu, Shirong Ma, Peiyi Wang, Xiao Bi, et al. Deepseek-r1: Incentivizing reasoning capability in llms via reinforcement learning. arXiv preprint arXiv:2501.12948, 2025",
+    "true_problematic": 0,
+    "historical_checkifexist": 0,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Daya%20Guo%2C%20Dejian%20Yang%2C%20Haowei%20Zhang%2C%20Junxiao%20Song%2C%20Ruoyu%20Zhang%2C%20Runxin%20Xu%2C%20Qihao%20Zhu%2C%20Shirong%20Ma%2C%20Peiyi%20Wang%2C%20Xiao%20Bi%2C%20et%20al.%20Deepseek-r1%3A%20Incentivizing%20reasoning%20capability%20in%20llms%20via%20reinforcement%20learning.%20arXiv%20preprint%20arXiv%3A2501.12948%2C%202025&rows=5",
+        "status": 200,
+        "body_sha256": "0892289d6270cf518cbda03b830425f9dae4477288af7580758cb56293c70c4d",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 27,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  },
+  {
+    "id": "P3:R65",
+    "reference": "Ilya Loshchilov and Frank Hutter. Decoupled weight decay regularization. arXiv preprint arXiv:1711.05101, 2017",
+    "true_problematic": 0,
+    "historical_checkifexist": 0,
+    "prediction": 1,
+    "transport_incomplete": false,
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works?query=Ilya%20Loshchilov%20and%20Frank%20Hutter.%20Decoupled%20weight%20decay%20regularization.%20arXiv%20preprint%20arXiv%3A1711.05101%2C%202017&rows=5",
+        "status": 200,
+        "body_sha256": "08360793c1579c2139c05c38746d3f8062aedc073829ee825b28d07dbe3f41f6",
+        "error": null
+      }
+    ],
+    "result": {
+      "exists": false,
+      "source": "NotFound",
+      "matchConfidence": 0,
+      "titleMatchScore": 26,
+      "authorMatchScore": 0,
+      "journalMatchScore": 0,
+      "issues": [
+        "Title not found — no sufficiently similar result in CrossRef"
+      ]
+    }
+  }
+]

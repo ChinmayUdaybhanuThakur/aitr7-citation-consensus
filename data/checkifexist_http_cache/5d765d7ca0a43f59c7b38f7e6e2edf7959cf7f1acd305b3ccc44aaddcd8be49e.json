@@ -1,0 +1,10 @@
+{
+  "url": "https://api.semanticscholar.org/graph/v1/paper/search?query=Semantically%20diverse%20language%20generation&limit=5&fields=paperId,title,authors,year,venue,externalIds,url,citationCount,isRetracted",
+  "status": 429,
+  "body_base64": "eyJtZXNzYWdlIjogIlRvbyBNYW55IFJlcXVlc3RzLiBQbGVhc2Ugd2FpdCBhbmQgdHJ5IGFnYWluIG9yIGFwcGx5IGZvciBhIGtleSBmb3IgaGlnaGVyIHJhdGUgbGltaXRzLiBodHRwczovL3d3dy5zZW1hbnRpY3NjaG9sYXIub3JnL3Byb2R1Y3QvYXBpI2FwaS1rZXktZm9ybSIsICJjb2RlIjogIjQyOSJ9",
+  "body_sha256": "65ab993d12c5c2cc9b68e6da2bb79b326930283e520363ffcdc145f88cd5a148",
+  "content_type": "application/json",
+  "error": "HTTP Error 429: ",
+  "retrieved_unix": 1792583412.656312,
+  "elapsed_seconds": 0.3451669216156006
+}

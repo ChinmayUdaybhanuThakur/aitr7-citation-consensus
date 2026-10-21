@@ -1,0 +1,10 @@
+{
+  "url": "https://dblp.org/search/publ/api?q=Shifting%20attention%20to%20relevance%3A%20Towards%20the%20predictive%20uncertainty%20quantification%20of%20free-form%20large%20language%20models&format=json&h=5",
+  "status": 429,
+  "body_base64": "",
+  "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "content_type": "",
+  "error": "HTTP Error 429: Too Many Requests",
+  "retrieved_unix": 1792583558.053121,
+  "elapsed_seconds": 0.6133558750152588
+}

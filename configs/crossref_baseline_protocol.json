@@ -1,0 +1,43 @@
+{
+  "amendment": "A4",
+  "declared_date": "2026-10-21",
+  "recorded_at_utc": "2026-10-21T11:52:06.409701+00:00",
+  "purpose": "Validate the executable original CrossRef stage separately after fallback endpoints produced rate-limit responses in A3. Supplemental component baseline, not the full multi-source algorithm.",
+  "upstream_commit": "e4605651751f53579e57a0e14159c2f93b3f5e31",
+  "entrypoint": "checkReference(raw_reference) from the same unmodified upstream commit",
+  "data_sha256": "7e01dfd66ec52c89a3a35d165660d8144a13a48f22e2f294683a771bd38fa48c",
+  "rows": "All 104 references in original file order; no selection by outcome",
+  "input": "Only original reference string; no manual labels, stored checker flags, or inferred metadata",
+  "binary_rule": "flagged = not(result.exists and result.matchConfidence > 80), directly following upstream Verified badge",
+  "controls": [
+    "recorded CheckIfExist outputs",
+    "full fallback cascade on jointly complete rows"
+  ],
+  "network": "Public endpoints only; no API key, login, model inference or credentials",
+  "timeout_seconds_per_request": 15,
+  "retry_policy": "No automatic retries; errors cached and disclosed; reruns use recorded responses",
+  "rate_limit": "Sequential references, 1200 milliseconds between references; upstream fallback requests within each reference",
+  "missing_data": "Mark a row transport_incomplete if any request fails except HTTP 404. Report coverage and metrics only for complete rows; missing requests are not evidence of invalid references. Preserve raw upstream output separately.",
+  "metrics": [
+    "TP",
+    "FP",
+    "TN",
+    "FN",
+    "recall",
+    "FPR",
+    "balanced accuracy",
+    "historical-output agreement on jointly complete rows"
+  ],
+  "validation": [
+    "baseline runs before supplementary comparison is interpreted",
+    "cached recomputation of original upstream algorithm must reproduce output",
+    "smoke fixtures validate Verified/Partial/NotFound mapping and missing-response handling"
+  ],
+  "limits": [
+    "Contemporary API state and upstream code differ from the source study",
+    "No equivalence to original tool execution conditions",
+    "Post-audit addition, not preregistered primary experiment",
+    "The CrossRef stage is a component baseline, not a reproduction of the complete CheckIfExist cascade"
+  ],
+  "reason": "Some fallback APIs returned HTTP429, HTTP400 or HTML challenges. Restricting this separate baseline to the original CrossRef stage gives an inspectable accessible baseline. Selection of this condition follows observed availability failures; do not describe it as preregistered."
+}

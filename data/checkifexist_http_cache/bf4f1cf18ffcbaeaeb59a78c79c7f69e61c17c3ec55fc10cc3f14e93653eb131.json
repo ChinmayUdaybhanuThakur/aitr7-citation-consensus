@@ -1,0 +1,10 @@
+{
+  "url": "https://export.arxiv.org/api/query?search_query=ti:A.%20Sahoo%20and%20et%20al.%20inatk%3A%20Iterative%20noise%20aware%20text%20denoising.%20arXiv%20preprint%20arXiv%3A2402.XXXX&max_results=5&sortBy=relevance&sortOrder=descending",
+  "status": 429,
+  "body_base64": "",
+  "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "content_type": "",
+  "error": "HTTP Error 429: Unknown Error",
+  "retrieved_unix": 1792583512.5508559,
+  "elapsed_seconds": 0.43128228187561035
+}

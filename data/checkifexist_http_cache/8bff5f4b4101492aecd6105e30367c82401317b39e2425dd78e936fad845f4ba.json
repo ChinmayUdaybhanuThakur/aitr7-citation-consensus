@@ -1,0 +1,10 @@
+{
+  "url": "https://dblp.org/search/publ/api?q=COMET.%20(2025).%20cometadata%2Fcitation-parsing-lora-qwen3-0.6b.%20https%3A%2F%2Fhuggingface.co%2Fcometadata%2Fcitation-parsing-lora-qwen3-0.6b&format=json&h=5",
+  "status": 429,
+  "body_base64": "",
+  "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "content_type": "",
+  "error": "HTTP Error 429: Too Many Requests",
+  "retrieved_unix": 1792583341.59127,
+  "elapsed_seconds": 0.6318161487579346
+}

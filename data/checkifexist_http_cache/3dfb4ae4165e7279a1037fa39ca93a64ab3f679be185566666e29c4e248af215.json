@@ -1,0 +1,10 @@
+{
+  "url": "https://api.semanticscholar.org/graph/v1/paper/search?query=Self-evaluation%20improves%20selective%20generation%20in%20large%20language%20models&limit=5&fields=paperId,title,authors,year,venue,externalIds,url,citationCount,isRetracted",
+  "status": 400,
+  "body_base64": "eyJlcnJvciI6IlVucmVjb2duaXplZCBvciB1bnN1cHBvcnRlZCBmaWVsZHM6IFtpc1JldHJhY3RlZF0ifQo=",
+  "body_sha256": "1a5d9bf254b735573d5923072a63b71d36d13cab0ce82e11c64fe01d6f5afe4b",
+  "content_type": "application/json",
+  "error": "HTTP Error 400: Bad Request",
+  "retrieved_unix": 1792583554.0798368,
+  "elapsed_seconds": 1.3309822082519531
+}

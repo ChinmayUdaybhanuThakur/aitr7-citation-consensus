@@ -14,4 +14,4 @@
 | The classifier detects semantic citation support or formatting-induced trust | UNKNOWN / out of scope | Inputs contain flags only; those outcomes were not measured |
 | Student approved each technical choice, independently reran the study, or completed the viva | UNKNOWN | Human messages request rapid completion; no such actions observed |
 | Corrected release was known before protocol freezing | FALSE | Late discovery disclosed in amendment A2; existed before study but overlooked initially |
-| All original services were rerun | FALSE | Only their released decisions were replayed |
+| All five original services were rerun | FALSE | The primary panel replays released decisions; a separate CheckIfExist original-source supplement is now executed |

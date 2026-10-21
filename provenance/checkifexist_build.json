@@ -1,0 +1,131 @@
+{
+  "inputs": {
+    "outputs/AITR7_Citation_Consensus/third_party/checkifexist/mcp-server/src/dom-polyfill.ts": {
+      "bytes": 7096,
+      "imports": [],
+      "format": "esm"
+    },
+    "outputs/AITR7_Citation_Consensus/third_party/checkifexist/src/services/SemanticScholarService.ts": {
+      "bytes": 7135,
+      "imports": [],
+      "format": "esm"
+    },
+    "outputs/AITR7_Citation_Consensus/third_party/checkifexist/src/services/OpenAlexService.ts": {
+      "bytes": 6615,
+      "imports": [],
+      "format": "esm"
+    },
+    "outputs/AITR7_Citation_Consensus/third_party/checkifexist/src/services/ArxivService.ts": {
+      "bytes": 10552,
+      "imports": [],
+      "format": "esm"
+    },
+    "outputs/AITR7_Citation_Consensus/third_party/checkifexist/src/services/DblpService.ts": {
+      "bytes": 8400,
+      "imports": [],
+      "format": "esm"
+    },
+    "outputs/AITR7_Citation_Consensus/third_party/checkifexist/src/vendors/predatoryList.json": {
+      "bytes": 686,
+      "imports": []
+    },
+    "outputs/AITR7_Citation_Consensus/third_party/checkifexist/src/services/PredatoryService.ts": {
+      "bytes": 1146,
+      "imports": [
+        {
+          "path": "outputs/AITR7_Citation_Consensus/third_party/checkifexist/src/vendors/predatoryList.json",
+          "kind": "import-statement",
+          "original": "../vendors/predatoryList.json"
+        }
+      ],
+      "format": "esm"
+    },
+    "outputs/AITR7_Citation_Consensus/third_party/checkifexist/src/services/SearchService.ts": {
+      "bytes": 75087,
+      "imports": [
+        {
+          "path": "outputs/AITR7_Citation_Consensus/third_party/checkifexist/src/services/SemanticScholarService.ts",
+          "kind": "import-statement",
+          "original": "./SemanticScholarService"
+        },
+        {
+          "path": "outputs/AITR7_Citation_Consensus/third_party/checkifexist/src/services/OpenAlexService.ts",
+          "kind": "import-statement",
+          "original": "./OpenAlexService"
+        },
+        {
+          "path": "outputs/AITR7_Citation_Consensus/third_party/checkifexist/src/services/ArxivService.ts",
+          "kind": "import-statement",
+          "original": "./ArxivService"
+        },
+        {
+          "path": "outputs/AITR7_Citation_Consensus/third_party/checkifexist/src/services/DblpService.ts",
+          "kind": "import-statement",
+          "original": "./DblpService"
+        },
+        {
+          "path": "outputs/AITR7_Citation_Consensus/third_party/checkifexist/src/services/PredatoryService.ts",
+          "kind": "import-statement",
+          "original": "./PredatoryService"
+        }
+      ],
+      "format": "esm"
+    },
+    "outputs/AITR7_Citation_Consensus/scripts/upstream_entry.ts": {
+      "bytes": 259,
+      "imports": [
+        {
+          "path": "outputs/AITR7_Citation_Consensus/third_party/checkifexist/mcp-server/src/dom-polyfill.ts",
+          "kind": "import-statement",
+          "original": "../third_party/checkifexist/mcp-server/src/dom-polyfill"
+        },
+        {
+          "path": "outputs/AITR7_Citation_Consensus/third_party/checkifexist/src/services/SearchService.ts",
+          "kind": "import-statement",
+          "original": "../third_party/checkifexist/src/services/SearchService"
+        }
+      ],
+      "format": "esm"
+    }
+  },
+  "outputs": {
+    "outputs/AITR7_Citation_Consensus/scripts/vendor_checkifexist.mjs": {
+      "imports": [],
+      "exports": [
+        "checkReference",
+        "checkWithFallback"
+      ],
+      "entryPoint": "outputs/AITR7_Citation_Consensus/scripts/upstream_entry.ts",
+      "inputs": {
+        "outputs/AITR7_Citation_Consensus/third_party/checkifexist/mcp-server/src/dom-polyfill.ts": {
+          "bytesInOutput": 4821
+        },
+        "outputs/AITR7_Citation_Consensus/third_party/checkifexist/src/services/SemanticScholarService.ts": {
+          "bytesInOutput": 4840
+        },
+        "outputs/AITR7_Citation_Consensus/third_party/checkifexist/src/services/OpenAlexService.ts": {
+          "bytesInOutput": 4376
+        },
+        "outputs/AITR7_Citation_Consensus/third_party/checkifexist/src/services/ArxivService.ts": {
+          "bytesInOutput": 7353
+        },
+        "outputs/AITR7_Citation_Consensus/third_party/checkifexist/src/services/DblpService.ts": {
+          "bytesInOutput": 5725
+        },
+        "outputs/AITR7_Citation_Consensus/third_party/checkifexist/src/vendors/predatoryList.json": {
+          "bytesInOutput": 711
+        },
+        "outputs/AITR7_Citation_Consensus/third_party/checkifexist/src/services/PredatoryService.ts": {
+          "bytesInOutput": 573
+        },
+        "outputs/AITR7_Citation_Consensus/third_party/checkifexist/src/services/SearchService.ts": {
+          "bytesInOutput": 49248
+        },
+        "outputs/AITR7_Citation_Consensus/scripts/upstream_entry.ts": {
+          "bytesInOutput": 0
+        }
+      },
+      "bytes": 78445
+    }
+  }
+}

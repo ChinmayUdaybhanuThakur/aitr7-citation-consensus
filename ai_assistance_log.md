@@ -1,6 +1,6 @@
 # AI assistance and research-integrity record
 
-Date: 18 October 2026. Tool: Codex in the desktop app. Exact model build/version was not independently recorded; no build identifier is invented. This is a structured summary of the authentic session and saved artifacts, not a fabricated verbatim multi-tool prompt transcript. No Claude, Gemini, Copilot, or other model usage is claimed for this experiment.
+Date: 18 October 2026. Tool: Codex in the desktop app. The recovered session metadata identifies `gpt-6-astra`; the exact backend build is unavailable. See `docs/authentic_prompt_record.md` and `provenance/ai_traceability.json` for exact selected prompts, activity timestamps, versioned changes and verification evidence. This is a structured summary of the authentic session and saved artifacts, not a fabricated verbatim multi-tool prompt transcript. No Claude, Gemini, Copilot, or other model usage is claimed for this experiment.
 
 ## Human instructions actually observed
 
@@ -35,3 +35,7 @@ The student asked to reuse the previous six AITR assignments, clarified that Ass
 The supplied code, tests, outputs, and explanations allow the student to inspect the work. They do not prove that he understands it. No first-person learning experience, manual adjudication, independent rerun, oral defense, or human review is fabricated. Before submission he should trace one row through the predictor and metrics, explain label polarity and source-held-out selection, distinguish recorded decisions from live verification, and understand why the primary result is negative. `demo/viva_guide.md` supports that review.
 
 The strongest verified lesson of this session is procedural: fluent code and plausible assumptions required checks against bytes, source versions, held-out data, and actual counts. Claims of the student's personal learning should be added only after his own review.
+
+## 21 October completion repair
+
+The authentic prompt/version record now links significant activities to original tool-call receipts, Git commits, source files and verification outputs. A3/A4 add an executed original-source baseline and cached reproduction. The updated demo records genuine execution, with synthetic narration clearly labelled. Student reflection remains a personal requirement, not an assistant-generated claim. See `docs/completion_repair.md` for final measured checks and delivery status.

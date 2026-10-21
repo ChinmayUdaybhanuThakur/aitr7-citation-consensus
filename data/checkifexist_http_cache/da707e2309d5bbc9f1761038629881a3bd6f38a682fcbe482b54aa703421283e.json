@@ -1,0 +1,10 @@
+{
+  "url": "https://dblp.org/search/publ/api?q=Ng.Dynamic%20pooling%20and%20unfolding%20recursive%20autoencoders%20for%20paraphrase%20detection&format=json&h=5",
+  "status": 429,
+  "body_base64": "",
+  "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "content_type": "",
+  "error": "HTTP Error 429: Too Many Requests",
+  "retrieved_unix": 1792583587.761566,
+  "elapsed_seconds": 1.2079269886016846
+}
