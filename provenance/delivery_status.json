@@ -8,11 +8,11 @@
   "clean_reproduction_files_identical": 24,
   "executed_notebook_code_cells": 7,
   "captioned_demo_duration_seconds": 300.021333,
-  "github_publication": "repair_pending_publication",
+  "github_publication": "published",
   "classroom_submission": "not_performed",
   "student_review_and_live_viva": "not_observed",
   "github_repository": "https://github.com/ChinmayUdaybhanuThakur/aitr7-citation-consensus",
-  "publication_recorded_at_utc": "2026-10-18T15:01:58.057341+00:00",
+  "publication_recorded_at_utc": "2026-10-21T12:26:48.890814+00:00",
   "pre_repair_record": {
     "updated_at_utc": "2026-10-18T14:21:53.537301+00:00",
     "local_package": "complete",
@@ -33,5 +33,6 @@
   "baseline_harness_tests_passed": 8,
   "repair_validation": "provenance/baseline_reproduction.json",
   "demo_record": "demo/execution_demo_manifest.json",
-  "page_count_note": "References begin on content page 10 and continue on page 11; total is 11 pages, not the sum of content and reference page counts."
+  "page_count_note": "References begin on content page 10 and continue on page 11; total is 11 pages, not the sum of content and reference page counts.",
+  "repair_source_commit": "403dfbf5c4b80399df583a1e5936a50b5363824d"
 }
