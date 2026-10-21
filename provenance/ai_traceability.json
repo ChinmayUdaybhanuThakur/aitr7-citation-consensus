@@ -178,5 +178,69 @@
       "verification": "docs/research_brief.pdf",
       "outcome": "See named saved artifact; subsequent audit preserved the original negative conclusion"
     }
+  ],
+  "repair_activities": [
+    {
+      "date": "2026-10-21",
+      "human_prompt": "P04",
+      "human_decision": "Authorized completion of remaining assistant work; no individual research-choice approval observed",
+      "tool": "Codex desktop",
+      "model_build": "not independently exposed in this repair record",
+      "commit": "f0fc44417d0b4c41182a3f66b9ea48d9205b6566",
+      "assistant_proposal": "Execute pinned original-source baseline and honestly account for incomplete retrieval",
+      "files": [
+        "scripts/run_live_baseline.mjs",
+        "scripts/public_http.py",
+        "third_party/checkifexist/UPSTREAM.json"
+      ],
+      "verification": "provenance/baseline_reproduction.json",
+      "outcome": "104 complete CrossRef-component cases; 23 complete full-cascade cases; 81 incomplete full-cascade cases; cached replay identical"
+    },
+    {
+      "date": "2026-10-21",
+      "human_prompt": "P04",
+      "human_decision": "Authorized completion of remaining assistant work; no individual research-choice approval observed",
+      "tool": "Codex desktop",
+      "model_build": "not independently exposed in this repair record",
+      "commit": "f0fc44417d0b4c41182a3f66b9ea48d9205b6566",
+      "assistant_proposal": "Recover authentic selected prompts and history-linked assistance receipts",
+      "files": [
+        "docs/authentic_prompt_record.md",
+        "provenance/ai_traceability.json"
+      ],
+      "verification": "provenance/ai_traceability.json",
+      "outcome": "11 historical activity receipts; no invented technical prompts or student approval"
+    },
+    {
+      "date": "2026-10-21",
+      "human_prompt": "P04",
+      "human_decision": "Authorized completion of remaining assistant work; no individual research-choice approval observed",
+      "tool": "Codex desktop",
+      "model_build": "not independently exposed in this repair record",
+      "commit": "f0fc44417d0b4c41182a3f66b9ea48d9205b6566",
+      "assistant_proposal": "Replace static demo with captured command execution and disclosed synthetic narration",
+      "files": [
+        "demo/five_minute_walkthrough.mp4",
+        "demo/execution_transcript.json"
+      ],
+      "verification": "demo/execution_demo_manifest.json",
+      "outcome": "10 real commands exit zero; five-minute narrated recording; not student voice"
+    },
+    {
+      "date": "2026-10-21",
+      "human_prompt": "P04",
+      "human_decision": "Authorized completion of remaining assistant work; no individual research-choice approval observed",
+      "tool": "Codex desktop",
+      "model_build": "not independently exposed in this repair record",
+      "commit": "f0fc44417d0b4c41182a3f66b9ea48d9205b6566",
+      "assistant_proposal": "Update paper, brief, limitations and delivery evidence",
+      "files": [
+        "paper/main.tex",
+        "paper/main.pdf",
+        "docs/research_brief.pdf"
+      ],
+      "verification": "results/logs/latex_repair_build.txt",
+      "outcome": "Compiled and visually reviewed 11-page paper and one-page brief; primary negative result preserved"
+    }
   ]
 }
