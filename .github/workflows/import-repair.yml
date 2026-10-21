@@ -1,0 +1,59 @@
+name: Publish verified October 21 research repair
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/import-repair.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: import-assignment-repair
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+      - name: Verify and import the reviewed repair history
+        env:
+          EXPECTED_BUNDLE_SHA256: c86662aa4aafd2cc7a8110577233c143e5086e15a95db84fcdecb0f1b130cd7a
+          EXPECTED_SOURCE_COMMIT: 403dfbf5c4b80399df583a1e5936a50b5363824d
+        run: |
+          set -euo pipefail
+          bundle=AITR7_20261021_Repair.bundle
+          printf '%s  %s\n' "$EXPECTED_BUNDLE_SHA256" "$bundle" | sha256sum --check
+          git bundle verify "$bundle"
+          git fetch "$bundle" main:refs/remotes/prepared/repair
+          test "$(git rev-parse refs/remotes/prepared/repair)" = "$EXPECTED_SOURCE_COMMIT"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git merge --no-ff -m 'Import verified executable baseline and research repair' refs/remotes/prepared/repair
+      - name: Validate the implementation
+        run: |
+          python3 -m unittest discover -s tests -v
+          node --test tests/test_baseline_policy.mjs
+          node scripts/run_live_baseline.mjs --crossref-only --out /tmp/aitr-crossref-replay
+          cmp results/crossref_baseline/predictions.json /tmp/aitr-crossref-replay/predictions.json
+      - name: Record publication and remove the transfer bundle
+        run: |
+          python3 - <<'PYRECORD'
+          import datetime, json, pathlib
+          for name in ('delivery_status', 'final_validation'):
+              p = pathlib.Path('provenance') / (name + '.json')
+              d = json.loads(p.read_text())
+              d['github_publication'] = 'published'
+              d['repair_source_commit'] = '403dfbf5c4b80399df583a1e5936a50b5363824d'
+              d['publication_recorded_at_utc'] = datetime.datetime.now(datetime.timezone.utc).isoformat()
+              p.write_text(json.dumps(d, indent=2) + '\n')
+          PYRECORD
+          git rm AITR7_20261021_Repair.bundle
+          git add provenance/delivery_status.json provenance/final_validation.json
+          git commit -m 'Record verified repair publication'
+          git push origin HEAD:main
